@@ -1,0 +1,76 @@
+<application>
+  <component name="AppStorage">
+    <option name="lastLanguages">
+      <language-pair source="ENGLISH" target="CHINESE" />
+    </option>
+    <histories>
+      <item value="enroll" />
+      <item value="architect" />
+      <item value="Unsatisfied" />
+      <item value="persist" />
+      <item value="Configures whether the given query is a native one" />
+      <item value="specified" />
+      <item value="Returns the number of key-value mappings in this map. If the * map contains more than &lt;tt&gt;Integer.MAX_VALUE&lt;/tt&gt; elements, returns * &lt;tt&gt;Integer.MAX_VALUE&lt;/tt&gt;." />
+      <item value="This includes the {@code clone()}, * {@code equals()}, {@code hashCode()} and {@code toString()} methods. * Implementations may optionally handle the self-referential scenario, however * most current implementations do not do so." />
+      <item value="Some map operations which perform recursive traversal of the map may fail * with an exception for self-referential instances where the map directly or * indirectly contains itself." />
+      <item value="appropriate" />
+      <item value="More generally, implementations of * the various Collections Framework interfaces are free to take advantage of * the specified behavior of underlying {@link Object} methods wherever the * implementor deems it appropriate." />
+      <item value="for example, by first comparing the hash codes of the two keys. (The * {@link Object#hashCode()} specification guarantees that two objects with * unequal hash codes cannot be equal.)" />
+      <item value="specification" />
+      <item value="guarantees" />
+      <item value="Implementations are free to * implement optimizations whereby the &lt;tt&gt;equals&lt;/tt&gt; invocation is avoided," />
+      <item value="This specification should * &lt;i&gt;not&lt;/i&gt; be construed to imply that invoking &lt;tt&gt;Map.containsKey&lt;/tt&gt; * with a non-null argument &lt;tt&gt;key&lt;/tt&gt; will cause &lt;tt&gt;key.equals(k)&lt;/tt&gt; to * be invoked for any key &lt;tt&gt;k&lt;/tt&gt;." />
+      <item value="Many methods in Collections Framework interfaces are defined * in terms of the {@link Object#equals(Object) equals} method." />
+      <item value="More generally, * attempting an operation on an ineligible key or value whose completion * would not result in the insertion of an ineligible element into the map may * throw an exception or it may succeed, at the option of the implementation. * Such exceptions are marked as &quot;optional&quot; in the specification for this * interface." />
+      <item value="ineligible" />
+      <item value="Attempting to query the presence of an ineligible key or value may throw an * exception, or it may simply return false; some implementations will exhibit * the former behavior and some will exhibit the latter." />
+      <item value="presence" />
+      <item value="Attempting" />
+      <item value="Attempting * to insert an ineligible key or value throws an unchecked exception," />
+      <item value="or example, some implementations prohibit null keys and * values, and some have restrictions on the types of their keys." />
+      <item value="prohibit" />
+      <item value="Some map implementations have restrictions on the keys and values they * may contain." />
+      <item value="restrictions" />
+      <item value="For example, invoking the {@link #putAll(Map)} * method on an unmodifiable map may, but is not required to, throw the * exception if the map whose mappings are to be &quot;superimposed&quot; is empty." />
+      <item value="unmodifiable" />
+      <item value="if the invocation would * have no effect on the map." />
+      <item value="destructive" />
+      <item value="The &quot;destructive&quot; methods contained in this interface, that is, the * methods that modify the map on which they operate, are specified to throw * &lt;tt&gt;UnsupportedOperationException&lt;/tt&gt; if this map does not support the * operation." />
+      <item value="There is no way to * enforce this recommendation (as interfaces cannot contain constructors) but * all of the general-purpose map implementations in the JDK comply." />
+      <item value="desired" />
+      <item value="equivalent" />
+      <item value="In effect, the latter constructor allows the user to copy any map, * producing an equivalent map of the desired class." />
+      <item value="All general-purpose map implementation classes should provide two * &quot;standard&quot; constructors: a void (no arguments) constructor which creates an * empty map, and a constructor with a single argument of type &lt;tt&gt;Map&lt;/tt&gt;, * which creates a new map with the same key-value mappings as its argument." />
+      <item value="A special case of this prohibition is that it * is not permissible for a map to contain itself as a key. While it is * permissible for a map to contain itself as a value, extreme caution is * advised: the &lt;tt&gt;equals&lt;/tt&gt; and &lt;tt&gt;hashCode&lt;/tt&gt; methods are no longer * well defined on such a map." />
+      <item value="While it is * permissible for a map to contain itself as a value, extreme caution is * advised: the &lt;tt&gt;equals&lt;/tt&gt; and &lt;tt&gt;hashCode&lt;/tt&gt; methods are no longer * well defined on such a map." />
+      <item value="A special case of this prohibition is that it * is not permissible for a map to contain itself as a key." />
+      <item value="The behavior of a map is not specified if the value of an object is * changed in a manner that affects &lt;tt&gt;equals&lt;/tt&gt; comparisons while the * object is a key in the map" />
+      <item value="great care must be exercised if mutable objects are used as map * keys." />
+      <item value="The &lt;i&gt;order&lt;/i&gt; of a map is defined as * the order in which the iterators on the map's collection views return their * elements. Some map implementations, like the &lt;tt&gt;TreeMap&lt;/tt&gt; class, make * specific guarantees as to their order; others, like the &lt;tt&gt;HashMap&lt;/tt&gt; * class, do not." />
+      <item value="Some map implementations, like the &lt;tt&gt;TreeMap&lt;/tt&gt; class, make * specific guarantees as to their order; others, like the &lt;tt&gt;HashMap&lt;/tt&gt; * class, do not." />
+      <item value="The &lt;i&gt;order&lt;/i&gt; of a map is defined as * the order in which the iterators on the map's collection views return their * elements." />
+      <item value="The &lt;i&gt;order&lt;/i&gt; of a map" />
+      <item value="The &lt;tt&gt;Map&lt;/tt&gt; interface provides three &lt;i&gt;collection views&lt;/i&gt;, which * allow a map's contents to be viewed as a set of keys, collection of values, * or set of key-value mappings." />
+      <item value="This interface takes the place of the &lt;tt&gt;Dictionary" />
+      <item value="which * was a totally abstract class rather than an interface." />
+      <item value="An object that maps keys to values." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="242" />
+        <entry key="ENGLISH" value="296" />
+        <entry key="FRENCH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+    <option name="translator" value="ai.youdao" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="047c5f8aedf1f7ca" />
+        <option name="appKeyConfigured" value="true" />
+      </youdao-translate>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,17 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="springfox.documentation.service.ApiInfo.ApiInfo(title,description,version,termsOfServiceUrl,contact,license,licenseUrl,vendorExtensions)" />
+        <added pattern="com.univocity.parsers.common.AbstractWriter.writeRowsAndClose(allRows)" />
+      </blacklist>
+      <blacklist language="PHP">
+        <removed pattern="" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/cf63db72_mybatis-generator-config_1_0.dtd" />
+    <resource url="http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd" location="$USER_HOME$/.IntelliJIdea2018.1/system/extResources/77cb2737_cross-domain-policy.dtd" />
+  </component>
+</application>

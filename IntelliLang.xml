@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="spring-bean-name" injector-id="java">
+      <display-name>Resource.name (javax.annotation)</display-name>
+      <place><![CDATA[psiMethod().withName("name").withParameters().definedInClass("javax.annotation.Resource")]]></place>
+    </injection>
+    <injection language="GenericSQL" injector-id="xml">
+      <display-name>select/@id</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("id")).withParent(xmlTag().withLocalName(string().equalTo("select")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd")))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>span/@onclick</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("onclick")).withParent(xmlTag().withLocalName(string().equalTo("span")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>

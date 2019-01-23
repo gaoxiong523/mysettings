@@ -1,0 +1,67 @@
+<application>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+  </component>
+  <component name="PersistenceGenerationSettings">
+    <option name="entitySuffix" value="" />
+    <option name="generateColumnProperties" value="true" />
+    <option name="ENTITY_SUFFIX" value="" />
+    <option name="GENERATE_COLUMN_PROPERTIES" value="true" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="svn://192.168.1.168/lidian/sample_cs" />
+        <option value="svn://192.168.1.168/lidian/generator" />
+        <option value="svn://192.168.1.168/lidian/Test" />
+        <option value="svn://192.168.1.168/lidian/prod-branch" />
+        <option value="svn://192.168.1.168/lidian/prod" />
+        <option value="svn://192.168.1.168/lidian/st" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="svn://192.168.1.168/lidian/sample_cs" />
+        <option value="svn://192.168.1.168/lidian/generator" />
+        <option value="svn://192.168.1.168/lidian/Test" />
+        <option value="svn://192.168.1.168/lidian/prod-branch" />
+        <option value="svn://192.168.1.168/lidian/prod" />
+        <option value="http://192.168.1.168/lidian/prod" />
+        <option value="svn://192.168.1.168/lidian/st" />
+        <option value="svn://192.168.1.168/lidian/lidian" />
+        <option value="svn://192.168.1.168/lidian" />
+        <option value="svn://192.168.1.168/repos" />
+        <option value="svn://192.168.1.168/p2p/source" />
+        <option value="svn://192.168.1.168/p2p/source/trunk/lidian" />
+        <option value="https://121.40.99.96:8443/svn/nuoya" />
+        <option value="httpd://121.40.99.96:8443/svn/nuoya" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="C:\Program Files\TortoiseSVN\bin\svn.exe" />
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="svn://192.168.1.168/lidian/prod">
+          <value>
+            <set>
+              <option value="C:\lidian-svn\prod" />
+            </set>
+          </value>
+        </entry>
+        <entry key="svn://192.168.1.168/lidian/prod-branch/prod">
+          <value>
+            <set>
+              <option value="C:\lidian-svn\prod-branch" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
