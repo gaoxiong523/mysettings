@@ -1,6 +1,8 @@
 <application>
   <component name="JFormDesigner">
     <entry key="lookandfeel.idea" value="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
+    <entry key="license.filechooser.lastdirpath" value="C:\Users\Administrator\Desktop\JFormDesigner-6.0.2-intellij-idea\JFormDesigner-6.0.2-intellij-idea\JFormDesigner\lib" />
+    <entry key="license.filechooser.size" value="639, 326" />
     <node name="designer">
       <entry key="newcontainer.layoutmanager" value="org.jdesktop.layout.GroupLayout" />
       <entry key="newform.superclass.history1" value="javax.swing.JFrame" />
