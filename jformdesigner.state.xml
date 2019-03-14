@@ -15,10 +15,11 @@
       <entry key="newform.toolkit" value="Swing" />
       <entry key="newform.buttonbar" value="ok cancel" />
       <entry key="properties.expanded.category.expert" value="true" />
+      <entry key="chooser.beanclass.history1" value="javax.swing.JButton" />
       <node name="forms">
         <entry key="paletteexpanded2065543088" value="components,containers,menus" />
         <entry key="selection-1170618901" value="cancelButton" />
-        <entry key="selection2065543088" value="textArea2" />
+        <entry key="selection2065543088" value="menuItem1" />
       </node>
     </node>
   </component>
