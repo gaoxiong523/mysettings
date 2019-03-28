@@ -4,7 +4,7 @@
     <entry key="license.filechooser.lastdirpath" value="C:\Users\Administrator\Desktop\JFormDesigner-6.0.2-intellij-idea\JFormDesigner-6.0.2-intellij-idea\JFormDesigner\lib" />
     <entry key="license.filechooser.size" value="639, 326" />
     <entry key="updates.lastcheckedversion" value="6.0.2.0.116" />
-    <entry key="updates.lastchecked" value="1553003039831" />
+    <entry key="updates.lastchecked" value="1553779034209" />
     <entry key="updates.infoshown" value="true" />
     <entry key="updates.version.6.0.6.2.195" value="type=free;message=&lt;html&gt;An update for JFormDesigner IntelliJ IDEA plug-in is available: &lt;b&gt;6.0.6.2&lt;/b&gt; (Build&amp;nbsp\;195). &lt;a href=&quot;https://www.formdev.com/jformdesigner/changelog/6/?piwik_campaign=check-for-updates#6_0_6_2&quot;&gt;Change&amp;nbsp\;Log&lt;/a&gt;&amp;nbsp\;&amp;nbsp\;&lt;a href=&quot;https://www.formdev.com/jformdesigner/download/?piwik_campaign=check-for-updates&quot;&gt;Download&lt;/a&gt;&lt;/html&gt;" />
     <entry key="updates.version.7.0.0.0.170" value="type=free;message=&lt;html&gt;A (free) new version of JFormDesigner  is available: &lt;b&gt;7 Release Candidate 2&lt;/b&gt; (Build&amp;nbsp\;170). &lt;a href=&quot;https://www.formdev.com/jformdesigner/preview/?piwik_campaign=check-for-updates&quot;&gt;What's&amp;nbsp\;New&lt;/a&gt;&amp;nbsp\;&amp;nbsp\;&lt;a href=&quot;https://www.formdev.com/jformdesigner/preview/?piwik_campaign=check-for-updates#download&quot;&gt;Download&lt;/a&gt;&lt;/html&gt;" />
@@ -20,6 +20,7 @@
         <entry key="paletteexpanded2065543088" value="components,containers,menus" />
         <entry key="selection-1170618901" value="cancelButton" />
         <entry key="selection2065543088" value="menuItem1" />
+        <entry key="selection-1423538599" value="label2" />
       </node>
     </node>
   </component>
