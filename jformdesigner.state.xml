@@ -19,8 +19,8 @@
       <node name="forms">
         <entry key="paletteexpanded2065543088" value="components,containers,menus" />
         <entry key="selection-1170618901" value="cancelButton" />
-        <entry key="selection2065543088" value="menuItem1" />
         <entry key="selection-1423538599" value="label2" />
+        <entry key="selection2065543088" value="menuItem1" />
       </node>
     </node>
   </component>
