@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Unsatisfied" />
       <item value="present" />
       <item value="Note, for re-attachment of detached entities this is not possible without select-before-update being enabled." />
       <item value="headless" />
@@ -10,7 +11,6 @@
       <item value="introspect" />
       <item value="enroll" />
       <item value="architect" />
-      <item value="Unsatisfied" />
       <item value="persist" />
       <item value="Configures whether the given query is a native one" />
       <item value="specified" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="249" />
-        <entry key="ENGLISH" value="303" />
+        <entry key="CHINESE" value="250" />
+        <entry key="ENGLISH" value="304" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
