@@ -465,6 +465,22 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'HelloClientStarter'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'HelloClientStarter'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'ImServerDemoStart'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ImServerDemoStart'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'Install dependencies for leyou-manage-web\leyou-manage-web\package.json'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
