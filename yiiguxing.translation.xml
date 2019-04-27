@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="multiplicity" />
+      <item value="association" />
+      <item value="Specifies" />
+      <item value="Deprecated" />
       <item value="mime" />
       <item value="atob" />
       <item value="vulnerability" />
@@ -47,15 +51,11 @@
       <item value="desired" />
       <item value="equivalent" />
       <item value="In effect, the latter constructor allows the user to copy any map, * producing an equivalent map of the desired class." />
-      <item value="All general-purpose map implementation classes should provide two * &quot;standard&quot; constructors: a void (no arguments) constructor which creates an * empty map, and a constructor with a single argument of type &lt;tt&gt;Map&lt;/tt&gt;, * which creates a new map with the same key-value mappings as its argument." />
-      <item value="A special case of this prohibition is that it * is not permissible for a map to contain itself as a key. While it is * permissible for a map to contain itself as a value, extreme caution is * advised: the &lt;tt&gt;equals&lt;/tt&gt; and &lt;tt&gt;hashCode&lt;/tt&gt; methods are no longer * well defined on such a map." />
-      <item value="While it is * permissible for a map to contain itself as a value, extreme caution is * advised: the &lt;tt&gt;equals&lt;/tt&gt; and &lt;tt&gt;hashCode&lt;/tt&gt; methods are no longer * well defined on such a map." />
-      <item value="A special case of this prohibition is that it * is not permissible for a map to contain itself as a key." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="253" />
-        <entry key="ENGLISH" value="308" />
+        <entry key="CHINESE" value="258" />
+        <entry key="ENGLISH" value="313" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
