@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Defines the set of cascadable operations that are propagated * to the associated entity. * The value &lt;code&gt;cascade=ALL&lt;/code&gt; is equivalent to * &lt;code&gt;cascade={PERSIST, MERGE, REMOVE, REFRESH, DETACH}&lt;/code&gt;." />
       <item value="multiplicity" />
       <item value="association" />
       <item value="Specifies" />
@@ -50,12 +51,11 @@
       <item value="There is no way to * enforce this recommendation (as interfaces cannot contain constructors) but * all of the general-purpose map implementations in the JDK comply." />
       <item value="desired" />
       <item value="equivalent" />
-      <item value="In effect, the latter constructor allows the user to copy any map, * producing an equivalent map of the desired class." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="258" />
-        <entry key="ENGLISH" value="313" />
+        <entry key="CHINESE" value="259" />
+        <entry key="ENGLISH" value="314" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
