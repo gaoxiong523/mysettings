@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="deprecated " />
       <item value="Priority Blocking Queue" />
       <item value="Synchronous Queue" />
       <item value="We don't care about the other features of the base class, just want to // handle the request" />
@@ -50,12 +51,11 @@
       <item value="prohibit" />
       <item value="Some map implementations have restrictions on the keys and values they * may contain." />
       <item value="restrictions" />
-      <item value="For example, invoking the {@link #putAll(Map)} * method on an unmodifiable map may, but is not required to, throw the * exception if the map whose mappings are to be &quot;superimposed&quot; is empty." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="272" />
-        <entry key="ENGLISH" value="326" />
+        <entry key="CHINESE" value="273" />
+        <entry key="ENGLISH" value="327" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
