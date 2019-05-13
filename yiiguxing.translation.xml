@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Protocol Command Listener" />
       <item value="deprecated " />
       <item value="Priority Blocking Queue" />
       <item value="Synchronous Queue" />
@@ -50,12 +51,11 @@
       <item value="or example, some implementations prohibit null keys and * values, and some have restrictions on the types of their keys." />
       <item value="prohibit" />
       <item value="Some map implementations have restrictions on the keys and values they * may contain." />
-      <item value="restrictions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="273" />
-        <entry key="ENGLISH" value="327" />
+        <entry key="CHINESE" value="274" />
+        <entry key="ENGLISH" value="328" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
