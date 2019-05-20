@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Stores a file on the server using the given name and taking input * from the given InputStream. This method does NOT close the given * InputStream. If the current file type is ASCII, line separators in * the file are transparently converted to the NETASCII format (i.e., * you should not attempt to create a special InputStream to do this)." />
+      <item value="Stores" />
       <item value="Protocol Command Listener" />
       <item value="deprecated " />
       <item value="Priority Blocking Queue" />
@@ -49,13 +51,11 @@
       <item value="Attempting" />
       <item value="Attempting * to insert an ineligible key or value throws an unchecked exception," />
       <item value="or example, some implementations prohibit null keys and * values, and some have restrictions on the types of their keys." />
-      <item value="prohibit" />
-      <item value="Some map implementations have restrictions on the keys and values they * may contain." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="275" />
-        <entry key="ENGLISH" value="329" />
+        <entry key="CHINESE" value="277" />
+        <entry key="ENGLISH" value="331" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
