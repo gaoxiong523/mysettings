@@ -1,6 +1,24 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A structural modification is any operation that adds or deletes one or more * mappings or, in the case of access-ordered linked hash maps, affects * iteration order. In insertion-ordered linked hash maps, merely changing * the value associated with a key that is already contained in the map is not * a structural modification. &lt;strong&gt;In access-ordered linked hash maps, * merely querying the map with &lt;tt&gt;get&lt;/tt&gt; is a structural modification. * &lt;/strong&gt;) *" />
+      <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked hash map concurrently, and at least * one of the threads modifies the map structurally, it &lt;em&gt;must&lt;/em&gt; be * synchronized externally. This is typically accomplished by * synchronizing on some object that naturally encapsulates the map." />
+      <item value="If no such object exists, the map should be &quot;wrapped&quot; using the * {@link Collections#synchronizedMap Collections.synchronizedMap} * method. This is best done at creation time, to prevent accidental * unsynchronized access to the map:&lt;pre&gt; * Map m = Collections.synchronizedMap(new LinkedHashMap(...));&lt;/pre&gt; *" />
+      <item value="&lt;p&gt;A linked hash map has two parameters that affect its performance: * &lt;i&gt;initial capacity&lt;/i&gt; and &lt;i&gt;load factor&lt;/i&gt;. They are defined precisely * as for &lt;tt&gt;HashMap&lt;/tt&gt;. Note, however, that the penalty for choosing an * excessively high value for initial capacity is less severe for this class * than for &lt;tt&gt;HashMap&lt;/tt&gt;, as iteration times for this class are unaffected * by capacity." />
+      <item value="Performance is likely to be just slightly * below that of &lt;tt&gt;HashMap&lt;/tt&gt;, due to the added expense of maintaining the * linked list, with one exception: Iteration over the collection-views * of a &lt;tt&gt;LinkedHashMap&lt;/tt&gt; requires time proportional to the &lt;i&gt;size&lt;/i&gt; * of the map, regardless of its capacity. Iteration over a &lt;tt&gt;HashMap&lt;/tt&gt; * is likely to be more expensive, requiring time proportional to its * &lt;i&gt;capacity&lt;/i&gt;." />
+      <item value="&gt;This class provides all of the optional &lt;tt&gt;Map&lt;/tt&gt; operations, and * permits null elements. Like &lt;tt&gt;HashMap&lt;/tt&gt;, it provides constant-time * performance for the basic operations (&lt;tt&gt;add&lt;/tt&gt;, &lt;tt&gt;contains&lt;/tt&gt; and * &lt;tt&gt;remove&lt;/tt&gt;), assuming the hash function disperses elements * properly among the buckets" />
+      <item value="&gt;The {@link #removeEldestEntry(Map.Entry)} method may be overridden to * impose a policy for removing stale mappings automatically when new mappings * are added to the map." />
+      <item value="In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
+      <item value="The {@code replace} methods only result in an access * of the entry if the value is replaced. The {@code putAll} method generates one * entry access for each mapping in the specified map, in the order that * key-value mappings are provided by the specified map's entry set iterator. * &lt;i&gt;No other methods generate entry accesses.&lt;/i&gt; In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
+      <item value="This kind of map is well-suited to * building LRU caches. Invoking the {@code put}, {@code putIfAbsent}, * {@code get}, {@code getOrDefault}, {@code compute}, {@code computeIfAbsent}, * {@code computeIfPresent}, or {@code merge} methods results * in an access to the corresponding entry (assuming it exists after the * invocation completes)." />
+      <item value="&gt;A special {@link #LinkedHashMap(int,float,boolean) constructor} is * provided to create a linked hash map whose order of iteration is the order * in which its entries were last accessed, from least-recently accessed to * most-recently (&lt;i&gt;access-order&lt;/i&gt;)." />
+      <item value="This technique is particularly useful if a module takes a map on input, * copies it, and later returns results whose order is determined by that of * the copy. (Clients generally appreciate having things returned in the same * order they were presented.)" />
+      <item value="This implementation spares its clients from the unspecified, generally * chaotic ordering provided by {@link HashMap} (and {@link Hashtable}), * without incurring the increased cost associated with {@link TreeMap}." />
+      <item value="(A key &lt;tt&gt;k&lt;/tt&gt; is * reinserted into a map &lt;tt&gt;m&lt;/tt&gt; if &lt;tt&gt;m.put(k, v)&lt;/tt&gt; is invoked when * &lt;tt&gt;m.containsKey(k)&lt;/tt&gt; would return &lt;tt&gt;true&lt;/tt&gt; immediately prior to * the invocation.)" />
+      <item value="Note that insertion order is not affected * if a key is &lt;i&gt;re-inserted&lt;/i&gt; into the map." />
+      <item value="This linked list defines the iteration ordering, * which is normally the order in which keys were inserted into the map * (&lt;i&gt;insertion-order&lt;/i&gt;)." />
+      <item value="This implementation differs from * &lt;tt&gt;HashMap&lt;/tt&gt; in that it maintains a doubly-linked list running through * all of its entries." />
+      <item value="Hash table and linked list implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface, * with predictable iteration order." />
       <item value="Stores a file on the server using the given name and taking input * from the given InputStream. This method does NOT close the given * InputStream. If the current file type is ASCII, line separators in * the file are transparently converted to the NETASCII format (i.e., * you should not attempt to create a special InputStream to do this)." />
       <item value="Stores" />
       <item value="Protocol Command Listener" />
@@ -33,29 +51,11 @@
       <item value="persist" />
       <item value="Configures whether the given query is a native one" />
       <item value="specified" />
-      <item value="Returns the number of key-value mappings in this map. If the * map contains more than &lt;tt&gt;Integer.MAX_VALUE&lt;/tt&gt; elements, returns * &lt;tt&gt;Integer.MAX_VALUE&lt;/tt&gt;." />
-      <item value="This includes the {@code clone()}, * {@code equals()}, {@code hashCode()} and {@code toString()} methods. * Implementations may optionally handle the self-referential scenario, however * most current implementations do not do so." />
-      <item value="Some map operations which perform recursive traversal of the map may fail * with an exception for self-referential instances where the map directly or * indirectly contains itself." />
-      <item value="appropriate" />
-      <item value="More generally, implementations of * the various Collections Framework interfaces are free to take advantage of * the specified behavior of underlying {@link Object} methods wherever the * implementor deems it appropriate." />
-      <item value="for example, by first comparing the hash codes of the two keys. (The * {@link Object#hashCode()} specification guarantees that two objects with * unequal hash codes cannot be equal.)" />
-      <item value="specification" />
-      <item value="guarantees" />
-      <item value="Implementations are free to * implement optimizations whereby the &lt;tt&gt;equals&lt;/tt&gt; invocation is avoided," />
-      <item value="This specification should * &lt;i&gt;not&lt;/i&gt; be construed to imply that invoking &lt;tt&gt;Map.containsKey&lt;/tt&gt; * with a non-null argument &lt;tt&gt;key&lt;/tt&gt; will cause &lt;tt&gt;key.equals(k)&lt;/tt&gt; to * be invoked for any key &lt;tt&gt;k&lt;/tt&gt;." />
-      <item value="Many methods in Collections Framework interfaces are defined * in terms of the {@link Object#equals(Object) equals} method." />
-      <item value="More generally, * attempting an operation on an ineligible key or value whose completion * would not result in the insertion of an ineligible element into the map may * throw an exception or it may succeed, at the option of the implementation. * Such exceptions are marked as &quot;optional&quot; in the specification for this * interface." />
-      <item value="ineligible" />
-      <item value="Attempting to query the presence of an ineligible key or value may throw an * exception, or it may simply return false; some implementations will exhibit * the former behavior and some will exhibit the latter." />
-      <item value="presence" />
-      <item value="Attempting" />
-      <item value="Attempting * to insert an ineligible key or value throws an unchecked exception," />
-      <item value="or example, some implementations prohibit null keys and * values, and some have restrictions on the types of their keys." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="278" />
-        <entry key="ENGLISH" value="331" />
+        <entry key="CHINESE" value="296" />
+        <entry key="ENGLISH" value="349" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
