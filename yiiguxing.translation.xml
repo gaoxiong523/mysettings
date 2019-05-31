@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Implementation note. A previous version of this class was * internally structured a little differently. Because superclass * HashMap now uses trees for some of its nodes, class * LinkedHashMap.Entry is now treated as intermediary node class * that can also be converted to tree form. The name of this * class, LinkedHashMap.Entry, is confusing in several ways in its * current context, but cannot be changed. Otherwise, even though * it is not exported outside this package, some existing source * code is known to have relied on a symbol resolution corner case * rule in calls to removeEldestEntry that suppressed compilation * errors due to ambiguous usages. So, we keep the name to * preserve unmodified compilability. * * The changes in node classes also require using two fields * (head, tail) rather than a pointer to a header node to maintain * the doubly-linked before/after list. This class also * previously used a different style of callback methods upon * access, insertion, and removal." />
       <item value="A structural modification is any operation that adds or deletes one or more * mappings or, in the case of access-ordered linked hash maps, affects * iteration order. In insertion-ordered linked hash maps, merely changing * the value associated with a key that is already contained in the map is not * a structural modification. &lt;strong&gt;In access-ordered linked hash maps, * merely querying the map with &lt;tt&gt;get&lt;/tt&gt; is a structural modification. * &lt;/strong&gt;) *" />
       <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked hash map concurrently, and at least * one of the threads modifies the map structurally, it &lt;em&gt;must&lt;/em&gt; be * synchronized externally. This is typically accomplished by * synchronizing on some object that naturally encapsulates the map." />
       <item value="If no such object exists, the map should be &quot;wrapped&quot; using the * {@link Collections#synchronizedMap Collections.synchronizedMap} * method. This is best done at creation time, to prevent accidental * unsynchronized access to the map:&lt;pre&gt; * Map m = Collections.synchronizedMap(new LinkedHashMap(...));&lt;/pre&gt; *" />
@@ -50,12 +51,11 @@
       <item value="architect" />
       <item value="persist" />
       <item value="Configures whether the given query is a native one" />
-      <item value="specified" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="296" />
-        <entry key="ENGLISH" value="349" />
+        <entry key="CHINESE" value="297" />
+        <entry key="ENGLISH" value="350" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
