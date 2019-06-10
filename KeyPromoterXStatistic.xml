@@ -86,7 +86,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>123</Count>
+          <Count>124</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -774,7 +774,7 @@
           <IdeaActionID>SurroundWith</IdeaActionID>
           <ShortCut>'Alt+Shift+Z' or 'Ctrl+Alt+T'</ShortCut>
           <Description>Surround With...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="TODO">
