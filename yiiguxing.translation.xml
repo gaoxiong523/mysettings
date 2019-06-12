@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="(If none of the installed providers supply an implementation of * {@code SecureRandom}, a system-provided source of randomness is * used.)." />
+      <item value="nitializes the key pair generator using the specified parameter * set and the {@code SecureRandom} * implementation of the highest-priority installed provider as the source * of randomness." />
       <item value="the source of randomness for this generator." />
       <item value="This is an * algorithm-specific metric, such as modulus length, specified in * number of bits." />
       <item value="This instance is immutable * and unaffected by this method call." />
@@ -49,13 +51,11 @@
       <item value="vulnerability" />
       <item value="Unsatisfied" />
       <item value="present" />
-      <item value="Note, for re-attachment of detached entities this is not possible without select-before-update being enabled." />
-      <item value="headless" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="305" />
-        <entry key="ENGLISH" value="358" />
+        <entry key="CHINESE" value="307" />
+        <entry key="ENGLISH" value="360" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
