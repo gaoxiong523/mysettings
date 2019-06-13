@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="sequential" />
+      <item value="to classify a filter by type. Standard types in Zuul are &quot;pre&quot; for pre-routing filtering, * &quot;route&quot; for routing to an origin, &quot;post&quot; for post-routing filters, &quot;error&quot; for error handling." />
       <item value="determines" />
       <item value="accredit" />
       <item value="(If none of the installed providers supply an implementation of * {@code SecureRandom}, a system-provided source of randomness is * used.)." />
@@ -49,13 +51,11 @@
       <item value="Specifies" />
       <item value="Deprecated" />
       <item value="mime" />
-      <item value="atob" />
-      <item value="vulnerability" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="308" />
-        <entry key="ENGLISH" value="360" />
+        <entry key="CHINESE" value="311" />
+        <entry key="ENGLISH" value="363" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
