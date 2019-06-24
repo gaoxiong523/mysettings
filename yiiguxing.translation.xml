@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="check Token Access" />
+      <item value="token Key Access" />
+      <item value="allow Form Authentication For Clients" />
       <item value="Authorization Server Security Configurer" />
       <item value="sequential" />
       <item value="to classify a filter by type. Standard types in Zuul are &quot;pre&quot; for pre-routing filtering, * &quot;route&quot; for routing to an origin, &quot;post&quot; for post-routing filters, &quot;error&quot; for error handling." />
@@ -48,19 +51,21 @@
       <item value="Loads an application's configuration from the given classpath resource or * classpath resource basename, sandwiches it between default reference * config and default overrides, and then resolves it. The classpath * resource is &quot;raw&quot; (it should have no &quot;/&quot; prefix, and is not made relative * to any package, so it's like {@link ClassLoader#getResource} not * {@link Class#getResource})." />
       <item value="Defines the set of cascadable operations that are propagated * to the associated entity. * The value &lt;code&gt;cascade=ALL&lt;/code&gt; is equivalent to * &lt;code&gt;cascade={PERSIST, MERGE, REMOVE, REFRESH, DETACH}&lt;/code&gt;." />
       <item value="multiplicity" />
-      <item value="association" />
-      <item value="Specifies" />
-      <item value="Deprecated" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="312" />
-        <entry key="ENGLISH" value="364" />
+        <entry key="CHINESE" value="315" />
+        <entry key="ENGLISH" value="367" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
