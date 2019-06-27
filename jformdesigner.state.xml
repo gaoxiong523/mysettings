@@ -4,9 +4,9 @@
     <entry key="license.filechooser.lastdirpath" value="C:\Users\Administrator\Desktop\JFormDesigner-6.0.2-intellij-idea\JFormDesigner-6.0.2-intellij-idea\JFormDesigner\lib" />
     <entry key="license.filechooser.size" value="639, 326" />
     <entry key="updates.lastcheckedversion" value="6.0.2.0.116" />
-    <entry key="updates.lastchecked" value="1560991711604" />
+    <entry key="updates.lastchecked" value="1561600329267" />
     <entry key="updates.version.6.0.6.4.204" value="type=free;message=&lt;html&gt;An update for JFormDesigner IntelliJ IDEA plug-in is available: &lt;b&gt;6.0.6.4&lt;/b&gt; (Build&amp;nbsp\;204). &lt;a href=&quot;https://www.formdev.com/jformdesigner/changelog/6/?piwik_campaign=check-for-updates#6_0_6_4&quot;&gt;Change&amp;nbsp\;Log&lt;/a&gt;&amp;nbsp\;&amp;nbsp\;&lt;a href=&quot;https://www.formdev.com/jformdesigner/download/archive/?piwik_campaign=check-for-updates&quot;&gt;Download&lt;/a&gt;&lt;/html&gt;" />
-    <entry key="updates.version.7.0.0.0.194" value="type=free;message=&lt;html&gt;A (free) new version of JFormDesigner  is available: &lt;b&gt;7&lt;/b&gt; (Build&amp;nbsp\;194). &lt;a href=&quot;https://www.formdev.com/jformdesigner/whatsnew/7/?piwik_campaign=check-for-updates&quot;&gt;What's&amp;nbsp\;New&lt;/a&gt;&amp;nbsp\;&amp;nbsp\;&lt;a href=&quot;https://www.formdev.com/jformdesigner/download/?piwik_campaign=check-for-updates&quot;&gt;Download&lt;/a&gt;&lt;/html&gt;" />
+    <entry key="updates.version.7.0.0.1.212" value="type=free;message=&lt;html&gt;A (free) new version of JFormDesigner IntelliJ IDEA plug-in is available: &lt;b&gt;7.0.0.1&lt;/b&gt; (Build&amp;nbsp\;212). &lt;a href=&quot;https://www.formdev.com/jformdesigner/whatsnew/7/?piwik_campaign=check-for-updates&quot;&gt;What's&amp;nbsp\;New&lt;/a&gt;&amp;nbsp\;&amp;nbsp\;&lt;a href=&quot;https://www.formdev.com/jformdesigner/download/?piwik_campaign=check-for-updates&quot;&gt;Download&lt;/a&gt;&lt;/html&gt;" />
     <node name="designer">
       <entry key="newcontainer.layoutmanager" value="org.jdesktop.layout.GroupLayout" />
       <entry key="newform.superclass.history1" value="javax.swing.JFrame" />
