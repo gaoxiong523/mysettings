@@ -118,7 +118,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>177</Count>
+          <Count>178</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -447,6 +447,14 @@
           <ShortCut>'Ctrl+F11'</ShortCut>
           <Description>Rerun 'UserServiceTest.findAll'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'demo [clean,install]'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F11'</ShortCut>
+          <Description>Rerun 'demo [clean,install]'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'server1'">
@@ -918,7 +926,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+Shift+B' or 'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>48</Count>
+          <Count>49</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate">
