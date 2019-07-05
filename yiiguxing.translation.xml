@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Sets up a Zuul server endpoint and installs some reverse proxy filters in it, so it can * forward requests to backend servers. The backends can be registered manually through * configuration or via DiscoveryClient. * * @see EnableZuulServer for how to get a Zuul server without any proxying" />
+      <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through * {@link ZuulProperties} (by default there are none)." />
+      <item value="Circuit Breaker" />
       <item value="ets up a Zuul server endpoint and installs some reverse proxy filters in it, so it can * forward requests to backend servers. The backends can be registered manually through * configuration or via DiscoveryClient." />
       <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through" />
       <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that * statements in your method body declare they generate." />
@@ -48,14 +51,11 @@
       <item value="Priority Blocking Queue" />
       <item value="Synchronous Queue" />
       <item value="We don't care about the other features of the base class, just want to // handle the request" />
-      <item value="features" />
-      <item value="This uses a basic token bucket algorithm and relies on the fact that Redis scripts * execute atomically. No other operations can run between fetching the count and * writing the new count." />
-      <item value="Resources are loaded from the current thread's * {@link Thread#getContextClassLoader()}. In general, a library needs its * configuration to come from the class loader used to load that library, so * the proper &quot;reference.conf&quot; are present." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="318" />
-        <entry key="ENGLISH" value="370" />
+        <entry key="CHINESE" value="321" />
+        <entry key="ENGLISH" value="373" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
