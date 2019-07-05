@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that * statements in your method body declare they generate." />
       <item value="check Token Access" />
       <item value="token Key Access" />
       <item value="allow Form Authentication For Clients" />
@@ -50,22 +51,16 @@
       <item value="Resources are loaded from the current thread's * {@link Thread#getContextClassLoader()}. In general, a library needs its * configuration to come from the class loader used to load that library, so * the proper &quot;reference.conf&quot; are present." />
       <item value="Loads an application's configuration from the given classpath resource or * classpath resource basename, sandwiches it between default reference * config and default overrides, and then resolves it. The classpath * resource is &quot;raw&quot; (it should have no &quot;/&quot; prefix, and is not made relative * to any package, so it's like {@link ClassLoader#getResource} not * {@link Class#getResource})." />
       <item value="Defines the set of cascadable operations that are propagated * to the associated entity. * The value &lt;code&gt;cascade=ALL&lt;/code&gt; is equivalent to * &lt;code&gt;cascade={PERSIST, MERGE, REMOVE, REFRESH, DETACH}&lt;/code&gt;." />
-      <item value="multiplicity" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="315" />
-        <entry key="ENGLISH" value="367" />
+        <entry key="CHINESE" value="316" />
+        <entry key="ENGLISH" value="368" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="false" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
