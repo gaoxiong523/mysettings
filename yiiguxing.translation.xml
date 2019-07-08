@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="legacy" />
       <item value="Client Details Service" />
       <item value="Resource Server Token Services" />
       <item value="principal" />
@@ -50,12 +51,11 @@
       <item value="This implementation differs from * &lt;tt&gt;HashMap&lt;/tt&gt; in that it maintains a doubly-linked list running through * all of its entries." />
       <item value="Hash table and linked list implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface, * with predictable iteration order." />
       <item value="Stores a file on the server using the given name and taking input * from the given InputStream. This method does NOT close the given * InputStream. If the current file type is ASCII, line separators in * the file are transparently converted to the NETASCII format (i.e., * you should not attempt to create a special InputStream to do this)." />
-      <item value="Stores" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="326" />
-        <entry key="ENGLISH" value="378" />
+        <entry key="CHINESE" value="327" />
+        <entry key="ENGLISH" value="379" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
