@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Client Details Service" />
+      <item value="Resource Server Token Services" />
+      <item value="principal" />
+      <item value="credentials" />
       <item value="Convenience annotation for enabling an Authorization Server (i.e. an {@link AuthorizationEndpoint} and a * {@link TokenEndpoint}) in the current application context, which must be a {@link DispatcherServlet} context. Many * features of the server can be customized using &lt;code&gt;@Beans&lt;/code&gt; of type {@link AuthorizationServerConfigurer} * (e.g. by extending {@link AuthorizationServerConfigurerAdapter}). The user is responsible for securing the * Authorization Endpoint (/oauth/authorize) using normal Spring Security features ({@link EnableWebSecurity * &amp;#064;EnableWebSecurity} etc.), but the Token Endpoint (/oauth/token) will be automatically secured using HTTP Basic * authentication on the client's credentials. Clients &lt;em&gt;must&lt;/em&gt; be registered by providing a * {@link ClientDetailsService} through one or more AuthorizationServerConfigurers." />
       <item value="Sets up a Zuul server endpoint and installs some reverse proxy filters in it, so it can * forward requests to backend servers. The backends can be registered manually through * configuration or via DiscoveryClient. * * @see EnableZuulServer for how to get a Zuul server without any proxying" />
       <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through * {@link ZuulProperties} (by default there are none)." />
@@ -47,15 +51,11 @@
       <item value="Hash table and linked list implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface, * with predictable iteration order." />
       <item value="Stores a file on the server using the given name and taking input * from the given InputStream. This method does NOT close the given * InputStream. If the current file type is ASCII, line separators in * the file are transparently converted to the NETASCII format (i.e., * you should not attempt to create a special InputStream to do this)." />
       <item value="Stores" />
-      <item value="Protocol Command Listener" />
-      <item value="deprecated " />
-      <item value="Priority Blocking Queue" />
-      <item value="Synchronous Queue" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="322" />
-        <entry key="ENGLISH" value="374" />
+        <entry key="CHINESE" value="326" />
+        <entry key="ENGLISH" value="378" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
