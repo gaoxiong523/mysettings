@@ -70,7 +70,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>18</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -286,7 +286,7 @@
           <IdeaActionID>RunDashboard.Run</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Rerun</Description>
-          <Count>55</Count>
+          <Count>56</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'AdEurekaServerApplication'">
@@ -790,7 +790,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>73</Count>
+          <Count>74</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Configurations">
@@ -982,7 +982,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>22</Count>
+          <Count>23</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
