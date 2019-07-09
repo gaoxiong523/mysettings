@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="AuthorizationServerEndpointsConfigurer" />
       <item value="authenticated" />
       <item value="authorize Requests" />
       <item value="Configures the {@link AuditorAware} bean to be used to lookup the current principal." />
@@ -50,12 +51,11 @@
       <item value="This technique is particularly useful if a module takes a map on input, * copies it, and later returns results whose order is determined by that of * the copy. (Clients generally appreciate having things returned in the same * order they were presented.)" />
       <item value="This implementation spares its clients from the unspecified, generally * chaotic ordering provided by {@link HashMap} (and {@link Hashtable}), * without incurring the increased cost associated with {@link TreeMap}." />
       <item value="(A key &lt;tt&gt;k&lt;/tt&gt; is * reinserted into a map &lt;tt&gt;m&lt;/tt&gt; if &lt;tt&gt;m.put(k, v)&lt;/tt&gt; is invoked when * &lt;tt&gt;m.containsKey(k)&lt;/tt&gt; would return &lt;tt&gt;true&lt;/tt&gt; immediately prior to * the invocation.)" />
-      <item value="Note that insertion order is not affected * if a key is &lt;i&gt;re-inserted&lt;/i&gt; into the map." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="331" />
-        <entry key="ENGLISH" value="383" />
+        <entry key="CHINESE" value="332" />
+        <entry key="ENGLISH" value="384" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>

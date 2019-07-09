@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>81</Count>
+          <Count>82</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -126,7 +126,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>219</Count>
+          <Count>223</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -143,6 +143,14 @@
           <ShortCut>'F12' or 'Ctrl+Shift+E'</ShortCut>
           <Description>Edit Configuration...</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Favorites">
+        <Item>
+          <IdeaActionID>ActivateFavoritesToolWindow</IdeaActionID>
+          <ShortCut>'Alt+2'</ShortCut>
+          <Description>Favorites</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="File...">
@@ -806,7 +814,7 @@
           <IdeaActionID>$ShowTranslationDialogAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Show Translation Dialog...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Over">
@@ -990,7 +998,7 @@
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
           <ShortCut>'Alt+7'</ShortCut>
           <Description>Structure</Description>
-          <Count>32</Count>
+          <Count>34</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
@@ -1054,7 +1062,7 @@
           <IdeaActionID>PlantUML.Update</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F'</ShortCut>
           <Description>Update PlantUml Diagrams - changes only</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
