@@ -1,13 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="authenticated" />
       <item value="is Account Non Expired" />
       <item value="is Account Non Locked" />
       <item value="is Credentials Non Expired" />
       <item value="A user approval handler that remembers approval decisions by consulting existing tokens" />
       <item value="approval" />
       <item value="AuthorizationServerEndpointsConfigurer" />
-      <item value="authenticated" />
       <item value="authorize Requests" />
       <item value="Configures the {@link AuditorAware} bean to be used to lookup the current principal." />
       <item value="PA entity listener to capture auditing information on persiting and updating entities. To get this one flying be * sure you configure it as entity listener in your {@code orm.xml} as follows:" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="337" />
-        <entry key="ENGLISH" value="389" />
+        <entry key="CHINESE" value="338" />
+        <entry key="ENGLISH" value="390" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
