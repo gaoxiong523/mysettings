@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Enables Spring Security global method security similar to the &amp;lt;global-method-security&amp;gt;" />
+      <item value="The following annotations are annotated with {@link EnableGlobalAuthentication}" />
       <item value="authenticated" />
       <item value="is Account Non Expired" />
       <item value="is Account Non Locked" />
@@ -49,13 +51,11 @@
       <item value="Performance is likely to be just slightly * below that of &lt;tt&gt;HashMap&lt;/tt&gt;, due to the added expense of maintaining the * linked list, with one exception: Iteration over the collection-views * of a &lt;tt&gt;LinkedHashMap&lt;/tt&gt; requires time proportional to the &lt;i&gt;size&lt;/i&gt; * of the map, regardless of its capacity. Iteration over a &lt;tt&gt;HashMap&lt;/tt&gt; * is likely to be more expensive, requiring time proportional to its * &lt;i&gt;capacity&lt;/i&gt;." />
       <item value="&gt;This class provides all of the optional &lt;tt&gt;Map&lt;/tt&gt; operations, and * permits null elements. Like &lt;tt&gt;HashMap&lt;/tt&gt;, it provides constant-time * performance for the basic operations (&lt;tt&gt;add&lt;/tt&gt;, &lt;tt&gt;contains&lt;/tt&gt; and * &lt;tt&gt;remove&lt;/tt&gt;), assuming the hash function disperses elements * properly among the buckets" />
       <item value="&gt;The {@link #removeEldestEntry(Map.Entry)} method may be overridden to * impose a policy for removing stale mappings automatically when new mappings * are added to the map." />
-      <item value="In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
-      <item value="The {@code replace} methods only result in an access * of the entry if the value is replaced. The {@code putAll} method generates one * entry access for each mapping in the specified map, in the order that * key-value mappings are provided by the specified map's entry set iterator. * &lt;i&gt;No other methods generate entry accesses.&lt;/i&gt; In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="338" />
-        <entry key="ENGLISH" value="390" />
+        <entry key="CHINESE" value="341" />
+        <entry key="ENGLISH" value="393" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
