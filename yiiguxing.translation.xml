@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Account Non Expired" />
+      <item value="is Account Non Locked" />
+      <item value="is Credentials Non Expired" />
       <item value="A user approval handler that remembers approval decisions by consulting existing tokens" />
       <item value="approval" />
       <item value="AuthorizationServerEndpointsConfigurer" />
@@ -48,19 +51,21 @@
       <item value="&gt;The {@link #removeEldestEntry(Map.Entry)} method may be overridden to * impose a policy for removing stale mappings automatically when new mappings * are added to the map." />
       <item value="In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
       <item value="The {@code replace} methods only result in an access * of the entry if the value is replaced. The {@code putAll} method generates one * entry access for each mapping in the specified map, in the order that * key-value mappings are provided by the specified map's entry set iterator. * &lt;i&gt;No other methods generate entry accesses.&lt;/i&gt; In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
-      <item value="This kind of map is well-suited to * building LRU caches. Invoking the {@code put}, {@code putIfAbsent}, * {@code get}, {@code getOrDefault}, {@code compute}, {@code computeIfAbsent}, * {@code computeIfPresent}, or {@code merge} methods results * in an access to the corresponding entry (assuming it exists after the * invocation completes)." />
-      <item value="&gt;A special {@link #LinkedHashMap(int,float,boolean) constructor} is * provided to create a linked hash map whose order of iteration is the order * in which its entries were last accessed, from least-recently accessed to * most-recently (&lt;i&gt;access-order&lt;/i&gt;)." />
-      <item value="This technique is particularly useful if a module takes a map on input, * copies it, and later returns results whose order is determined by that of * the copy. (Clients generally appreciate having things returned in the same * order they were presented.)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="334" />
-        <entry key="ENGLISH" value="386" />
+        <entry key="CHINESE" value="337" />
+        <entry key="ENGLISH" value="389" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
