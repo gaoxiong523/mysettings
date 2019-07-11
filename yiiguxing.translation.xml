@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
+      <item value="subclasses" />
+      <item value="An {@link AuthenticationProvider} implementation that retrieves user details from a * {@link UserDetailsService}." />
       <item value="Retrieve" />
       <item value="extract Access Token" />
       <item value="We don't want to accidentally issue a token, and we have no way to reconstruct the refresh token" />
@@ -48,14 +51,11 @@
       <item value="specified" />
       <item value="Returns a copy of this {@link ExampleMatcher} with the specified {@code propertyPaths}. This instance is immutable * and unaffected by this method call." />
       <item value="Create a new {@link ExampleMatcher} including all non-null properties by default matching &lt;strong&gt;all&lt;/strong&gt; * predicates derived from the example." />
-      <item value="Create a new {@link ExampleMatcher} including all non-null properties by default matching &lt;strong&gt;any&lt;/strong&gt; * predicate derived from the example." />
-      <item value="Rejecting" />
-      <item value="Implementation note. A previous version of this class was * internally structured a little differently. Because superclass * HashMap now uses trees for some of its nodes, class * LinkedHashMap.Entry is now treated as intermediary node class * that can also be converted to tree form. The name of this * class, LinkedHashMap.Entry, is confusing in several ways in its * current context, but cannot be changed. Otherwise, even though * it is not exported outside this package, some existing source * code is known to have relied on a symbol resolution corner case * rule in calls to removeEldestEntry that suppressed compilation * errors due to ambiguous usages. So, we keep the name to * preserve unmodified compilability. * * The changes in node classes also require using two fields * (head, tail) rather than a pointer to a header node to maintain * the doubly-linked before/after list. This class also * previously used a different style of callback methods upon * access, insertion, and removal." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="348" />
-        <entry key="ENGLISH" value="400" />
+        <entry key="CHINESE" value="351" />
+        <entry key="ENGLISH" value="403" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
