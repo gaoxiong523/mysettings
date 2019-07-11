@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="持久化" />
       <item value="The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
       <item value="subclasses" />
       <item value="An {@link AuthenticationProvider} implementation that retrieves user details from a * {@link UserDetailsService}." />
@@ -50,12 +51,11 @@
       <item value="This instance is immutable * and unaffected by this method call." />
       <item value="specified" />
       <item value="Returns a copy of this {@link ExampleMatcher} with the specified {@code propertyPaths}. This instance is immutable * and unaffected by this method call." />
-      <item value="Create a new {@link ExampleMatcher} including all non-null properties by default matching &lt;strong&gt;all&lt;/strong&gt; * predicates derived from the example." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="351" />
-        <entry key="ENGLISH" value="403" />
+        <entry key="ENGLISH" value="404" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
