@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Calculated" />
       <item value="intercepted" />
       <item value="Strategy for enhancing an access token before it is stored by an {@link AuthorizationServerTokenServices} * implementation." />
       <item value="Helper that translates between JWT encoded token values and OAuth authentication * information (in both directions). Also acts as a {@link TokenEnhancer} when tokens are * granted." />
@@ -50,12 +51,11 @@
       <item value="A structural modification is any operation that adds or deletes one or more * mappings or, in the case of access-ordered linked hash maps, affects * iteration order. In insertion-ordered linked hash maps, merely changing * the value associated with a key that is already contained in the map is not * a structural modification. &lt;strong&gt;In access-ordered linked hash maps, * merely querying the map with &lt;tt&gt;get&lt;/tt&gt; is a structural modification. * &lt;/strong&gt;) *" />
       <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked hash map concurrently, and at least * one of the threads modifies the map structurally, it &lt;em&gt;must&lt;/em&gt; be * synchronized externally. This is typically accomplished by * synchronizing on some object that naturally encapsulates the map." />
       <item value="If no such object exists, the map should be &quot;wrapped&quot; using the * {@link Collections#synchronizedMap Collections.synchronizedMap} * method. This is best done at creation time, to prevent accidental * unsynchronized access to the map:&lt;pre&gt; * Map m = Collections.synchronizedMap(new LinkedHashMap(...));&lt;/pre&gt; *" />
-      <item value="&lt;p&gt;A linked hash map has two parameters that affect its performance: * &lt;i&gt;initial capacity&lt;/i&gt; and &lt;i&gt;load factor&lt;/i&gt;. They are defined precisely * as for &lt;tt&gt;HashMap&lt;/tt&gt;. Note, however, that the penalty for choosing an * excessively high value for initial capacity is less severe for this class * than for &lt;tt&gt;HashMap&lt;/tt&gt;, as iteration times for this class are unaffected * by capacity." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="344" />
-        <entry key="ENGLISH" value="396" />
+        <entry key="CHINESE" value="345" />
+        <entry key="ENGLISH" value="397" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
