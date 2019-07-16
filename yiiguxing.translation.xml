@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="additional Authentication Checks" />
       <item value="Protect from downstream leaks of password" />
       <item value="A pre-authentication filter for OAuth2 protected resources. Extracts an OAuth2 token from the incoming request and * uses it to populate the Spring Security context with an {@link OAuth2Authentication} (if used in conjunction with an * {@link OAuth2AuthenticationManager})." />
       <item value="conjunction" />
@@ -50,22 +51,16 @@
       <item value="to classify a filter by type. Standard types in Zuul are &quot;pre&quot; for pre-routing filtering, * &quot;route&quot; for routing to an origin, &quot;post&quot; for post-routing filters, &quot;error&quot; for error handling." />
       <item value="determines" />
       <item value="accredit" />
-      <item value="(If none of the installed providers supply an implementation of * {@code SecureRandom}, a system-provided source of randomness is * used.)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="357" />
-        <entry key="ENGLISH" value="410" />
+        <entry key="CHINESE" value="358" />
+        <entry key="ENGLISH" value="411" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="false" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
