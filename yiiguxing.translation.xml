@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An {@code int} value that may be updated atomically. See the * {@link java.util.concurrent.atomic} package specification for * description of the properties of atomic variables. An * {@code AtomicInteger} is used in applications such as atomically * incremented counters, and cannot be used as a replacement for an * {@link java.lang.Integer}. However, this class does extend * {@code Number} to allow uniform access by tools and utilities that * deal with numerically-based classes." />
+      <item value="Memory consistency effects: For each pair of threads that * successfully exchange objects via an {@code Exchanger}, actions * prior to the {@code exchange()} in each thread * &lt;a href=&quot;package-summary.html#MemoryVisibility&quot;&gt;&lt;i&gt;happen-before&lt;/i&gt;&lt;/a&gt; * those subsequent to a return from the corresponding {@code exchange()} * in the other thread." />
+      <item value="Here are the highlights of a class that uses an {@code Exchanger} * to swap buffers between threads so that the thread filling the * buffer gets a freshly emptied one when it needs it, handing off the * filled one to the thread emptying the buffer." />
+      <item value="A synchronization point at which threads can pair and swap elements * within pairs. Each thread presents some object on entry to the * {@link #exchange exchange} method, matches with a partner thread, * and receives its partner's object on return. An Exchanger may be * viewed as a bidirectional form of a {@link SynchronousQueue}. * Exchangers may be useful in applications such as genetic algorithms * and pipeline designs." />
       <item value="additional Authentication Checks" />
       <item value="Protect from downstream leaks of password" />
       <item value="A pre-authentication filter for OAuth2 protected resources. Extracts an OAuth2 token from the incoming request and * uses it to populate the Spring Security context with an {@link OAuth2Authentication} (if used in conjunction with an * {@link OAuth2AuthenticationManager})." />
@@ -47,15 +51,11 @@
       <item value="token Key Access" />
       <item value="allow Form Authentication For Clients" />
       <item value="Authorization Server Security Configurer" />
-      <item value="sequential" />
-      <item value="to classify a filter by type. Standard types in Zuul are &quot;pre&quot; for pre-routing filtering, * &quot;route&quot; for routing to an origin, &quot;post&quot; for post-routing filters, &quot;error&quot; for error handling." />
-      <item value="determines" />
-      <item value="accredit" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="358" />
-        <entry key="ENGLISH" value="411" />
+        <entry key="CHINESE" value="362" />
+        <entry key="ENGLISH" value="415" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
