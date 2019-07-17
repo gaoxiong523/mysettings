@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ability" />
       <item value="Total rate for all RateLimiter instances working with the same Redisson instance" />
       <item value="Total rate for all RateLimiter instances" />
       <item value="Redisson Transactional Lock" />
@@ -50,12 +51,11 @@
       <item value="Resource Server Token Services" />
       <item value="principal" />
       <item value="credentials" />
-      <item value="Convenience annotation for enabling an Authorization Server (i.e. an {@link AuthorizationEndpoint} and a * {@link TokenEndpoint}) in the current application context, which must be a {@link DispatcherServlet} context. Many * features of the server can be customized using &lt;code&gt;@Beans&lt;/code&gt; of type {@link AuthorizationServerConfigurer} * (e.g. by extending {@link AuthorizationServerConfigurerAdapter}). The user is responsible for securing the * Authorization Endpoint (/oauth/authorize) using normal Spring Security features ({@link EnableWebSecurity * &amp;#064;EnableWebSecurity} etc.), but the Token Endpoint (/oauth/token) will be automatically secured using HTTP Basic * authentication on the client's credentials. Clients &lt;em&gt;must&lt;/em&gt; be registered by providing a * {@link ClientDetailsService} through one or more AuthorizationServerConfigurers." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="372" />
-        <entry key="ENGLISH" value="424" />
+        <entry key="CHINESE" value="373" />
+        <entry key="ENGLISH" value="425" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
