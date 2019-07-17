@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Override this method to configure the {@link HttpSecurity}. Typically subclasses * should not invoke this method by calling super as it may override their * configuration. The default configuration is:" />
       <item value="Configure the properties and enhanced functionality of the Authorization Server endpoints." />
       <item value="Zero or more {@code RequestInterceptors} may be configured for purposes such as adding headers to * all requests. No guarantees are give with regards to the order that interceptors are applied. * Once interceptors are applied, {@link Target#apply(RequestTemplate)} is called to create the * immutable http request sent via {@link Client#execute(Request, feign.Request.Options)}. &lt;br&gt;" />
       <item value="An {@code int} value that may be updated atomically. See the * {@link java.util.concurrent.atomic} package specification for * description of the properties of atomic variables. An * {@code AtomicInteger} is used in applications such as atomically * incremented counters, and cannot be used as a replacement for an * {@link java.lang.Integer}. However, this class does extend * {@code Number} to allow uniform access by tools and utilities that * deal with numerically-based classes." />
@@ -50,12 +51,11 @@
       <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through" />
       <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that * statements in your method body declare they generate." />
       <item value="check Token Access" />
-      <item value="token Key Access" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="364" />
-        <entry key="ENGLISH" value="417" />
+        <entry key="CHINESE" value="365" />
+        <entry key="ENGLISH" value="418" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
