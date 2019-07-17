@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Total rate for all RateLimiter instances working with the same Redisson instance" />
+      <item value="Total rate for all RateLimiter instances" />
+      <item value="Redisson Transactional Lock" />
+      <item value="geospatial" />
+      <item value="binary" />
+      <item value="Returns rate limiter instance by &lt;code&gt;name&lt;/code&gt;" />
+      <item value="Main Redisson interface for access * to all redisson objects with sync/async interface." />
       <item value="Override this method to configure the {@link HttpSecurity}. Typically subclasses * should not invoke this method by calling super as it may override their * configuration. The default configuration is:" />
       <item value="Configure the properties and enhanced functionality of the Authorization Server endpoints." />
       <item value="Zero or more {@code RequestInterceptors} may be configured for purposes such as adding headers to * all requests. No guarantees are give with regards to the order that interceptors are applied. * Once interceptors are applied, {@link Target#apply(RequestTemplate)} is called to create the * immutable http request sent via {@link Client#execute(Request, feign.Request.Options)}. &lt;br&gt;" />
@@ -44,19 +51,12 @@
       <item value="principal" />
       <item value="credentials" />
       <item value="Convenience annotation for enabling an Authorization Server (i.e. an {@link AuthorizationEndpoint} and a * {@link TokenEndpoint}) in the current application context, which must be a {@link DispatcherServlet} context. Many * features of the server can be customized using &lt;code&gt;@Beans&lt;/code&gt; of type {@link AuthorizationServerConfigurer} * (e.g. by extending {@link AuthorizationServerConfigurerAdapter}). The user is responsible for securing the * Authorization Endpoint (/oauth/authorize) using normal Spring Security features ({@link EnableWebSecurity * &amp;#064;EnableWebSecurity} etc.), but the Token Endpoint (/oauth/token) will be automatically secured using HTTP Basic * authentication on the client's credentials. Clients &lt;em&gt;must&lt;/em&gt; be registered by providing a * {@link ClientDetailsService} through one or more AuthorizationServerConfigurers." />
-      <item value="Sets up a Zuul server endpoint and installs some reverse proxy filters in it, so it can * forward requests to backend servers. The backends can be registered manually through * configuration or via DiscoveryClient. * * @see EnableZuulServer for how to get a Zuul server without any proxying" />
-      <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through * {@link ZuulProperties} (by default there are none)." />
-      <item value="Circuit Breaker" />
-      <item value="ets up a Zuul server endpoint and installs some reverse proxy filters in it, so it can * forward requests to backend servers. The backends can be registered manually through * configuration or via DiscoveryClient." />
-      <item value="Set up the application to act as a generic Zuul server without any built-in reverse * proxy features. The routes into the Zuul server can be configured through" />
-      <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that * statements in your method body declare they generate." />
-      <item value="check Token Access" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="365" />
-        <entry key="ENGLISH" value="418" />
-        <entry key="FRENCH" value="1" />
+        <entry key="CHINESE" value="372" />
+        <entry key="ENGLISH" value="424" />
+        <entry key="FRENCH" value="2" />
       </map>
     </option>
   </component>
