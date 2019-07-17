@@ -654,7 +654,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F8' or 'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>131</Count>
+          <Count>146</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -942,7 +942,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F6'</ShortCut>
           <Description>Step Over</Description>
-          <Count>350</Count>
+          <Count>356</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop">
