@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="All the implementations supplied by the static methods are immutable." />
+      <item value="This class contains a standard set of adjusters, available as static methods." />
+      <item value="It is recommended to use the second approach, {@code with(TemporalAdjuster)}, * as it is a lot clearer to read in code." />
+      <item value="There are two equivalent ways of using a {@code TemporalAdjuster}. * The first is to invoke the method on the interface directly. * The second is to use {@link Temporal#with(TemporalAdjuster)}:" />
+      <item value="Adjusters are a key tool for modifying temporal objects. * They exist to externalize the process of adjustment, permitting different * approaches, as per the strategy design pattern. * Examples might be an adjuster that sets the date avoiding weekends, or one that * sets the date to the last day of the month." />
+      <item value="Common and useful TemporalAdjusters." />
+      <item value="Temporal Adjusters" />
+      <item value="Temporal Adjuster" />
       <item value="ability" />
       <item value="Total rate for all RateLimiter instances working with the same Redisson instance" />
       <item value="Total rate for all RateLimiter instances" />
@@ -43,19 +51,11 @@
       <item value="A user approval handler that remembers approval decisions by consulting existing tokens" />
       <item value="approval" />
       <item value="AuthorizationServerEndpointsConfigurer" />
-      <item value="authorize Requests" />
-      <item value="Configures the {@link AuditorAware} bean to be used to lookup the current principal." />
-      <item value="PA entity listener to capture auditing information on persiting and updating entities. To get this one flying be * sure you configure it as entity listener in your {@code orm.xml} as follows:" />
-      <item value="legacy" />
-      <item value="Client Details Service" />
-      <item value="Resource Server Token Services" />
-      <item value="principal" />
-      <item value="credentials" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="373" />
-        <entry key="ENGLISH" value="425" />
+        <entry key="CHINESE" value="382" />
+        <entry key="ENGLISH" value="433" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
