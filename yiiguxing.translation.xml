@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="token Key Access" />
+      <item value="check Token Access" />
       <item value="An unordered, unkeyed collection that can contain the same element * multiple times. The Java collections API, curiously, has no &lt;tt&gt;Bag&lt;/tt&gt;. * Most developers seem to use &lt;tt&gt;List&lt;/tt&gt;s to represent bag semantics, * so Hibernate follows this practice." />
       <item value="All the implementations supplied by the static methods are immutable." />
       <item value="This class contains a standard set of adjusters, available as static methods." />
@@ -49,13 +51,11 @@
       <item value="is Account Non Expired" />
       <item value="is Account Non Locked" />
       <item value="is Credentials Non Expired" />
-      <item value="A user approval handler that remembers approval decisions by consulting existing tokens" />
-      <item value="approval" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="383" />
-        <entry key="ENGLISH" value="434" />
+        <entry key="CHINESE" value="385" />
+        <entry key="ENGLISH" value="436" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
