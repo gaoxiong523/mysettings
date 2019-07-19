@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Sets a new list of custom authentication filters for the TokenEndpoint. Filters will be set upstream of the * default BasicAuthenticationFilter." />
+      <item value="Adds a new custom authentication filter for the TokenEndpoint. Filters will be set upstream of the default * BasicAuthenticationFilter." />
       <item value="token Key Access" />
       <item value="check Token Access" />
       <item value="An unordered, unkeyed collection that can contain the same element * multiple times. The Java collections API, curiously, has no &lt;tt&gt;Bag&lt;/tt&gt;. * Most developers seem to use &lt;tt&gt;List&lt;/tt&gt;s to represent bag semantics, * so Hibernate follows this practice." />
@@ -49,13 +51,11 @@
       <item value="The following annotations are annotated with {@link EnableGlobalAuthentication}" />
       <item value="authenticated" />
       <item value="is Account Non Expired" />
-      <item value="is Account Non Locked" />
-      <item value="is Credentials Non Expired" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="385" />
-        <entry key="ENGLISH" value="436" />
+        <entry key="CHINESE" value="387" />
+        <entry key="ENGLISH" value="438" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
