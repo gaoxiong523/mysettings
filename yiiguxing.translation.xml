@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Allows subclasses to perform any additional checks of a returned (or cached) * &lt;code&gt;UserDetails&lt;/code&gt; for a given authentication request. Generally a subclass * will at least compare the {@link Authentication#getCredentials()} with a * {@link UserDetails#getPassword()}. If custom logic is needed to compare additional * properties of &lt;code&gt;UserDetails&lt;/code&gt; and/or * &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt;, these should also appear in this * method." />
+      <item value="Caching is handled by storing the &lt;code&gt;UserDetails&lt;/code&gt; object being placed in the * {@link UserCache}. This ensures that subsequent requests with the same username can be * validated without needing to query the {@link UserDetailsService}. It should be noted * that if a user appears to present an incorrect password, the {@link UserDetailsService} * will be queried to confirm the most up-to-date password was used for comparison. * Caching is only likely to be required for stateless applications. In a normal web * application, for example, the &lt;tt&gt;SecurityContext&lt;/tt&gt; is stored in the user's session * and the user isn't reauthenticated on each request. The default cache implementation is * therefore {@link NullUserCache}." />
+      <item value="As container adapters are not recommended to be used, and * &lt;code&gt;UserDetails&lt;/code&gt; implementations provide additional flexibility, by default a * &lt;code&gt;UserDetails&lt;/code&gt; is returned. To override this default, set the * {@link #setForcePrincipalAsString} to &lt;code&gt;true&lt;/code&gt;." />
+      <item value="Using &lt;code&gt;UserDetails&lt;/code&gt; is appropriate if you require access to * additional properties of the authenticated user, such as email addresses, * human-friendly names etc." />
+      <item value="Using &lt;code&gt;String&lt;/code&gt; is appropriate * if a container adapter is being used, as it expects &lt;code&gt;String&lt;/code&gt; representations * of the username" />
+      <item value="Upon successful validation, a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt; will be * created and returned to the caller. The token will include as its principal either a * &lt;code&gt;String&lt;/code&gt; representation of the username, or the {@link UserDetails} that was * returned from the authentication repository" />
+      <item value="subclasses" />
+      <item value="A base {@link AuthenticationProvider} that allows subclasses to override and work with * {@link org.springframework.security.core.userdetails.UserDetails} objects. The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
       <item value="Sets a new list of custom authentication filters for the TokenEndpoint. Filters will be set upstream of the * default BasicAuthenticationFilter." />
       <item value="Adds a new custom authentication filter for the TokenEndpoint. Filters will be set upstream of the default * BasicAuthenticationFilter." />
       <item value="token Key Access" />
@@ -38,24 +46,16 @@
       <item value="Lettuce Connection Factory" />
       <item value="持久化" />
       <item value="The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
-      <item value="subclasses" />
       <item value="An {@link AuthenticationProvider} implementation that retrieves user details from a * {@link UserDetailsService}." />
       <item value="Retrieve" />
       <item value="extract Access Token" />
       <item value="We don't want to accidentally issue a token, and we have no way to reconstruct the refresh token" />
       <item value="Calculated" />
-      <item value="intercepted" />
-      <item value="Strategy for enhancing an access token before it is stored by an {@link AuthorizationServerTokenServices} * implementation." />
-      <item value="Helper that translates between JWT encoded token values and OAuth authentication * information (in both directions). Also acts as a {@link TokenEnhancer} when tokens are * granted." />
-      <item value="Enables Spring Security global method security similar to the &amp;lt;global-method-security&amp;gt;" />
-      <item value="The following annotations are annotated with {@link EnableGlobalAuthentication}" />
-      <item value="authenticated" />
-      <item value="is Account Non Expired" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="387" />
-        <entry key="ENGLISH" value="438" />
+        <entry key="CHINESE" value="395" />
+        <entry key="ENGLISH" value="446" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
