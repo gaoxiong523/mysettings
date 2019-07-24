@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An OAuth2 client filter that can be used to acquire an OAuth2 access token from an authorization server, and load an * authentication object into the SecurityContext" />
       <item value="Allows subclasses to actually retrieve the &lt;code&gt;UserDetails&lt;/code&gt; from an * implementation-specific location, with the option of throwing an * &lt;code&gt;AuthenticationException&lt;/code&gt; immediately if the presented credentials are * incorrect (this is especially useful if it is necessary to bind to a resource as * the user in order to obtain or generate a &lt;code&gt;UserDetails&lt;/code&gt;). * &lt;p&gt; * Subclasses are not required to perform any caching, as the * &lt;code&gt;AbstractUserDetailsAuthenticationProvider&lt;/code&gt; will by default cache the * &lt;code&gt;UserDetails&lt;/code&gt;. The caching of &lt;code&gt;UserDetails&lt;/code&gt; does present * additional complexity as this means subsequent requests that rely on the cache will * need to still have their credentials validated, even if the correctness of * credentials was assured by subclasses adopting a binding-based strategy in this * method. Accordingly it is important that subclasses either disable caching (if they * want to ensure that this method is the only method that is capable of * authenticating a request, as no &lt;code&gt;UserDetails&lt;/code&gt; will ever be cached) or * ensure subclasses implement * {@link #additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} * to compare the credentials of a cached &lt;code&gt;UserDetails&lt;/code&gt; with subsequent * authentication requests. * &lt;/p&gt; * &lt;p&gt; * Most of the time subclasses will not perform credentials inspection in this method, * instead performing it in * {@link #additionalAuthenticationChecks(UserDetails, UsernamePasswordAuthenticationToken)} * so that code related to credentials validation need not be duplicated across two * methods. * &lt;/p&gt; * * @param username The username to retrieve * @param authentication The authentication request, which subclasses &lt;em&gt;may&lt;/em&gt; * need to perform a binding-based retrieval of the &lt;code&gt;UserDetails&lt;/code&gt; * * @return the user information (never &lt;code&gt;null&lt;/code&gt; - instead an exception should * the thrown) * * @throws AuthenticationException if the credentials could not be validated * (generally a &lt;code&gt;BadCredentialsException&lt;/code&gt;, an * &lt;code&gt;AuthenticationServiceException&lt;/code&gt; or * &lt;code&gt;UsernameNotFoundException&lt;/code&gt;)" />
       <item value="Ensure we return the original credentials the user supplied, // so subsequent attempts are successful even with encoded passwords. // Also ensure we return the original getDetails(), so that future // authentication events after cache expiry contain the details" />
       <item value="Allows subclasses to perform any additional checks of a returned (or cached) * &lt;code&gt;UserDetails&lt;/code&gt; for a given authentication request. Generally a subclass * will at least compare the {@link Authentication#getCredentials()} with a * {@link UserDetails#getPassword()}. If custom logic is needed to compare additional * properties of &lt;code&gt;UserDetails&lt;/code&gt; and/or * &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt;, these should also appear in this * method." />
@@ -43,7 +44,6 @@
       <item value="Protect from downstream leaks of password" />
       <item value="A pre-authentication filter for OAuth2 protected resources. Extracts an OAuth2 token from the incoming request and * uses it to populate the Spring Security context with an {@link OAuth2Authentication} (if used in conjunction with an * {@link OAuth2AuthenticationManager})." />
       <item value="conjunction" />
-      <item value="An OAuth2 client filter that can be used to acquire an OAuth2 access token from an authorization server, and load an * authentication object into the SecurityContext" />
       <item value="set Serialization Strategy" />
       <item value="Lettuce Connection Factory" />
       <item value="持久化" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="397" />
-        <entry key="ENGLISH" value="448" />
+        <entry key="CHINESE" value="398" />
+        <entry key="ENGLISH" value="449" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
