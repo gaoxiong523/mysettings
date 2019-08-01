@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>123</Count>
+          <Count>124</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -1310,7 +1310,15 @@
           <IdeaActionID>Images.Editor.ZoomIn</IdeaActionID>
           <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
           <Description>Zoom In</Description>
-          <Count>3</Count>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Zoom Out">
+        <Item>
+          <IdeaActionID>Images.Editor.ZoomOut</IdeaActionID>
+          <ShortCut>'Ctrl+NumPad -' or 'Ctrl+减号'</ShortCut>
+          <Description>Zoom Out</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
