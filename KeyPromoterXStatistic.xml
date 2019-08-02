@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>363</Count>
+          <Count>368</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -230,7 +230,7 @@
           <IdeaActionID>GotoPrevElementUnderCaretUsage</IdeaActionID>
           <ShortCut>'Alt+Wheel up'</ShortCut>
           <Description>Go to previous highlighted element usage</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -286,7 +286,7 @@
           <IdeaActionID>FindBugs.PreviewSelectBugInstance</IdeaActionID>
           <ShortCut>'Alt+Q' or 'Alt+Button1 Click'</ShortCut>
           <Description>Preview the current selected bug.</Description>
-          <Count>77</Count>
+          <Count>89</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
@@ -654,6 +654,14 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Restore Windows</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Restrain Scope Highlighting">
+        <Item>
+          <IdeaActionID>Rainbow.ScopeOutsideHighlightingRestrainAction</IdeaActionID>
+          <ShortCut>'Alt+Button3 Click'</ShortCut>
+          <Description>Restrain Scope Highlighting</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
