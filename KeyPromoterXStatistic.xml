@@ -302,7 +302,7 @@
           <IdeaActionID>Vcs.Push</IdeaActionID>
           <ShortCut>'Ctrl+Shift+K'</ShortCut>
           <Description>Push...</Description>
-          <Count>41</Count>
+          <Count>42</Count>
         </Item>
       </Statistic>
       <Statistic Action="Quick Evaluate Expression">
@@ -1246,7 +1246,7 @@
           <IdeaActionID>SurroundWith</IdeaActionID>
           <ShortCut>'Alt+Shift+Z' or 'Ctrl+Alt+T'</ShortCut>
           <Description>Surround With...</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="TODO">
@@ -1310,7 +1310,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9' or 'Alt+Shift+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>135</Count>
+          <Count>139</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom In">
