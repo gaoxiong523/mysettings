@@ -1246,7 +1246,7 @@
           <IdeaActionID>SurroundWith</IdeaActionID>
           <ShortCut>'Alt+Shift+Z' or 'Ctrl+Alt+T'</ShortCut>
           <Description>Surround With...</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="TODO">
