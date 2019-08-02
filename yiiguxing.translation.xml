@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Integration Authenticator" />
+      <item value="Set the ApplicationContext that this object runs in. * Normally this call will be used to initialize the object. * &lt;p&gt;Invoked after population of normal bean properties but before an init callback such * as {@link org.springframework.beans.factory.InitializingBean#afterPropertiesSet()} * or a custom init-method. Invoked after {@link ResourceLoaderAware#setResourceLoader}, * {@link ApplicationEventPublisherAware#setApplicationEventPublisher} and * {@link MessageSourceAware}, if applicable." />
+      <item value="&gt;For a list of all bean lifecycle methods, see the * {@link org.springframework.beans.factory.BeanFactory BeanFactory javadocs}" />
+      <item value="{@link org.springframework.context.support.ApplicationObjectSupport} is a * convenience base class for application objects, implementing this interface." />
+      <item value="Note that file resource dependencies can also be exposed as bean properties * of type {@link org.springframework.core.io.Resource}, populated via Strings * with automatic type conversion by the bean factory. This removes the need * for implementing any callback interface just for the purpose of accessing * a specific file resource." />
+      <item value="This interface can also be implemented if an object needs access to file * resources, i.e. wants to call {@code getResource}, wants to publish * an application event, or requires access to the MessageSource. However, * it is preferable to implement the more specific {@link ResourceLoaderAware}, * {@link ApplicationEventPublisherAware} or {@link MessageSourceAware} interface * in such a specific scenario." />
+      <item value="Implementing this interface makes sense for example when an object * requires access to a set of collaborating beans. Note that configuration * via bean references is preferable to implementing this interface just * for bean lookup purposes." />
+      <item value="Interface to be implemented by any object that wishes to be notified * of the {@link ApplicationContext} that it runs in." />
+      <item value="Application Context Aware" />
       <item value="Is there an unresolvable circular reference?" />
       <item value="unresolvable" />
       <item value="A {@link HttpSecurity} is similar to Spring Security's XML &amp;lt;http&amp;gt; element in the * namespace configuration. It allows configuring web based security for specific http * requests. By default it will be applied to all requests, but can be restricted using * {@link #requestMatcher(RequestMatcher)} or other similar methods." />
@@ -42,20 +51,11 @@
       <item value="An {@code int} value that may be updated atomically. See the * {@link java.util.concurrent.atomic} package specification for * description of the properties of atomic variables. An * {@code AtomicInteger} is used in applications such as atomically * incremented counters, and cannot be used as a replacement for an * {@link java.lang.Integer}. However, this class does extend * {@code Number} to allow uniform access by tools and utilities that * deal with numerically-based classes." />
       <item value="Memory consistency effects: For each pair of threads that * successfully exchange objects via an {@code Exchanger}, actions * prior to the {@code exchange()} in each thread * &lt;a href=&quot;package-summary.html#MemoryVisibility&quot;&gt;&lt;i&gt;happen-before&lt;/i&gt;&lt;/a&gt; * those subsequent to a return from the corresponding {@code exchange()} * in the other thread." />
       <item value="Here are the highlights of a class that uses an {@code Exchanger} * to swap buffers between threads so that the thread filling the * buffer gets a freshly emptied one when it needs it, handing off the * filled one to the thread emptying the buffer." />
-      <item value="A synchronization point at which threads can pair and swap elements * within pairs. Each thread presents some object on entry to the * {@link #exchange exchange} method, matches with a partner thread, * and receives its partner's object on return. An Exchanger may be * viewed as a bidirectional form of a {@link SynchronousQueue}. * Exchangers may be useful in applications such as genetic algorithms * and pipeline designs." />
-      <item value="additional Authentication Checks" />
-      <item value="Protect from downstream leaks of password" />
-      <item value="A pre-authentication filter for OAuth2 protected resources. Extracts an OAuth2 token from the incoming request and * uses it to populate the Spring Security context with an {@link OAuth2Authentication} (if used in conjunction with an * {@link OAuth2AuthenticationManager})." />
-      <item value="conjunction" />
-      <item value="set Serialization Strategy" />
-      <item value="Lettuce Connection Factory" />
-      <item value="持久化" />
-      <item value="The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="401" />
-        <entry key="ENGLISH" value="452" />
+        <entry key="CHINESE" value="410" />
+        <entry key="ENGLISH" value="461" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
