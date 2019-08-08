@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="estate" />
       <item value="Converts A string to an integer. * @param s A string to convert into a number. * @param radix A value between 2 and 36 that specifies the base of the number in numString. * If this argument is not supplied, strings with a prefix of '0x' are considered hexadecimal. * All other strings are considered decimal." />
       <item value="Integration Authenticator" />
       <item value="Set the ApplicationContext that this object runs in. * Normally this call will be used to initialize the object. * &lt;p&gt;Invoked after population of normal bean properties but before an init callback such * as {@link org.springframework.beans.factory.InitializingBean#afterPropertiesSet()} * or a custom init-method. Invoked after {@link ResourceLoaderAware#setResourceLoader}, * {@link ApplicationEventPublisherAware#setApplicationEventPublisher} and * {@link MessageSourceAware}, if applicable." />
@@ -50,12 +51,11 @@
       <item value="Configure the properties and enhanced functionality of the Authorization Server endpoints." />
       <item value="Zero or more {@code RequestInterceptors} may be configured for purposes such as adding headers to * all requests. No guarantees are give with regards to the order that interceptors are applied. * Once interceptors are applied, {@link Target#apply(RequestTemplate)} is called to create the * immutable http request sent via {@link Client#execute(Request, feign.Request.Options)}. &lt;br&gt;" />
       <item value="An {@code int} value that may be updated atomically. See the * {@link java.util.concurrent.atomic} package specification for * description of the properties of atomic variables. An * {@code AtomicInteger} is used in applications such as atomically * incremented counters, and cannot be used as a replacement for an * {@link java.lang.Integer}. However, this class does extend * {@code Number} to allow uniform access by tools and utilities that * deal with numerically-based classes." />
-      <item value="Memory consistency effects: For each pair of threads that * successfully exchange objects via an {@code Exchanger}, actions * prior to the {@code exchange()} in each thread * &lt;a href=&quot;package-summary.html#MemoryVisibility&quot;&gt;&lt;i&gt;happen-before&lt;/i&gt;&lt;/a&gt; * those subsequent to a return from the corresponding {@code exchange()} * in the other thread." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="411" />
-        <entry key="ENGLISH" value="462" />
+        <entry key="CHINESE" value="412" />
+        <entry key="ENGLISH" value="463" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
