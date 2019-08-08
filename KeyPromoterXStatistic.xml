@@ -302,7 +302,7 @@
           <IdeaActionID>Vcs.Push</IdeaActionID>
           <ShortCut>'Ctrl+Shift+K'</ShortCut>
           <Description>Push...</Description>
-          <Count>44</Count>
+          <Count>45</Count>
         </Item>
       </Statistic>
       <Statistic Action="Quick Evaluate Expression">
@@ -350,7 +350,7 @@
           <IdeaActionID>RunDashboard.Run</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Rerun</Description>
-          <Count>177</Count>
+          <Count>178</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'AdEurekaServerApplication'">
@@ -1238,7 +1238,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>46</Count>
+          <Count>47</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -1318,7 +1318,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9' or 'Alt+Shift+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>143</Count>
+          <Count>144</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom In">
