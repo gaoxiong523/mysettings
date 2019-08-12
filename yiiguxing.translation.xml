@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Possibly consider using a shorter maxLifetime value" />
       <item value="graphql" />
       <item value="graph" />
       <item value="estate" />
@@ -50,12 +51,11 @@
       <item value="Returns rate limiter instance by &lt;code&gt;name&lt;/code&gt;" />
       <item value="Main Redisson interface for access * to all redisson objects with sync/async interface." />
       <item value="Override this method to configure the {@link HttpSecurity}. Typically subclasses * should not invoke this method by calling super as it may override their * configuration. The default configuration is:" />
-      <item value="Configure the properties and enhanced functionality of the Authorization Server endpoints." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="412" />
-        <entry key="ENGLISH" value="463" />
+        <entry key="CHINESE" value="413" />
+        <entry key="ENGLISH" value="464" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
