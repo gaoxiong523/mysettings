@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Implementations of this interface are encouraged to handle exceptions locally where * it makes sense or alternatively let the exception bubble up in which case by default * the exception is logged and the session closed with" />
+      <item value="binary" />
+      <item value="A handler for WebSocket messages and lifecycle events." />
       <item value="Possibly consider using a shorter maxLifetime value" />
       <item value="graphql" />
       <item value="graph" />
@@ -47,25 +50,17 @@
       <item value="Total rate for all RateLimiter instances" />
       <item value="Redisson Transactional Lock" />
       <item value="geospatial" />
-      <item value="binary" />
       <item value="Returns rate limiter instance by &lt;code&gt;name&lt;/code&gt;" />
-      <item value="Main Redisson interface for access * to all redisson objects with sync/async interface." />
-      <item value="Override this method to configure the {@link HttpSecurity}. Typically subclasses * should not invoke this method by calling super as it may override their * configuration. The default configuration is:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="413" />
-        <entry key="ENGLISH" value="464" />
+        <entry key="CHINESE" value="416" />
+        <entry key="ENGLISH" value="467" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="false" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
