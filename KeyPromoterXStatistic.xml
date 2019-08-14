@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>441</Count>
+          <Count>443</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -366,7 +366,7 @@
           <IdeaActionID>RunDashboard.Run</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Rerun</Description>
-          <Count>193</Count>
+          <Count>196</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'AdEurekaServerApplication'">
