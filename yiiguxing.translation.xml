@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The result of a delete operation. If the delete was unacknowledged, then {@code wasAcknowledged} will return false and all other methods * will throw {@code UnsupportedOperationException}." />
       <item value="Annotation to define custom metadata for document fields. *" />
       <item value="Indicate that the annotated element represents a stereotype for the index." />
       <item value="If set to true reject all documents that contain a duplicate value for the indexed field." />
@@ -50,12 +51,11 @@
       <item value="Adjusters are a key tool for modifying temporal objects. * They exist to externalize the process of adjustment, permitting different * approaches, as per the strategy design pattern. * Examples might be an adjuster that sets the date avoiding weekends, or one that * sets the date to the last day of the month." />
       <item value="Common and useful TemporalAdjusters." />
       <item value="Temporal Adjusters" />
-      <item value="Temporal Adjuster" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="422" />
-        <entry key="ENGLISH" value="473" />
+        <entry key="CHINESE" value="423" />
+        <entry key="ENGLISH" value="474" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
