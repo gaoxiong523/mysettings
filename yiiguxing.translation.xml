@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Annotation to define custom metadata for document fields. *" />
+      <item value="Indicate that the annotated element represents a stereotype for the index." />
+      <item value="If set to true reject all documents that contain a duplicate value for the indexed field." />
+      <item value="Defines the default language to be used with this document. *" />
+      <item value="The collection the document representing the entity is supposed to be stored in. If not configured, a default * collection name will be derived from the type's name. The attribute supports SpEL expressions to dynamically * calculate the collection to based on a per operation basis. *" />
+      <item value="Identifies a domain object to be persisted to MongoDB." />
       <item value="Implementations of this interface are encouraged to handle exceptions locally where * it makes sense or alternatively let the exception bubble up in which case by default * the exception is logged and the session closed with" />
       <item value="binary" />
       <item value="A handler for WebSocket messages and lifecycle events." />
@@ -45,22 +51,21 @@
       <item value="Common and useful TemporalAdjusters." />
       <item value="Temporal Adjusters" />
       <item value="Temporal Adjuster" />
-      <item value="ability" />
-      <item value="Total rate for all RateLimiter instances working with the same Redisson instance" />
-      <item value="Total rate for all RateLimiter instances" />
-      <item value="Redisson Transactional Lock" />
-      <item value="geospatial" />
-      <item value="Returns rate limiter instance by &lt;code&gt;name&lt;/code&gt;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="416" />
-        <entry key="ENGLISH" value="467" />
+        <entry key="CHINESE" value="422" />
+        <entry key="ENGLISH" value="473" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
