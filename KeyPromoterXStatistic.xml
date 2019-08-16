@@ -641,6 +641,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'TransactionProducer'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F11'</ShortCut>
+          <Description>Rerun 'TransactionProducer'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'UDPProvider'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -1449,6 +1457,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'TransactionConsumer'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'TransactionConsumer'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'UserApp'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1505,6 +1521,22 @@
           <Count>142</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Toggle Camel Case">
+        <Item>
+          <IdeaActionID>de.netnexus.CamelCasePlugin.ToggleCamelCase</IdeaActionID>
+          <ShortCut>'Alt+Shift+U'</ShortCut>
+          <Description>Toggle Camel Case</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Toggle Case">
+        <Item>
+          <IdeaActionID>EditorToggleCase</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+U' or 'Ctrl+Shift+X' or 'Ctrl+Shift+Y'</ShortCut>
+          <Description>Toggle Case</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Toggle Highlight of All Occurrences">
         <Item>
           <IdeaActionID>QuickToggleEditorHighlight</IdeaActionID>
@@ -1534,7 +1566,7 @@
           <IdeaActionID>$TranslateAndReplaceAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+X'</ShortCut>
           <Description>Translate and Replace...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update PlantUml Diagrams - changes only">
