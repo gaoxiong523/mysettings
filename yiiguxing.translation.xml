@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Deprecated" />
+      <item value="regarded" />
       <item value="Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. * See the License for the specific language governing permissions and * limitations under the License." />
       <item value="Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); * you may not use this file except in compliance with the License. * You may obtain a copy of the License at" />
       <item value="A globally unique identifier for objects" />
@@ -49,13 +51,11 @@
       <item value="token Key Access" />
       <item value="check Token Access" />
       <item value="An unordered, unkeyed collection that can contain the same element * multiple times. The Java collections API, curiously, has no &lt;tt&gt;Bag&lt;/tt&gt;. * Most developers seem to use &lt;tt&gt;List&lt;/tt&gt;s to represent bag semantics, * so Hibernate follows this practice." />
-      <item value="All the implementations supplied by the static methods are immutable." />
-      <item value="This class contains a standard set of adjusters, available as static methods." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="428" />
-        <entry key="ENGLISH" value="479" />
+        <entry key="CHINESE" value="429" />
+        <entry key="ENGLISH" value="480" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
