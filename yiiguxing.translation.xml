@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="OFFSET ILLEGAL" />
       <item value="Deprecated" />
       <item value="regarded" />
       <item value="Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. * See the License for the specific language governing permissions and * limitations under the License." />
@@ -50,12 +51,11 @@
       <item value="Adds a new custom authentication filter for the TokenEndpoint. Filters will be set upstream of the default * BasicAuthenticationFilter." />
       <item value="token Key Access" />
       <item value="check Token Access" />
-      <item value="An unordered, unkeyed collection that can contain the same element * multiple times. The Java collections API, curiously, has no &lt;tt&gt;Bag&lt;/tt&gt;. * Most developers seem to use &lt;tt&gt;List&lt;/tt&gt;s to represent bag semantics, * so Hibernate follows this practice." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="429" />
-        <entry key="ENGLISH" value="480" />
+        <entry key="CHINESE" value="430" />
+        <entry key="ENGLISH" value="481" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
