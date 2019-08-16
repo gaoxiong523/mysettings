@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This class provides thread-local variables. These variables differ from * their normal counterparts in that each thread that accesses one (via its * {@code get} or {@code set} method) has its own, independently initialized * copy of the variable. {@code ThreadLocal} instances are typically private * static fields in classes that wish to associate state with a thread (e.g., * a user ID or Transaction ID)." />
       <item value="A globally unique identifier for objects." />
       <item value="The result of a delete operation. If the delete was unacknowledged, then {@code wasAcknowledged} will return false and all other methods * will throw {@code UnsupportedOperationException}." />
       <item value="Annotation to define custom metadata for document fields. *" />
@@ -50,22 +51,16 @@
       <item value="It is recommended to use the second approach, {@code with(TemporalAdjuster)}, * as it is a lot clearer to read in code." />
       <item value="There are two equivalent ways of using a {@code TemporalAdjuster}. * The first is to invoke the method on the interface directly. * The second is to use {@link Temporal#with(TemporalAdjuster)}:" />
       <item value="Adjusters are a key tool for modifying temporal objects. * They exist to externalize the process of adjustment, permitting different * approaches, as per the strategy design pattern. * Examples might be an adjuster that sets the date avoiding weekends, or one that * sets the date to the last day of the month." />
-      <item value="Common and useful TemporalAdjusters." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="424" />
-        <entry key="ENGLISH" value="475" />
+        <entry key="CHINESE" value="425" />
+        <entry key="ENGLISH" value="476" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="false" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
