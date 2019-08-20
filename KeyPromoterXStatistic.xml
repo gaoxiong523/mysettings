@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>476</Count>
+          <Count>477</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -254,7 +254,7 @@
           <IdeaActionID>FileChooser.GotoHome</IdeaActionID>
           <ShortCut>'Ctrl+1'</ShortCut>
           <Description>Home Directory</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Source">
@@ -1041,6 +1041,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'RealPlay.main()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'RealPlay.main()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'RmqConsumerApp'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -1166,6 +1174,14 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'install'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'run_win64'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'run_win64'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
