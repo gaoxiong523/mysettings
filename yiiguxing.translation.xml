@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="analyze" />
       <item value="The transport client allows to create a client that is not part of the cluster, but simply connects to one * or more nodes directly by adding their respective addresses using {" />
       <item value="OFFSET ILLEGAL" />
       <item value="Deprecated" />
@@ -50,7 +51,6 @@
       <item value="A base {@link AuthenticationProvider} that allows subclasses to override and work with * {@link org.springframework.security.core.userdetails.UserDetails} objects. The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
       <item value="Sets a new list of custom authentication filters for the TokenEndpoint. Filters will be set upstream of the * default BasicAuthenticationFilter." />
       <item value="Adds a new custom authentication filter for the TokenEndpoint. Filters will be set upstream of the default * BasicAuthenticationFilter." />
-      <item value="token Key Access" />
     </histories>
     <option name="languageScores">
       <map>

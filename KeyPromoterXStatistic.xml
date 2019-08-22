@@ -70,7 +70,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>49</Count>
+          <Count>50</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -294,7 +294,7 @@
           <IdeaActionID>$Paste</IdeaActionID>
           <ShortCut>'Ctrl+V' or 'Shift+Insert'</ShortCut>
           <Description>Paste</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Preview the current selected bug.">
@@ -1286,7 +1286,7 @@
           <IdeaActionID>$ShowTranslationDialogAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Show Translation Dialog...</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Into">
