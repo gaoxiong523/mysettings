@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>159</Count>
+          <Count>160</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -806,7 +806,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F8' or 'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>358</Count>
+          <Count>360</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -1342,7 +1342,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F6'</ShortCut>
           <Description>Step Over</Description>
-          <Count>871</Count>
+          <Count>879</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop">
@@ -1702,7 +1702,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'Alt+9' or 'Alt+Shift+9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>186</Count>
+          <Count>187</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom In">
