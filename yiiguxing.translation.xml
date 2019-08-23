@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Represents a geospatial sphere value." />
+      <item value="Sphere" />
+      <item value="NEUTRAL" />
       <item value="Represents a geospatial point value. *" />
       <item value="indices" />
       <item value="analyze" />
@@ -48,14 +51,11 @@
       <item value="As container adapters are not recommended to be used, and * &lt;code&gt;UserDetails&lt;/code&gt; implementations provide additional flexibility, by default a * &lt;code&gt;UserDetails&lt;/code&gt; is returned. To override this default, set the * {@link #setForcePrincipalAsString} to &lt;code&gt;true&lt;/code&gt;." />
       <item value="Using &lt;code&gt;UserDetails&lt;/code&gt; is appropriate if you require access to * additional properties of the authenticated user, such as email addresses, * human-friendly names etc." />
       <item value="Using &lt;code&gt;String&lt;/code&gt; is appropriate * if a container adapter is being used, as it expects &lt;code&gt;String&lt;/code&gt; representations * of the username" />
-      <item value="Upon successful validation, a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt; will be * created and returned to the caller. The token will include as its principal either a * &lt;code&gt;String&lt;/code&gt; representation of the username, or the {@link UserDetails} that was * returned from the authentication repository" />
-      <item value="subclasses" />
-      <item value="A base {@link AuthenticationProvider} that allows subclasses to override and work with * {@link org.springframework.security.core.userdetails.UserDetails} objects. The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="432" />
-        <entry key="ENGLISH" value="483" />
+        <entry key="CHINESE" value="437" />
+        <entry key="ENGLISH" value="488" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
