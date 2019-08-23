@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Represents a geospatial point value. *" />
       <item value="indices" />
       <item value="analyze" />
       <item value="The transport client allows to create a client that is not part of the cluster, but simply connects to one * or more nodes directly by adding their respective addresses using {" />
@@ -50,12 +51,11 @@
       <item value="Upon successful validation, a &lt;code&gt;UsernamePasswordAuthenticationToken&lt;/code&gt; will be * created and returned to the caller. The token will include as its principal either a * &lt;code&gt;String&lt;/code&gt; representation of the username, or the {@link UserDetails} that was * returned from the authentication repository" />
       <item value="subclasses" />
       <item value="A base {@link AuthenticationProvider} that allows subclasses to override and work with * {@link org.springframework.security.core.userdetails.UserDetails} objects. The class is * designed to respond to {@link UsernamePasswordAuthenticationToken} authentication * requests." />
-      <item value="Sets a new list of custom authentication filters for the TokenEndpoint. Filters will be set upstream of the * default BasicAuthenticationFilter." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="431" />
-        <entry key="ENGLISH" value="482" />
+        <entry key="CHINESE" value="432" />
+        <entry key="ENGLISH" value="483" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>

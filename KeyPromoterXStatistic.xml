@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>156</Count>
+          <Count>157</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>516</Count>
+          <Count>518</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -1654,7 +1654,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>185</Count>
+          <Count>186</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">
