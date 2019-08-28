@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="loyalty Points" />
       <item value="Parses CSV files according to the specified format." />
       <item value="dialects" />
       <item value="Values can be appended to the output by calling the {@link #print(Object)} method." />
@@ -50,12 +51,11 @@
       <item value="Interface to be implemented by any object that wishes to be notified * of the {@link ApplicationContext} that it runs in." />
       <item value="Application Context Aware" />
       <item value="Is there an unresolvable circular reference?" />
-      <item value="unresolvable" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="444" />
-        <entry key="ENGLISH" value="496" />
+        <entry key="CHINESE" value="445" />
+        <entry key="ENGLISH" value="497" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
