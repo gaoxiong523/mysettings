@@ -46,7 +46,7 @@
           <IdeaActionID>CloseContent</IdeaActionID>
           <ShortCut>'Ctrl+F4'</ShortCut>
           <Description>Close</Description>
-          <Count>45</Count>
+          <Count>46</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All">
