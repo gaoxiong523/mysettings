@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="behind" />
       <item value="an array of Strings linking the CSV columns to their corresponding field in the bean (the array length * should match the number of columns). A &lt;tt&gt;null&lt;/tt&gt; entry in the array indicates that the column * should be ignored (the field in the bean will be null - or its default value)." />
       <item value="the type to instantiate. If the type is a class then a new instance will be created using the default * no-args constructor. If the type is an interface, a proxy object which implements the interface will * be created instead." />
       <item value="Reads a row of a CSV file and populates an instance of the specified class, using the supplied name mapping to * map column values to the appropriate fields." />
@@ -50,12 +51,11 @@
       <item value="{@link org.springframework.context.support.ApplicationObjectSupport} is a * convenience base class for application objects, implementing this interface." />
       <item value="Note that file resource dependencies can also be exposed as bean properties * of type {@link org.springframework.core.io.Resource}, populated via Strings * with automatic type conversion by the bean factory. This removes the need * for implementing any callback interface just for the purpose of accessing * a specific file resource." />
       <item value="This interface can also be implemented if an object needs access to file * resources, i.e. wants to call {@code getResource}, wants to publish * an application event, or requires access to the MessageSource. However, * it is preferable to implement the more specific {@link ResourceLoaderAware}, * {@link ApplicationEventPublisherAware} or {@link MessageSourceAware} interface * in such a specific scenario." />
-      <item value="Implementing this interface makes sense for example when an object * requires access to a set of collaborating beans. Note that configuration * via bean references is preferable to implementing this interface just * for bean lookup purposes." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="449" />
-        <entry key="ENGLISH" value="501" />
+        <entry key="CHINESE" value="450" />
+        <entry key="ENGLISH" value="502" />
         <entry key="FRENCH" value="2" />
       </map>
     </option>
