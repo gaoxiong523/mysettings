@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="quota" />
       <item value="test Not Exceeding Capacity Request" />
       <item value="behind" />
       <item value="an array of Strings linking the CSV columns to their corresponding field in the bean (the array length * should match the number of columns). A &lt;tt&gt;null&lt;/tt&gt; entry in the array indicates that the column * should be ignored (the field in the bean will be null - or its default value)." />
@@ -50,13 +51,12 @@
       <item value="Set the ApplicationContext that this object runs in. * Normally this call will be used to initialize the object. * &lt;p&gt;Invoked after population of normal bean properties but before an init callback such * as {@link org.springframework.beans.factory.InitializingBean#afterPropertiesSet()} * or a custom init-method. Invoked after {@link ResourceLoaderAware#setResourceLoader}, * {@link ApplicationEventPublisherAware#setApplicationEventPublisher} and * {@link MessageSourceAware}, if applicable." />
       <item value="&gt;For a list of all bean lifecycle methods, see the * {@link org.springframework.beans.factory.BeanFactory BeanFactory javadocs}" />
       <item value="{@link org.springframework.context.support.ApplicationObjectSupport} is a * convenience base class for application objects, implementing this interface." />
-      <item value="Note that file resource dependencies can also be exposed as bean properties * of type {@link org.springframework.core.io.Resource}, populated via Strings * with automatic type conversion by the bean factory. This removes the need * for implementing any callback interface just for the purpose of accessing * a specific file resource." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="451" />
+        <entry key="CHINESE" value="452" />
         <entry key="ENGLISH" value="503" />
-        <entry key="FRENCH" value="2" />
+        <entry key="FRENCH" value="3" />
       </map>
     </option>
   </component>
