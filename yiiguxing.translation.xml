@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Loads the class with the specified &lt;a href=&quot;#name&quot;&gt;binary name&lt;/a&gt;. * This method searches for classes in the same manner as the {@link * #loadClass(String, boolean)} method." />
       <item value="quota" />
       <item value="test Not Exceeding Capacity Request" />
       <item value="behind" />
@@ -50,12 +51,11 @@
       <item value="Integration Authenticator" />
       <item value="Set the ApplicationContext that this object runs in. * Normally this call will be used to initialize the object. * &lt;p&gt;Invoked after population of normal bean properties but before an init callback such * as {@link org.springframework.beans.factory.InitializingBean#afterPropertiesSet()} * or a custom init-method. Invoked after {@link ResourceLoaderAware#setResourceLoader}, * {@link ApplicationEventPublisherAware#setApplicationEventPublisher} and * {@link MessageSourceAware}, if applicable." />
       <item value="&gt;For a list of all bean lifecycle methods, see the * {@link org.springframework.beans.factory.BeanFactory BeanFactory javadocs}" />
-      <item value="{@link org.springframework.context.support.ApplicationObjectSupport} is a * convenience base class for application objects, implementing this interface." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="452" />
-        <entry key="ENGLISH" value="503" />
+        <entry key="CHINESE" value="453" />
+        <entry key="ENGLISH" value="504" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
