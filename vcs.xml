@@ -254,6 +254,10 @@
           <option name="url" value="https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/lwdillon/swing-steady-ui.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
