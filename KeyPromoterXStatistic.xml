@@ -473,6 +473,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'GaoxiongRateLimitTest.test1'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F11'</ShortCut>
+          <Description>Rerun 'GaoxiongRateLimitTest.test1'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'GaoxiongRateLimitTest.testExceedingCapacity'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -1494,6 +1502,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'GaoxiongRateLimitTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'GaoxiongRateLimitTest.test1'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'GaoxiongRateLimitTest.test1'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
