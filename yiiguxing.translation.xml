@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="quota" />
       <item value="policy" />
       <item value="While this may seem a more roundabout way to perform an aggregation * compared to simply mutating a running total in a loop, reduction * operations parallelize more gracefully, without needing additional * synchronization and with greatly reduced risk of data races." />
       <item value="associative" />
@@ -12,7 +13,6 @@
       <item value="Returns a stream consisting of the results of replacing each element of * this stream with the contents of a mapped stream produced by applying * the provided mapping function to each element. Each mapped stream is * {@link java.util.stream.BaseStream#close() closed} after its contents * have been placed into this stream. (If a mapped stream is {@code null} * an empty stream is used, instead.)" />
       <item value="Returns a stream consisting of the results of applying the given * function to the elements of this stream." />
       <item value="Loads the class with the specified &lt;a href=&quot;#name&quot;&gt;binary name&lt;/a&gt;. * This method searches for classes in the same manner as the {@link * #loadClass(String, boolean)} method." />
-      <item value="quota" />
       <item value="test Not Exceeding Capacity Request" />
       <item value="behind" />
       <item value="an array of Strings linking the CSV columns to their corresponding field in the bean (the array length * should match the number of columns). A &lt;tt&gt;null&lt;/tt&gt; entry in the array indicates that the column * should be ignored (the field in the bean will be null - or its default value)." />
