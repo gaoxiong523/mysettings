@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A special {@link #LinkedHashMap(int,float,boolean) constructor} is * provided to create a linked hash map whose order of iteration is the order * in which its entries were last accessed, from least-recently accessed to * most-recently (&lt;i&gt;access-order&lt;/i&gt;). This kind of map is well-suited to * building LRU caches. Invoking the {@code put}, {@code putIfAbsent}, * {@code get}, {@code getOrDefault}, {@code compute}, {@code computeIfAbsent}, * {@code computeIfPresent}, or {@code merge} methods results * in an access to the corresponding entry (assuming it exists after the * invocation completes). The {@code replace} methods only result in an access * of the entry if the value is replaced. The {@code putAll} method generates one * entry access for each mapping in the specified map, in the order that * key-value mappings are provided by the specified map's entry set iterator. * &lt;i&gt;No other methods generate entry accesses.&lt;/i&gt; In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
+      <item value="accessed" />
+      <item value="This technique is particularly useful if a module takes a map on input, * copies it, and later returns results whose order is determined by that of * the copy. (Clients generally appreciate having things returned in the same * order they were presented.) *" />
+      <item value="This implementation spares its clients from the unspecified, generally * chaotic ordering provided by {@link HashMap} (and {@link Hashtable}), * without incurring the increased cost associated with {@link TreeMap}. It * can be used to produce a copy of a map that has the same order as the * original," />
+      <item value="&lt;p&gt;Hash table and linked list implementation of the &lt;tt&gt;Map&lt;/tt&gt; interface, * with predictable iteration order. This implementation differs from * &lt;tt&gt;HashMap&lt;/tt&gt; in that it maintains a doubly-linked list running through * all of its entries. This linked list defines the iteration ordering, * which is normally the order in which keys were inserted into the map * (&lt;i&gt;insertion-order&lt;/i&gt;). Note that insertion order is not affected * if a key is &lt;i&gt;re-inserted&lt;/i&gt; into the map. (A key &lt;tt&gt;k&lt;/tt&gt; is * reinserted into a map &lt;tt&gt;m&lt;/tt&gt; if &lt;tt&gt;m.put(k, v)&lt;/tt&gt; is invoked when * &lt;tt&gt;m.containsKey(k)&lt;/tt&gt; would return &lt;tt&gt;true&lt;/tt&gt; immediately prior to * the invocation.)" />
       <item value="quota" />
       <item value="policy" />
       <item value="While this may seem a more roundabout way to perform an aggregation * compared to simply mutating a running total in a loop, reduction * operations parallelize more gracefully, without needing additional * synchronization and with greatly reduced risk of data races." />
@@ -46,16 +51,11 @@
       <item value="The result of a delete operation. If the delete was unacknowledged, then {@code wasAcknowledged} will return false and all other methods * will throw {@code UnsupportedOperationException}." />
       <item value="Annotation to define custom metadata for document fields. *" />
       <item value="Indicate that the annotated element represents a stereotype for the index." />
-      <item value="If set to true reject all documents that contain a duplicate value for the indexed field." />
-      <item value="Defines the default language to be used with this document. *" />
-      <item value="The collection the document representing the entity is supposed to be stored in. If not configured, a default * collection name will be derived from the type's name. The attribute supports SpEL expressions to dynamically * calculate the collection to based on a per operation basis. *" />
-      <item value="Identifies a domain object to be persisted to MongoDB." />
-      <item value="Implementations of this interface are encouraged to handle exceptions locally where * it makes sense or alternatively let the exception bubble up in which case by default * the exception is logged and the session closed with" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="463" />
-        <entry key="ENGLISH" value="514" />
+        <entry key="CHINESE" value="469" />
+        <entry key="ENGLISH" value="520" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
