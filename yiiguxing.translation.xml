@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* The root interface for accessing a Spring bean container. * This is the basic client view of a bean container; * further interfaces such as {@link ListableBeanFactory} and * {@link org.springframework.beans.factory.config.ConfigurableBeanFactory} * are available for specific purposes. *" />
+      <item value="accessing" />
+      <item value="Interface to be implemented by beans that want to be aware of their * bean name in a bean factory. Note that it is not usually recommended * that an object depends on its bean name, as this represents a potentially * brittle dependence on external configuration, as well as a possibly * unnecessary dependence on a Spring API." />
+      <item value="For a list of all bean lifecycle methods," />
+      <item value="Note that most beans will choose to receive references * to collaborating beans via corresponding bean properties or constructor * arguments (Dependency Injection)." />
+      <item value="For example, beans can look up collaborating beans via the factory * (Dependency Lookup)" />
+      <item value="Interface to be implemented by beans that wish to be aware of their * owning {@link BeanFactory}." />
       <item value="This implementation spares its clients from the unspecified, generally * chaotic ordering provided by {@link HashSet}, without incurring the * increased cost associated with {@link TreeSet}. It can be used to * produce a copy of a set that has the same order as the original, regardless * of the original set's implementation: * &lt;pre&gt; * void foo(Set s) { * Set copy = new LinkedHashSet(s); * ... * } * &lt;/pre&gt;" />
       <item value="&lt;p&gt;Hash table and linked list implementation of the &lt;tt&gt;Set&lt;/tt&gt; interface, * with predictable iteration order. This implementation differs from * &lt;tt&gt;HashSet&lt;/tt&gt; in that it maintains a doubly-linked list running through * all of its entries. This linked list defines the iteration ordering, * which is the order in which elements were inserted into the set * (&lt;i&gt;insertion-order&lt;/i&gt;). Note that insertion order is &lt;i&gt;not&lt;/i&gt; affected * if an element is &lt;i&gt;re-inserted&lt;/i&gt; into the set. (An element &lt;tt&gt;e&lt;/tt&gt; * is reinserted into a set &lt;tt&gt;s&lt;/tt&gt; if &lt;tt&gt;s.add(e)&lt;/tt&gt; is invoked when * &lt;tt&gt;s.contains(e)&lt;/tt&gt; would return &lt;tt&gt;true&lt;/tt&gt; immediately prior to * the invocation.)" />
       <item value="prior" />
@@ -44,18 +51,11 @@
       <item value="indices" />
       <item value="analyze" />
       <item value="The transport client allows to create a client that is not part of the cluster, but simply connects to one * or more nodes directly by adding their respective addresses using {" />
-      <item value="OFFSET ILLEGAL" />
-      <item value="Deprecated" />
-      <item value="regarded" />
-      <item value="Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. * See the License for the specific language governing permissions and * limitations under the License." />
-      <item value="Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); * you may not use this file except in compliance with the License. * You may obtain a copy of the License at" />
-      <item value="A globally unique identifier for objects" />
-      <item value="This class provides thread-local variables. These variables differ from * their normal counterparts in that each thread that accesses one (via its * {@code get} or {@code set} method) has its own, independently initialized * copy of the variable. {@code ThreadLocal} instances are typically private * static fields in classes that wish to associate state with a thread (e.g., * a user ID or Transaction ID)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="473" />
-        <entry key="ENGLISH" value="524" />
+        <entry key="CHINESE" value="480" />
+        <entry key="ENGLISH" value="531" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
