@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>168</Count>
+          <Count>169</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -1374,7 +1374,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>95</Count>
+          <Count>96</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Configurations">
@@ -1766,7 +1766,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+Shift+B' or 'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>208</Count>
+          <Count>209</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate">
