@@ -1774,7 +1774,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>291</Count>
+          <Count>302</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">

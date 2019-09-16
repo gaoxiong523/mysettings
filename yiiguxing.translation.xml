@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This class * does not &amp;quot;understand&amp;quot; these differences except in the * mechanical sense that when a shared mode acquire succeeds, the next * waiting thread (if one exists) must also determine whether it can * acquire as well" />
+      <item value="Shared mode * acquires by multiple threads may (but need not) succeed" />
+      <item value="This class supports either or both a default &lt;em&gt;exclusive&lt;/em&gt; * mode and a &lt;em&gt;shared&lt;/em&gt; mode. When acquired in exclusive mode, * attempted acquires by other threads cannot succeed." />
+      <item value="Subclasses should be defined as non-public internal helper * classes that are used to implement the synchronization properties * of their enclosing class" />
+      <item value="Subclasses can maintain * other state fields, but only the atomically updated {@code int} * value manipulated using methods {@link #getState}, {@link * #setState} and {@link #compareAndSetState} is tracked with respect * to synchronization." />
+      <item value="Given these, the other methods in this class carry * out all queuing and blocking mechanics." />
+      <item value="mechanics" />
+      <item value="Subclasses * must define the protected methods that change this state, and which * define what that state means in terms of this object being acquired * or released." />
+      <item value="This class is designed to * be a useful basis for most kinds of synchronizers that rely on a * single atomic {@code int} value to represent state." />
+      <item value="represent" />
+      <item value="rely" />
       <item value="Provides a framework for implementing blocking locks and related * synchronizers (semaphores, events, etc) that rely on * first-in-first-out (FIFO) wait queues." />
       <item value="A synchronizer that may be exclusively owned by a thread. This * class provides a basis for creating locks and related synchronizers * that may entail a notion of ownership. The * {@code AbstractOwnableSynchronizer} class itself does not manage or * use this information. However, subclasses and tools may use * appropriately maintained values to help control and monitor access * and provide diagnostics." />
       <item value="exclusively" />
@@ -40,22 +51,11 @@
       <item value="Environment Aware" />
       <item value="Bean Name Aware's" />
       <item value="Aware" />
-      <item value="Bean Class Loader Aware" />
-      <item value="Bean Name Aware" />
-      <item value="&gt;Bean factory implementations should support the standard bean lifecycle interfaces * as far as possible. The full set of initialization methods and their standard order is:" />
-      <item value="In contrast to the methods in {@link ListableBeanFactory}, all of the * operations in this interface will also check parent factories if this is a * {@link HierarchicalBeanFactory}. If a bean is not found in this factory instance, * the immediate parent factory will be asked. Beans in this factory instance * are supposed to override beans of the same name in any parent factory." />
-      <item value="Hierarchical" />
-      <item value="There are no * constraints on how the definitions could be stored: LDAP, RDBMS, XML, * properties file, etc. Implementations are encouraged to support references * amongst beans (Dependency Injection)." />
-      <item value="However, an implementation could simply return * Java objects it creates as necessary directly in Java code." />
-      <item value="However" />
-      <item value="Normally a BeanFactory will load bean definitions stored in a configuration * source (such as an XML document), and use the {@code org.springframework.beans} * package to configure the beans." />
-      <item value="Spring's Dependency Injection functionality is * implemented using this BeanFactory interface and its subinterfaces." />
-      <item value="subinterfaces" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="539" />
-        <entry key="ENGLISH" value="590" />
+        <entry key="CHINESE" value="550" />
+        <entry key="ENGLISH" value="601" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
