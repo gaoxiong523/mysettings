@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The {@link java.util.concurrent.ArrayBlockingQueue} class provides * this functionality, so there is no reason to implement this * sample usage class.)" />
+      <item value="obtain" />
+      <item value="{@code Condition} factors out the {@code Object} monitor * methods ({@link Object#wait() wait}, {@link Object#notify notify} * and {@link Object#notifyAll notifyAll}) into distinct objects to * give the effect of having multiple wait-sets per object, by * combining them with the use of arbitrary {@link Lock} implementations. * Where a {@code Lock} replaces the use of {@code synchronized} methods * and statements, a {@code Condition} replaces the use of the Object * monitor methods." />
       <item value="Acquires the lock. * * &lt;p&gt;Acquires the lock if it is not held by another thread and returns * immediately, setting the lock hold count to one. * * &lt;p&gt;If the current thread already holds the lock then the hold * count is incremented by one and the method returns immediately. * * &lt;p&gt;If the lock is held by another thread then the * current thread becomes disabled for thread scheduling * purposes and lies dormant until the lock has been acquired, * at which time the lock hold count is set to one." />
       <item value="Convenience method to interrupt current thread. */" />
       <item value="Various flavors of acquire, varying in exclusive/shared and * control modes. Each is mostly the same, but annoyingly * different. Only a little bit of factoring is possible due to * interactions of exception mechanics (including ensuring that we * cancel if tryAcquire throws exception) and other control, at * least not without hurting performance too much." />
@@ -48,14 +51,11 @@
       <item value="approach" />
       <item value="See chapters 4 and 11 of &quot;Expert One-on-One J2EE Design and * Development&quot; for a discussion of the benefits of this approach." />
       <item value="The point of this approach is that the BeanFactory is a central registry * of application components, and centralizes configuration of application * components (no more do individual objects need to read properties files, * for example)" />
-      <item value="Since Spring * 2.0, further scopes are available depending on the concrete application * context (e.g. &quot;request&quot; and &quot;session&quot; scopes in a web environment)." />
-      <item value="Which type of instance will be returned * depends on the bean factory configuration: the API is the same." />
-      <item value="Depending on the bean definition, * the factory will return either an independent instance of a contained object * (the Prototype design pattern), or a single shared instance (a superior * alternative to the Singleton design pattern, in which the instance is a * singleton in the scope of the factory)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="531" />
-        <entry key="ENGLISH" value="582" />
+        <entry key="CHINESE" value="534" />
+        <entry key="ENGLISH" value="585" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
