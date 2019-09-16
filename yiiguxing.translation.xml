@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Acquires the lock. * * &lt;p&gt;Acquires the lock if it is not held by another thread and returns * immediately, setting the lock hold count to one. * * &lt;p&gt;If the current thread already holds the lock then the hold * count is incremented by one and the method returns immediately. * * &lt;p&gt;If the lock is held by another thread then the * current thread becomes disabled for thread scheduling * purposes and lies dormant until the lock has been acquired, * at which time the lock hold count is set to one." />
+      <item value="Convenience method to interrupt current thread. */" />
+      <item value="Various flavors of acquire, varying in exclusive/shared and * control modes. Each is mostly the same, but annoyingly * different. Only a little bit of factoring is possible due to * interactions of exception mechanics (including ensuring that we * cancel if tryAcquire throws exception) and other control, at * least not without hurting performance too much." />
+      <item value="Acquires in exclusive uninterruptible mode for thread already in * queue. Used by condition wait methods as well as acquire." />
+      <item value="Creates and enqueues node for current thread and given mode. *" />
+      <item value="self Interrupt" />
+      <item value="Acquires in exclusive mode, aborting if interrupted. * Implemented by first checking interrupt status, then invoking * at least once {@link #tryAcquire}, returning on * success. Otherwise the thread is queued, possibly repeatedly * blocking and unblocking, invoking {@link #tryAcquire} * until success or the thread is interrupted. This method can be * used to implement method {@link Lock#lockInterruptibly}." />
+      <item value="acquire" />
+      <item value="returning on success. Otherwise the thread is queued, possibly * repeatedly blocking and unblocking, invoking {@link * #tryAcquire} until success." />
+      <item value="Acquires in exclusive mode, ignoring interrupts. Implemented * by invoking at least once" />
+      <item value="Marker to indicate a node is waiting in exclusive mode" />
+      <item value="Base of synchronization control for this lock. Subclassed * into fair and nonfair versions below. Uses AQS state to * represent the number of holds on the lock." />
+      <item value="Sync object for non-fair locks */" />
+      <item value="Sync object for fair locks" />
       <item value="arrange" />
       <item value="corabollate" />
       <item value="p&gt;Allows for specifying explicit constructor arguments / factory method arguments, * overriding the specified default arguments (if any) in the bean definition." />
@@ -37,25 +51,11 @@
       <item value="Since Spring * 2.0, further scopes are available depending on the concrete application * context (e.g. &quot;request&quot; and &quot;session&quot; scopes in a web environment)." />
       <item value="Which type of instance will be returned * depends on the bean factory configuration: the API is the same." />
       <item value="Depending on the bean definition, * the factory will return either an independent instance of a contained object * (the Prototype design pattern), or a single shared instance (a superior * alternative to the Singleton design pattern, in which the instance is a * singleton in the scope of the factory)." />
-      <item value="This interface is implemented by objects that hold a number of bean definitions, * each uniquely identified by a String name." />
-      <item value="* The root interface for accessing a Spring bean container. * This is the basic client view of a bean container; * further interfaces such as {@link ListableBeanFactory} and * {@link org.springframework.beans.factory.config.ConfigurableBeanFactory} * are available for specific purposes. *" />
-      <item value="accessing" />
-      <item value="Interface to be implemented by beans that want to be aware of their * bean name in a bean factory. Note that it is not usually recommended * that an object depends on its bean name, as this represents a potentially * brittle dependence on external configuration, as well as a possibly * unnecessary dependence on a Spring API." />
-      <item value="For a list of all bean lifecycle methods," />
-      <item value="Note that most beans will choose to receive references * to collaborating beans via corresponding bean properties or constructor * arguments (Dependency Injection)." />
-      <item value="For example, beans can look up collaborating beans via the factory * (Dependency Lookup)" />
-      <item value="Interface to be implemented by beans that wish to be aware of their * owning {@link BeanFactory}." />
-      <item value="This implementation spares its clients from the unspecified, generally * chaotic ordering provided by {@link HashSet}, without incurring the * increased cost associated with {@link TreeSet}. It can be used to * produce a copy of a set that has the same order as the original, regardless * of the original set's implementation: * &lt;pre&gt; * void foo(Set s) { * Set copy = new LinkedHashSet(s); * ... * } * &lt;/pre&gt;" />
-      <item value="&lt;p&gt;Hash table and linked list implementation of the &lt;tt&gt;Set&lt;/tt&gt; interface, * with predictable iteration order. This implementation differs from * &lt;tt&gt;HashSet&lt;/tt&gt; in that it maintains a doubly-linked list running through * all of its entries. This linked list defines the iteration ordering, * which is the order in which elements were inserted into the set * (&lt;i&gt;insertion-order&lt;/i&gt;). Note that insertion order is &lt;i&gt;not&lt;/i&gt; affected * if an element is &lt;i&gt;re-inserted&lt;/i&gt; into the set. (An element &lt;tt&gt;e&lt;/tt&gt; * is reinserted into a set &lt;tt&gt;s&lt;/tt&gt; if &lt;tt&gt;s.add(e)&lt;/tt&gt; is invoked when * &lt;tt&gt;s.contains(e)&lt;/tt&gt; would return &lt;tt&gt;true&lt;/tt&gt; immediately prior to * the invocation.)" />
-      <item value="prior" />
-      <item value="predictable" />
-      <item value="A special {@link #LinkedHashMap(int,float,boolean) constructor} is * provided to create a linked hash map whose order of iteration is the order * in which its entries were last accessed, from least-recently accessed to * most-recently (&lt;i&gt;access-order&lt;/i&gt;). This kind of map is well-suited to * building LRU caches. Invoking the {@code put}, {@code putIfAbsent}, * {@code get}, {@code getOrDefault}, {@code compute}, {@code computeIfAbsent}, * {@code computeIfPresent}, or {@code merge} methods results * in an access to the corresponding entry (assuming it exists after the * invocation completes). The {@code replace} methods only result in an access * of the entry if the value is replaced. The {@code putAll} method generates one * entry access for each mapping in the specified map, in the order that * key-value mappings are provided by the specified map's entry set iterator. * &lt;i&gt;No other methods generate entry accesses.&lt;/i&gt; In particular, operations * on collection-views do &lt;i&gt;not&lt;/i&gt; affect the order of iteration of the * backing map." />
-      <item value="accessed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="517" />
-        <entry key="ENGLISH" value="568" />
+        <entry key="CHINESE" value="531" />
+        <entry key="ENGLISH" value="582" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
