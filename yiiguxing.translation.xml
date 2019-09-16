@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Atomically sets synchronization state to the given updated * value if the current state value equals the expected value. * This operation has memory semantics of a {@code volatile} read * and write." />
       <item value="The {@link java.util.concurrent.ArrayBlockingQueue} class provides * this functionality, so there is no reason to implement this * sample usage class.)" />
       <item value="obtain" />
       <item value="{@code Condition} factors out the {@code Object} monitor * methods ({@link Object#wait() wait}, {@link Object#notify notify} * and {@link Object#notifyAll notifyAll}) into distinct objects to * give the effect of having multiple wait-sets per object, by * combining them with the use of arbitrary {@link Lock} implementations. * Where a {@code Lock} replaces the use of {@code synchronized} methods * and statements, a {@code Condition} replaces the use of the Object * monitor methods." />
@@ -50,12 +51,11 @@
       <item value="&gt;Note that it is generally better to rely on Dependency Injection * (&quot;push&quot; configuration) to configure application objects through setters * or constructors, rather than use any form of &quot;pull&quot; configuration like a * BeanFactory lookup." />
       <item value="approach" />
       <item value="See chapters 4 and 11 of &quot;Expert One-on-One J2EE Design and * Development&quot; for a discussion of the benefits of this approach." />
-      <item value="The point of this approach is that the BeanFactory is a central registry * of application components, and centralizes configuration of application * components (no more do individual objects need to read properties files, * for example)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="534" />
-        <entry key="ENGLISH" value="585" />
+        <entry key="CHINESE" value="535" />
+        <entry key="ENGLISH" value="586" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
