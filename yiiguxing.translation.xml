@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Provides a framework for implementing blocking locks and related * synchronizers (semaphores, events, etc) that rely on * first-in-first-out (FIFO) wait queues." />
+      <item value="A synchronizer that may be exclusively owned by a thread. This * class provides a basis for creating locks and related synchronizers * that may entail a notion of ownership. The * {@code AbstractOwnableSynchronizer} class itself does not manage or * use this information. However, subclasses and tools may use * appropriately maintained values to help control and monitor access * and provide diagnostics." />
+      <item value="exclusively" />
       <item value="Atomically sets synchronization state to the given updated * value if the current state value equals the expected value. * This operation has memory semantics of a {@code volatile} read * and write." />
       <item value="The {@link java.util.concurrent.ArrayBlockingQueue} class provides * this functionality, so there is no reason to implement this * sample usage class.)" />
       <item value="obtain" />
@@ -48,14 +51,11 @@
       <item value="Normally a BeanFactory will load bean definitions stored in a configuration * source (such as an XML document), and use the {@code org.springframework.beans} * package to configure the beans." />
       <item value="Spring's Dependency Injection functionality is * implemented using this BeanFactory interface and its subinterfaces." />
       <item value="subinterfaces" />
-      <item value="&gt;Note that it is generally better to rely on Dependency Injection * (&quot;push&quot; configuration) to configure application objects through setters * or constructors, rather than use any form of &quot;pull&quot; configuration like a * BeanFactory lookup." />
-      <item value="approach" />
-      <item value="See chapters 4 and 11 of &quot;Expert One-on-One J2EE Design and * Development&quot; for a discussion of the benefits of this approach." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="535" />
-        <entry key="ENGLISH" value="586" />
+        <entry key="CHINESE" value="539" />
+        <entry key="ENGLISH" value="590" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
