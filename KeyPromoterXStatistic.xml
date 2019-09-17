@@ -209,6 +209,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Find Usages">
+        <Item>
+          <IdeaActionID>FindUsages</IdeaActionID>
+          <ShortCut>'Ctrl+G'</ShortCut>
+          <Description>Find Usages</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Find in Path...">
         <Item>
           <IdeaActionID>FindInPath</IdeaActionID>
@@ -230,7 +238,7 @@
           <IdeaActionID>Generate</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Generate...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -350,7 +358,7 @@
           <IdeaActionID>PlantUML.Reload</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+G'</ShortCut>
           <Description>Reload PlantUml Diagrams</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove Configuration">
@@ -1806,7 +1814,7 @@
           <IdeaActionID>PlantUML.Update</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F'</ShortCut>
           <Description>Update PlantUml Diagrams - changes only</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
