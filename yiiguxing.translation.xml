@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="deduct" />
       <item value="commodity Code" />
       <item value="Purchase" />
       <item value="附加" />
@@ -50,17 +51,21 @@
       <item value="Servlet Context Aware" />
       <item value="Application Context Aware" />
       <item value="Message Source Aware" />
-      <item value="Application Event Publisher Aware" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="554" />
-        <entry key="ENGLISH" value="606" />
+        <entry key="CHINESE" value="556" />
+        <entry key="ENGLISH" value="608" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
