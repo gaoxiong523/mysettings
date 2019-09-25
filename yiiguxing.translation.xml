@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="debit" />
       <item value="deduct" />
       <item value="commodity Code" />
       <item value="Purchase" />
@@ -50,12 +51,11 @@
       <item value="methods of BeanPostProcessors" />
       <item value="Servlet Context Aware" />
       <item value="Application Context Aware" />
-      <item value="Message Source Aware" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="556" />
-        <entry key="ENGLISH" value="608" />
+        <entry key="CHINESE" value="558" />
+        <entry key="ENGLISH" value="610" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>

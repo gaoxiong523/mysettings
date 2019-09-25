@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>178</Count>
+          <Count>179</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>607</Count>
+          <Count>610</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -241,6 +241,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Go to next highlighted element usage">
+        <Item>
+          <IdeaActionID>GotoNextElementUnderCaretUsage</IdeaActionID>
+          <ShortCut>'Alt+Wheel down'</ShortCut>
+          <Description>Go to next highlighted element usage</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
         <Item>
           <IdeaActionID>GotoPrevElementUnderCaretUsage</IdeaActionID>
@@ -318,7 +326,7 @@
           <IdeaActionID>FindBugs.PreviewSelectBugInstance</IdeaActionID>
           <ShortCut>'Alt+Q' or 'Alt+Button1 Click'</ShortCut>
           <Description>Preview the current selected bug.</Description>
-          <Count>99</Count>
+          <Count>100</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
@@ -1822,7 +1830,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>308</Count>
+          <Count>310</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">
