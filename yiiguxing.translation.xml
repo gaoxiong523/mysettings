@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ramp-up" />
+      <item value="ram" />
       <item value="Shutdown hook installed for: NFLoadBalancer-PingTimer-order-service" />
       <item value="Allocation Failure" />
       <item value="Allocation" />
@@ -49,8 +51,6 @@
       <item value="arrange" />
       <item value="corabollate" />
       <item value="p&gt;Allows for specifying explicit constructor arguments / factory method arguments, * overriding the specified default arguments (if any) in the bean definition." />
-      <item value="Return an instance, which may be shared or independent, of the specified bean." />
-      <item value="Used to dereference a {@link FactoryBean} instance and distinguish it from * beans &lt;i&gt;created&lt;/i&gt; by the FactoryBean. For example, if the bean named * {@code myJndiObject} is a FactoryBean, getting {@code &amp;myJndiObject} * will return the factory, not the instance returned by the factory." />
     </histories>
     <option name="languageScores">
       <map>
