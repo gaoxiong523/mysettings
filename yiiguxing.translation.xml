@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* If you would like to use a {@code Future} for the sake * of cancellability but not provide a usable result, you can * declare types of the form {@code Future&lt;?&gt;} and * return {@code null} as a result of the underlying task." />
+      <item value="Cancellation is performed by the * {@code cancel} method. Additional methods are provided to * determine if the task completed normally or was cancelled. Once a * computation has completed, the computation cannot be cancelled." />
+      <item value="The result can only be retrieved using method * {@code get} when the computation has completed, blocking if * necessary until it is ready." />
+      <item value="Methods are provided to check if the computation is * complete, to wait for its completion, and to retrieve the result of * the computation." />
+      <item value="A {@code Future} represents the result of an asynchronous * computation." />
+      <item value="A task that returns a result and may throw an exception. * Implementors define a single method with no arguments called" />
+      <item value="PRESENT" />
+      <item value="More formally, adds the specified element &lt;tt&gt;e&lt;/tt&gt; to this set if * this set contains no element &lt;tt&gt;e2&lt;/tt&gt; such that * &lt;tt&gt;(e==null&amp;nbsp;?&amp;nbsp;e2==null&amp;nbsp;:&amp;nbsp;e.equals(e2))&lt;/tt&gt;. * If this set already contains the element, the call leaves the set * unchanged and returns &lt;tt&gt;false&lt;/tt&gt;." />
+      <item value="Adds the specified element to this set if it is not already present." />
       <item value="Unable to commit against JDBC Connection" />
       <item value="ramp-up" />
       <item value="ram" />
@@ -42,20 +51,11 @@
       <item value="Creates and enqueues node for current thread and given mode. *" />
       <item value="self Interrupt" />
       <item value="Acquires in exclusive mode, aborting if interrupted. * Implemented by first checking interrupt status, then invoking * at least once {@link #tryAcquire}, returning on * success. Otherwise the thread is queued, possibly repeatedly * blocking and unblocking, invoking {@link #tryAcquire} * until success or the thread is interrupted. This method can be * used to implement method {@link Lock#lockInterruptibly}." />
-      <item value="acquire" />
-      <item value="returning on success. Otherwise the thread is queued, possibly * repeatedly blocking and unblocking, invoking {@link * #tryAcquire} until success." />
-      <item value="Acquires in exclusive mode, ignoring interrupts. Implemented * by invoking at least once" />
-      <item value="Marker to indicate a node is waiting in exclusive mode" />
-      <item value="Base of synchronization control for this lock. Subclassed * into fair and nonfair versions below. Uses AQS state to * represent the number of holds on the lock." />
-      <item value="Sync object for non-fair locks */" />
-      <item value="Sync object for fair locks" />
-      <item value="arrange" />
-      <item value="corabollate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="564" />
-        <entry key="ENGLISH" value="617" />
+        <entry key="CHINESE" value="573" />
+        <entry key="ENGLISH" value="626" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
