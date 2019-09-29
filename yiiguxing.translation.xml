@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Demarcates a property to be used as version field to implement optimistic locking on entities. *" />
+      <item value="&gt; The &lt;code&gt;Version&lt;/code&gt; property should be mapped to * the primary table for the entity class; applications that * map the &lt;code&gt;Version&lt;/code&gt; property to a table other than * the primary table will not be portable." />
+      <item value="Only a single &lt;code&gt;Version&lt;/code&gt; property or field * should be used per class; applications that use more than one * &lt;code&gt;Version&lt;/code&gt; property or field will not be portable." />
+      <item value="Specifies the version field or property of an entity class that * serves as its optimistic lock value. The version is used to ensure * integrity when performing the merge operation and for optimistic * concurrency control. *" />
+      <item value="Annotation to declare an appropriate {@code TemporalType} on query method parameters. Note that this annotation can * only be used on parameters of type {@link Date}. *" />
+      <item value="Wrapper annotation to allow {@link QueryHint} annotations to be bound to methods. It will be evaluated when using * {@link Query} on a query method or if you derive the query from the method name. If you rely on named queries either * use the XML or annotation based way to declare {@link QueryHint}s in combination with the actual named query * declaration." />
+      <item value="Indicates a query method should be considered as modifying query as that changes the way it needs to be executed. * This annotation is only considered if used on actual query methods (either derived or manually defined through a * {@link Query} annotation). It's not applied on custom implementation methods as they already have control over the * underlying data access APIs." />
+      <item value="Annotation used to specify the {@link LockModeType} to be used when executing the query. It will be evaluated when * using {@link Query} on a query method or if you derive the query from the method name." />
+      <item value="Annotation to enable auditing in JPA via annotation configuration." />
       <item value="* If you would like to use a {@code Future} for the sake * of cancellability but not provide a usable result, you can * declare types of the form {@code Future&lt;?&gt;} and * return {@code null} as a result of the underlying task." />
       <item value="Cancellation is performed by the * {@code cancel} method. Additional methods are provided to * determine if the task completed normally or was cancelled. Once a * computation has completed, the computation cannot be cancelled." />
       <item value="The result can only be retrieved using method * {@code get} when the computation has completed, blocking if * necessary until it is ready." />
@@ -42,20 +51,11 @@
       <item value="exclusively" />
       <item value="Atomically sets synchronization state to the given updated * value if the current state value equals the expected value. * This operation has memory semantics of a {@code volatile} read * and write." />
       <item value="The {@link java.util.concurrent.ArrayBlockingQueue} class provides * this functionality, so there is no reason to implement this * sample usage class.)" />
-      <item value="obtain" />
-      <item value="{@code Condition} factors out the {@code Object} monitor * methods ({@link Object#wait() wait}, {@link Object#notify notify} * and {@link Object#notifyAll notifyAll}) into distinct objects to * give the effect of having multiple wait-sets per object, by * combining them with the use of arbitrary {@link Lock} implementations. * Where a {@code Lock} replaces the use of {@code synchronized} methods * and statements, a {@code Condition} replaces the use of the Object * monitor methods." />
-      <item value="Acquires the lock. * * &lt;p&gt;Acquires the lock if it is not held by another thread and returns * immediately, setting the lock hold count to one. * * &lt;p&gt;If the current thread already holds the lock then the hold * count is incremented by one and the method returns immediately. * * &lt;p&gt;If the lock is held by another thread then the * current thread becomes disabled for thread scheduling * purposes and lies dormant until the lock has been acquired, * at which time the lock hold count is set to one." />
-      <item value="Convenience method to interrupt current thread. */" />
-      <item value="Various flavors of acquire, varying in exclusive/shared and * control modes. Each is mostly the same, but annoyingly * different. Only a little bit of factoring is possible due to * interactions of exception mechanics (including ensuring that we * cancel if tryAcquire throws exception) and other control, at * least not without hurting performance too much." />
-      <item value="Acquires in exclusive uninterruptible mode for thread already in * queue. Used by condition wait methods as well as acquire." />
-      <item value="Creates and enqueues node for current thread and given mode. *" />
-      <item value="self Interrupt" />
-      <item value="Acquires in exclusive mode, aborting if interrupted. * Implemented by first checking interrupt status, then invoking * at least once {@link #tryAcquire}, returning on * success. Otherwise the thread is queued, possibly repeatedly * blocking and unblocking, invoking {@link #tryAcquire} * until success or the thread is interrupted. This method can be * used to implement method {@link Lock#lockInterruptibly}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="573" />
-        <entry key="ENGLISH" value="626" />
+        <entry key="CHINESE" value="582" />
+        <entry key="ENGLISH" value="635" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
