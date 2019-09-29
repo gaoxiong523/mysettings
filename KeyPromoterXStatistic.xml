@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Alt+向左箭头' or 'Button4 Click'</ShortCut>
           <Description>Back</Description>
-          <Count>85</Count>
+          <Count>87</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>188</Count>
+          <Count>189</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>624</Count>
+          <Count>627</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -398,7 +398,7 @@
           <IdeaActionID>RunDashboard.Run</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Rerun</Description>
-          <Count>234</Count>
+          <Count>235</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'AdEurekaServerApplication'">
@@ -902,7 +902,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F8' or 'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>541</Count>
+          <Count>544</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -918,7 +918,7 @@
           <IdeaActionID>ActivateRunToolWindow</IdeaActionID>
           <ShortCut>'Alt+4'</ShortCut>
           <Description>Run</Description>
-          <Count>382</Count>
+          <Count>384</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'AdEurekaServerApplic...'">
@@ -1470,7 +1470,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F6'</ShortCut>
           <Description>Step Over</Description>
-          <Count>1266</Count>
+          <Count>1279</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop">
@@ -1782,7 +1782,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>62</Count>
+          <Count>63</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -1846,7 +1846,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+Shift+B' or 'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>228</Count>
+          <Count>230</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate">
@@ -1854,7 +1854,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>334</Count>
+          <Count>335</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">

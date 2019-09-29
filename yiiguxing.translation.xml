@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns &lt;code&gt;true&lt;/code&gt; as soon as the lock is acquired. * If the lock is currently held by another thread in this or any * other process in the distributed system this method keeps trying * to acquire the lock for up to &lt;code&gt;waitTime&lt;/code&gt; before * giving up and returning &lt;code&gt;false&lt;/code&gt;. If the lock is acquired, * it is held until &lt;code&gt;unlock&lt;/code&gt; is invoked, or until &lt;code&gt;leaseTime&lt;/code&gt; * have passed since the lock was granted - whichever comes first." />
       <item value="Demarcates a property to be used as version field to implement optimistic locking on entities. *" />
       <item value="&gt; The &lt;code&gt;Version&lt;/code&gt; property should be mapped to * the primary table for the entity class; applications that * map the &lt;code&gt;Version&lt;/code&gt; property to a table other than * the primary table will not be portable." />
       <item value="Only a single &lt;code&gt;Version&lt;/code&gt; property or field * should be used per class; applications that use more than one * &lt;code&gt;Version&lt;/code&gt; property or field will not be portable." />
@@ -50,12 +51,11 @@
       <item value="A synchronizer that may be exclusively owned by a thread. This * class provides a basis for creating locks and related synchronizers * that may entail a notion of ownership. The * {@code AbstractOwnableSynchronizer} class itself does not manage or * use this information. However, subclasses and tools may use * appropriately maintained values to help control and monitor access * and provide diagnostics." />
       <item value="exclusively" />
       <item value="Atomically sets synchronization state to the given updated * value if the current state value equals the expected value. * This operation has memory semantics of a {@code volatile} read * and write." />
-      <item value="The {@link java.util.concurrent.ArrayBlockingQueue} class provides * this functionality, so there is no reason to implement this * sample usage class.)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="582" />
-        <entry key="ENGLISH" value="635" />
+        <entry key="CHINESE" value="583" />
+        <entry key="ENGLISH" value="636" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
