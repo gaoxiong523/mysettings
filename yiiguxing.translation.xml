@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&lt;p&gt;Usages of this class should typically be of the form: * {@code ThreadLocalRandom.current().nextX(...)} (where * {@code X} is {@code Int}, {@code Long}, etc). * When all usages are of this form, it is never possible to * accidently share a {@code ThreadLocalRandom} across multiple threads." />
+      <item value="A random number generator isolated to the current thread. Like the * global {@link java.util.Random} generator used by the {@link * java.lang.Math} class, a {@code ThreadLocalRandom} is initialized * with an internally generated seed that may not otherwise be * modified. When applicable, use of {@code ThreadLocalRandom} rather * than shared {@code Random} objects in concurrent programs will * typically encounter much less overhead and contention. Use of * {@code ThreadLocalRandom} is particularly appropriate when multiple * tasks (for example, each a {@link ForkJoinTask}) use random numbers * in parallel in thread pools." />
+      <item value="A random number generator isolated to the current thread." />
+      <item value="invokers" />
       <item value="Returns &lt;code&gt;true&lt;/code&gt; as soon as the lock is acquired. * If the lock is currently held by another thread in this or any * other process in the distributed system this method keeps trying * to acquire the lock for up to &lt;code&gt;waitTime&lt;/code&gt; before * giving up and returning &lt;code&gt;false&lt;/code&gt;. If the lock is acquired, * it is held until &lt;code&gt;unlock&lt;/code&gt; is invoked, or until &lt;code&gt;leaseTime&lt;/code&gt; * have passed since the lock was granted - whichever comes first." />
       <item value="Demarcates a property to be used as version field to implement optimistic locking on entities. *" />
       <item value="&gt; The &lt;code&gt;Version&lt;/code&gt; property should be mapped to * the primary table for the entity class; applications that * map the &lt;code&gt;Version&lt;/code&gt; property to a table other than * the primary table will not be portable." />
@@ -47,15 +51,11 @@
       <item value="This class is designed to * be a useful basis for most kinds of synchronizers that rely on a * single atomic {@code int} value to represent state." />
       <item value="represent" />
       <item value="rely" />
-      <item value="Provides a framework for implementing blocking locks and related * synchronizers (semaphores, events, etc) that rely on * first-in-first-out (FIFO) wait queues." />
-      <item value="A synchronizer that may be exclusively owned by a thread. This * class provides a basis for creating locks and related synchronizers * that may entail a notion of ownership. The * {@code AbstractOwnableSynchronizer} class itself does not manage or * use this information. However, subclasses and tools may use * appropriately maintained values to help control and monitor access * and provide diagnostics." />
-      <item value="exclusively" />
-      <item value="Atomically sets synchronization state to the given updated * value if the current state value equals the expected value. * This operation has memory semantics of a {@code volatile} read * and write." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="583" />
-        <entry key="ENGLISH" value="636" />
+        <entry key="CHINESE" value="588" />
+        <entry key="ENGLISH" value="641" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
