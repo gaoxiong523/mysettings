@@ -1534,7 +1534,7 @@
           <IdeaActionID>$ShowTranslationDialogAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Show Translation Dialog...</Description>
-          <Count>16</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Into">

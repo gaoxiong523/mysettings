@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="portal" />
       <item value="&lt;p&gt;Usages of this class should typically be of the form: * {@code ThreadLocalRandom.current().nextX(...)} (where * {@code X} is {@code Int}, {@code Long}, etc). * When all usages are of this form, it is never possible to * accidently share a {@code ThreadLocalRandom} across multiple threads." />
       <item value="A random number generator isolated to the current thread. Like the * global {@link java.util.Random} generator used by the {@link * java.lang.Math} class, a {@code ThreadLocalRandom} is initialized * with an internally generated seed that may not otherwise be * modified. When applicable, use of {@code ThreadLocalRandom} rather * than shared {@code Random} objects in concurrent programs will * typically encounter much less overhead and contention. Use of * {@code ThreadLocalRandom} is particularly appropriate when multiple * tasks (for example, each a {@link ForkJoinTask}) use random numbers * in parallel in thread pools." />
       <item value="A random number generator isolated to the current thread." />
@@ -50,7 +51,6 @@
       <item value="Subclasses * must define the protected methods that change this state, and which * define what that state means in terms of this object being acquired * or released." />
       <item value="This class is designed to * be a useful basis for most kinds of synchronizers that rely on a * single atomic {@code int} value to represent state." />
       <item value="represent" />
-      <item value="rely" />
     </histories>
     <option name="languageScores">
       <map>
