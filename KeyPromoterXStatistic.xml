@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>650</Count>
+          <Count>652</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
