@@ -318,6 +318,10 @@
           <option name="url" value="https://github.com/jianzixing/jianzixing-wechat.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/gaoxiong523/DiscoveryGray.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
