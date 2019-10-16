@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Return the value if present, otherwise return {@code other}." />
+      <item value="present" />
+      <item value="Adapter to delegate serialization/deserialization to {@link RedisSerializer}." />
       <item value="portal" />
       <item value="&lt;p&gt;Usages of this class should typically be of the form: * {@code ThreadLocalRandom.current().nextX(...)} (where * {@code X} is {@code Int}, {@code Long}, etc). * When all usages are of this form, it is never possible to * accidently share a {@code ThreadLocalRandom} across multiple threads." />
       <item value="A random number generator isolated to the current thread. Like the * global {@link java.util.Random} generator used by the {@link * java.lang.Math} class, a {@code ThreadLocalRandom} is initialized * with an internally generated seed that may not otherwise be * modified. When applicable, use of {@code ThreadLocalRandom} rather * than shared {@code Random} objects in concurrent programs will * typically encounter much less overhead and contention. Use of * {@code ThreadLocalRandom} is particularly appropriate when multiple * tasks (for example, each a {@link ForkJoinTask}) use random numbers * in parallel in thread pools." />
@@ -48,14 +51,11 @@
       <item value="Subclasses can maintain * other state fields, but only the atomically updated {@code int} * value manipulated using methods {@link #getState}, {@link * #setState} and {@link #compareAndSetState} is tracked with respect * to synchronization." />
       <item value="Given these, the other methods in this class carry * out all queuing and blocking mechanics." />
       <item value="mechanics" />
-      <item value="Subclasses * must define the protected methods that change this state, and which * define what that state means in terms of this object being acquired * or released." />
-      <item value="This class is designed to * be a useful basis for most kinds of synchronizers that rely on a * single atomic {@code int} value to represent state." />
-      <item value="represent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="588" />
-        <entry key="ENGLISH" value="641" />
+        <entry key="CHINESE" value="591" />
+        <entry key="ENGLISH" value="644" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
