@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>212</Count>
+          <Count>213</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>685</Count>
+          <Count>688</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -2070,7 +2070,7 @@
           <IdeaActionID>Images.Editor.ZoomIn</IdeaActionID>
           <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
           <Description>Zoom In</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom Out">
