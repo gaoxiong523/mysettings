@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Calls {@link ChannelHandlerContext#fireChannelReadComplete()} to forward * to the next {@link ChannelInboundHandler} in the {@link ChannelPipeline}. * * Sub-classes may override this method to change behavior." />
       <item value="Return the value if present, otherwise return {@code other}." />
       <item value="present" />
       <item value="Adapter to delegate serialization/deserialization to {@link RedisSerializer}." />
@@ -50,22 +51,16 @@
       <item value="Subclasses should be defined as non-public internal helper * classes that are used to implement the synchronization properties * of their enclosing class" />
       <item value="Subclasses can maintain * other state fields, but only the atomically updated {@code int} * value manipulated using methods {@link #getState}, {@link * #setState} and {@link #compareAndSetState} is tracked with respect * to synchronization." />
       <item value="Given these, the other methods in this class carry * out all queuing and blocking mechanics." />
-      <item value="mechanics" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="591" />
-        <entry key="ENGLISH" value="644" />
+        <entry key="CHINESE" value="592" />
+        <entry key="ENGLISH" value="645" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
   </component>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="false" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
