@@ -46,7 +46,7 @@
           <IdeaActionID>CloseContent</IdeaActionID>
           <ShortCut>'Ctrl+F4'</ShortCut>
           <Description>Close</Description>
-          <Count>57</Count>
+          <Count>58</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All">
@@ -54,7 +54,7 @@
           <IdeaActionID>CloseAllEditors</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F4' or 'Ctrl+Shift+W'</ShortCut>
           <Description>Close All</Description>
-          <Count>217</Count>
+          <Count>221</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close All In Group">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>697</Count>
+          <Count>706</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -302,7 +302,7 @@
           <IdeaActionID>Move</IdeaActionID>
           <ShortCut>'Alt+Shift+V'</ShortCut>
           <Description>Move...</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Folder...">
@@ -334,7 +334,7 @@
           <IdeaActionID>ShowProjectStructureSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+S'</ShortCut>
           <Description>Project Structure...</Description>
-          <Count>109</Count>
+          <Count>110</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
@@ -831,6 +831,14 @@
           <ShortCut>'Ctrl+F11'</ShortCut>
           <Description>Rerun 'Server'</Description>
           <Count>13</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'ServerApp'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F11'</ShortCut>
+          <Description>Rerun 'ServerApp'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'ServerApplication'">
