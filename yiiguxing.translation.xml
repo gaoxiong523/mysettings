@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="After a sequence of channel-read or &lt;i&gt;put&lt;/i&gt; operations, invoke * this method to prepare for a sequence of channel-write or relative" />
+      <item value="Flips this buffer. The limit is set to the current position and then * the position is set to zero. If the mark is defined then it is * discarded." />
+      <item value="Flips" />
+      <item value="An invocation of this method of the form &lt;tt&gt;k.isAcceptable()&lt;/tt&gt; * behaves in exactly the same way as the expression" />
+      <item value="Tests whether this key's channel is ready to accept a new socket * connection." />
+      <item value="p&gt; A key is valid upon creation and remains so until it is cancelled, * its channel is closed, or its selector is closed. &lt;/p&gt;" />
+      <item value="valid" />
       <item value="Returns the approximate total number of tasks that have ever been * scheduled for execution. Because the states of tasks and * threads may change dynamically during computation, the returned * value is only an approximation." />
       <item value="Ecosystem" />
       <item value="Calls {@link ChannelHandlerContext#fireChannelReadComplete()} to forward * to the next {@link ChannelInboundHandler} in the {@link ChannelPipeline}. * * Sub-classes may override this method to change behavior." />
@@ -44,18 +51,11 @@
       <item value="deduct" />
       <item value="commodity Code" />
       <item value="Purchase" />
-      <item value="附加" />
-      <item value="volatile" />
-      <item value="effective" />
-      <item value="This class * does not &amp;quot;understand&amp;quot; these differences except in the * mechanical sense that when a shared mode acquire succeeds, the next * waiting thread (if one exists) must also determine whether it can * acquire as well" />
-      <item value="Shared mode * acquires by multiple threads may (but need not) succeed" />
-      <item value="This class supports either or both a default &lt;em&gt;exclusive&lt;/em&gt; * mode and a &lt;em&gt;shared&lt;/em&gt; mode. When acquired in exclusive mode, * attempted acquires by other threads cannot succeed." />
-      <item value="Subclasses should be defined as non-public internal helper * classes that are used to implement the synchronization properties * of their enclosing class" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="593" />
-        <entry key="ENGLISH" value="646" />
+        <entry key="CHINESE" value="600" />
+        <entry key="ENGLISH" value="653" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
