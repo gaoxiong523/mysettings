@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="devops" />
+      <item value="destination" />
+      <item value="This method transfers bytes from this buffer into the given * destination array. An invocation of this method of the form * &lt;tt&gt;src.get(a)&lt;/tt&gt; behaves in exactly the same way as the invocation" />
+      <item value="Relative bulk &lt;i&gt;get&lt;/i&gt; method." />
       <item value="After a sequence of channel-read or &lt;i&gt;put&lt;/i&gt; operations, invoke * this method to prepare for a sequence of channel-write or relative" />
       <item value="Flips this buffer. The limit is set to the current position and then * the position is set to zero. If the mark is defined then it is * discarded." />
       <item value="Flips" />
@@ -47,15 +51,11 @@
       <item value="codec" />
       <item value="Resource Manager Inbound" />
       <item value="剩余" />
-      <item value="debit" />
-      <item value="deduct" />
-      <item value="commodity Code" />
-      <item value="Purchase" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="600" />
-        <entry key="ENGLISH" value="653" />
+        <entry key="CHINESE" value="603" />
+        <entry key="ENGLISH" value="656" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
