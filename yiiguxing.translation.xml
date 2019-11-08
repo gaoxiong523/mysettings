@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Transfers the specified source array's data to this buffer starting at * the current {@code writerIndex} and increases the {@code writerIndex} * by the number of the transferred bytes (= {@code src.length})." />
       <item value="Returns a deep clone of this bootstrap which has the identical configuration. This method is useful when making * multiple {@link Channel}s with similar settings. Please note that this method does not clone the * {@link EventLoopGroup} deeply but shallowly, making the group a shared resource." />
       <item value="Channels of this type are safe for use by multiple concurrent threads * though at most one accept operation can be outstanding at any time. * If a thread initiates an accept operation before a previous accept operation * has completed then an {@link AcceptPendingException} will be thrown." />
       <item value="An asynchronous channel for stream-oriented listening sockets." />
@@ -50,12 +51,11 @@
       <item value="ram" />
       <item value="Shutdown hook installed for: NFLoadBalancer-PingTimer-order-service" />
       <item value="Allocation Failure" />
-      <item value="Allocation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="607" />
-        <entry key="ENGLISH" value="660" />
+        <entry key="CHINESE" value="608" />
+        <entry key="ENGLISH" value="661" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
