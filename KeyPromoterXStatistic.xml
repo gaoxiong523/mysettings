@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>743</Count>
+          <Count>750</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -2070,7 +2070,7 @@
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
           <ShortCut>'Alt+7'</ShortCut>
           <Description>Structure</Description>
-          <Count>154</Count>
+          <Count>159</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
@@ -2134,7 +2134,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>363</Count>
+          <Count>370</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">

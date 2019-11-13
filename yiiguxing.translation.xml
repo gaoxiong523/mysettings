@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="one should use {@code t1 - t0 &lt; 0}, not {@code t1 &lt; t0}, * because of the possibility of numerical overflow. *" />
+      <item value="&lt;p&gt;The values returned by this method become meaningful only when * the difference between two such values, obtained within the same * instance of a Java virtual machine, is computed." />
+      <item value="* &lt;p&gt;Differences in successive calls that span greater than * approximately 292 years (2&lt;sup&gt;63&lt;/sup&gt; nanoseconds) will not * correctly compute elapsed time due to numerical overflow." />
+      <item value="p&gt;This method provides nanosecond precision, but not necessarily * nanosecond resolution (that is, how frequently the value changes) * - no guarantees are made except that the resolution is at least as * good as that of {@link #currentTimeMillis()}." />
+      <item value="The value returned represents nanoseconds since some fixed but * arbitrary &lt;i&gt;origin&lt;/i&gt; time (perhaps in the future, so values * may be negative). The same origin is used by all invocations of * this method in an instance of a Java virtual machine; other * virtual machine instances are likely to use a different origin." />
+      <item value="&lt;p&gt;This method can only be used to measure elapsed time and is * not related to any other notion of system or wall-clock time." />
+      <item value="Returns the current value of the running Java Virtual Machine's * high-resolution time source, in nanoseconds." />
       <item value="A variant of the &quot;two lock queue&quot; algorithm. The putLock gates * entry to put (and offer), and has an associated condition for * waiting puts. Similarly for the takeLock. The &quot;count&quot; field * that they both rely on is maintained as an atomic to avoid * needing to get both locks in most cases. Also, to minimize need * for puts to get takeLock and vice-versa, cascading notifies are * used. When a put notices that it has enabled at least one take, * it signals taker. That taker in turn signals others if more * items have been entered since the signal. And symmetrically for * takes signalling puts. Operations such as remove(Object) and * iterators acquire both locks." />
       <item value="&lt;p&gt;The optional capacity bound constructor argument serves as a * way to prevent excessive queue expansion. The capacity, if unspecified, * is equal to {@link Integer#MAX_VALUE}. Linked nodes are * dynamically created upon each insertion unless this would bring the * queue above capacity." />
       <item value="This queue orders elements FIFO (first-in-first-out). * The &lt;em&gt;head&lt;/em&gt; of the queue is that element that has been on the * queue the longest time. * The &lt;em&gt;tail&lt;/em&gt; of the queue is that element that has been on the * queue the shortest time. New elements * are inserted at the tail of the queue, and the queue retrieval * operations obtain elements at the head of the queue. * Linked queues typically have higher throughput than array-based queues but * less predictable performance in most concurrent applications." />
@@ -44,18 +51,11 @@
       <item value="* If you would like to use a {@code Future} for the sake * of cancellability but not provide a usable result, you can * declare types of the form {@code Future&lt;?&gt;} and * return {@code null} as a result of the underlying task." />
       <item value="Cancellation is performed by the * {@code cancel} method. Additional methods are provided to * determine if the task completed normally or was cancelled. Once a * computation has completed, the computation cannot be cancelled." />
       <item value="The result can only be retrieved using method * {@code get} when the computation has completed, blocking if * necessary until it is ready." />
-      <item value="Methods are provided to check if the computation is * complete, to wait for its completion, and to retrieve the result of * the computation." />
-      <item value="A {@code Future} represents the result of an asynchronous * computation." />
-      <item value="A task that returns a result and may throw an exception. * Implementors define a single method with no arguments called" />
-      <item value="PRESENT" />
-      <item value="More formally, adds the specified element &lt;tt&gt;e&lt;/tt&gt; to this set if * this set contains no element &lt;tt&gt;e2&lt;/tt&gt; such that * &lt;tt&gt;(e==null&amp;nbsp;?&amp;nbsp;e2==null&amp;nbsp;:&amp;nbsp;e.equals(e2))&lt;/tt&gt;. * If this set already contains the element, the call leaves the set * unchanged and returns &lt;tt&gt;false&lt;/tt&gt;." />
-      <item value="Adds the specified element to this set if it is not already present." />
-      <item value="Unable to commit against JDBC Connection" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="612" />
-        <entry key="ENGLISH" value="665" />
+        <entry key="CHINESE" value="619" />
+        <entry key="ENGLISH" value="672" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
