@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="association" />
+      <item value="stereotype" />
       <item value="A decoder that splits the received {@link ByteBuf}s dynamically by the * value of the Google Protocol Buffers * &lt;a href=&quot;https://developers.google.com/protocol-buffers/docs/encoding#varints&quot;&gt;Base * 128 Varints&lt;/a&gt; integer length field in the message. For example:" />
       <item value="&lt;code&gt;DocumentFilter&lt;/code&gt;, as the name implies, is a filter for the * &lt;code&gt;Document&lt;/code&gt; mutation methods. When a &lt;code&gt;Document&lt;/code&gt; * containing a &lt;code&gt;DocumentFilter&lt;/code&gt; is modified (either through * &lt;code&gt;insert&lt;/code&gt; or &lt;code&gt;remove&lt;/code&gt;), it forwards the appropriate * method invocation to the &lt;code&gt;DocumentFilter&lt;/code&gt;. The * default implementation allows the modification to * occur. Subclasses can filter the modifications by conditionally invoking * methods on the superclass, or invoking the necessary methods on * the passed in &lt;code&gt;FilterBypass&lt;/code&gt;. Subclasses should NOT call back * into the Document for the modification * instead call into the superclass or the &lt;code&gt;FilterBypass&lt;/code&gt;. * &lt;p&gt; * When &lt;code&gt;remove&lt;/code&gt; or &lt;code&gt;insertString&lt;/code&gt; is invoked * on the &lt;code&gt;DocumentFilter&lt;/code&gt;, the &lt;code&gt;DocumentFilter&lt;/code&gt; * may callback into the * &lt;code&gt;FilterBypass&lt;/code&gt; multiple times, or for different regions, but * it should not callback into the &lt;code&gt;FilterBypass&lt;/code&gt; after returning * from the &lt;code&gt;remove&lt;/code&gt; or &lt;code&gt;insertString&lt;/code&gt; method. * &lt;p&gt; * By default, text related document mutation methods such as * &lt;code&gt;insertString&lt;/code&gt;, &lt;code&gt;replace&lt;/code&gt; and &lt;code&gt;remove&lt;/code&gt; * in &lt;code&gt;AbstractDocument&lt;/code&gt; use &lt;code&gt;DocumentFilter&lt;/code&gt; when * available, and &lt;code&gt;Element&lt;/code&gt; related mutation methods such as * &lt;code&gt;create&lt;/code&gt;, &lt;code&gt;insert&lt;/code&gt; and &lt;code&gt;removeElement&lt;/code&gt; in * &lt;code&gt;DefaultStyledDocument&lt;/code&gt; do not use &lt;code&gt;DocumentFilter&lt;/code&gt;. * If a method doesn't follow these defaults, this must be explicitly stated * in the method documentation." />
       <item value="NavigationFilter implementation that calls back to methods with * same name in DefaultFormatter." />
@@ -49,8 +51,6 @@
       <item value="Only a single &lt;code&gt;Version&lt;/code&gt; property or field * should be used per class; applications that use more than one * &lt;code&gt;Version&lt;/code&gt; property or field will not be portable." />
       <item value="Specifies the version field or property of an entity class that * serves as its optimistic lock value. The version is used to ensure * integrity when performing the merge operation and for optimistic * concurrency control. *" />
       <item value="Annotation to declare an appropriate {@code TemporalType} on query method parameters. Note that this annotation can * only be used on parameters of type {@link Date}. *" />
-      <item value="Wrapper annotation to allow {@link QueryHint} annotations to be bound to methods. It will be evaluated when using * {@link Query} on a query method or if you derive the query from the method name. If you rely on named queries either * use the XML or annotation based way to declare {@link QueryHint}s in combination with the actual named query * declaration." />
-      <item value="Indicates a query method should be considered as modifying query as that changes the way it needs to be executed. * This annotation is only considered if used on actual query methods (either derived or manually defined through a * {@link Query} annotation). It's not applied on custom implementation methods as they already have control over the * underlying data access APIs." />
     </histories>
     <option name="languageScores">
       <map>
@@ -62,6 +62,9 @@
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
+    <option name="overrideFont" value="true" />
+    <option name="phoneticFontFamily" value="Meiryo UI" />
+    <option name="primaryFontFamily" value="Meiryo UI" />
     <option name="translator" value="ai.youdao" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
