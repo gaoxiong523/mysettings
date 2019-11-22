@@ -61,6 +61,11 @@
     </option>
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="" />
     <option name="phoneticFontFamily" value="Meiryo UI" />
     <option name="primaryFontFamily" value="Meiryo UI" />
