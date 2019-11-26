@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns whether this Component can be focused." />
+      <item value="Returns whether the cursor has been explicitly set for this Component. * If this method returns &lt;code&gt;false&lt;/code&gt;, this Component is inheriting * its cursor from an ancestor." />
       <item value="If the target text component is specified as the * source of the ActionEvent and there is a command string, * the command string will be interpreted as the foreground * color." />
       <item value="algorithm" />
       <item value="realization" />
@@ -49,13 +51,11 @@
       <item value="A random number generator isolated to the current thread. Like the * global {@link java.util.Random} generator used by the {@link * java.lang.Math} class, a {@code ThreadLocalRandom} is initialized * with an internally generated seed that may not otherwise be * modified. When applicable, use of {@code ThreadLocalRandom} rather * than shared {@code Random} objects in concurrent programs will * typically encounter much less overhead and contention. Use of * {@code ThreadLocalRandom} is particularly appropriate when multiple * tasks (for example, each a {@link ForkJoinTask}) use random numbers * in parallel in thread pools." />
       <item value="A random number generator isolated to the current thread." />
       <item value="invokers" />
-      <item value="Returns &lt;code&gt;true&lt;/code&gt; as soon as the lock is acquired. * If the lock is currently held by another thread in this or any * other process in the distributed system this method keeps trying * to acquire the lock for up to &lt;code&gt;waitTime&lt;/code&gt; before * giving up and returning &lt;code&gt;false&lt;/code&gt;. If the lock is acquired, * it is held until &lt;code&gt;unlock&lt;/code&gt; is invoked, or until &lt;code&gt;leaseTime&lt;/code&gt; * have passed since the lock was granted - whichever comes first." />
-      <item value="Demarcates a property to be used as version field to implement optimistic locking on entities. *" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="625" />
-        <entry key="ENGLISH" value="678" />
+        <entry key="CHINESE" value="627" />
+        <entry key="ENGLISH" value="680" />
         <entry key="FRENCH" value="3" />
       </map>
     </option>
