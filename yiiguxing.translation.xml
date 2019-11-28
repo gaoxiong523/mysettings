@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="stack" />
+      <item value="Copies into the specified array every active thread in this * thread group. If {@code recurse} is {@code true}, * this method recursively enumerates all subgroups of this * thread group and references to every active thread in these * subgroups are also included. If the array is too short to * hold all the threads, the extra threads are silently ignored. * * &lt;p&gt; An application might use the {@linkplain #activeCount activeCount} * method to get an estimate of how big the array should be, however * &lt;i&gt;if the array is too short to hold all the threads, the extra threads * are silently ignored.&lt;/i&gt; If it is critical to obtain every active * thread in this thread group, the caller should verify that the returned * int value is strictly less than the length of {@code list}. * * &lt;p&gt; Due to the inherent race condition in this method, it is recommended * that the method only be used for debugging and monitoring purposes. *" />
+      <item value="enumerate" />
+      <item value="estimate" />
       <item value="Returns whether this Component can be focused." />
       <item value="Returns whether the cursor has been explicitly set for this Component. * If this method returns &lt;code&gt;false&lt;/code&gt;, this Component is inheriting * its cursor from an ancestor." />
       <item value="If the target text component is specified as the * source of the ActionEvent and there is a command string, * the command string will be interpreted as the foreground * color." />
@@ -47,16 +51,12 @@
       <item value="present" />
       <item value="Adapter to delegate serialization/deserialization to {@link RedisSerializer}." />
       <item value="portal" />
-      <item value="&lt;p&gt;Usages of this class should typically be of the form: * {@code ThreadLocalRandom.current().nextX(...)} (where * {@code X} is {@code Int}, {@code Long}, etc). * When all usages are of this form, it is never possible to * accidently share a {@code ThreadLocalRandom} across multiple threads." />
-      <item value="A random number generator isolated to the current thread. Like the * global {@link java.util.Random} generator used by the {@link * java.lang.Math} class, a {@code ThreadLocalRandom} is initialized * with an internally generated seed that may not otherwise be * modified. When applicable, use of {@code ThreadLocalRandom} rather * than shared {@code Random} objects in concurrent programs will * typically encounter much less overhead and contention. Use of * {@code ThreadLocalRandom} is particularly appropriate when multiple * tasks (for example, each a {@link ForkJoinTask}) use random numbers * in parallel in thread pools." />
-      <item value="A random number generator isolated to the current thread." />
-      <item value="invokers" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="627" />
-        <entry key="ENGLISH" value="680" />
-        <entry key="FRENCH" value="3" />
+        <entry key="CHINESE" value="631" />
+        <entry key="ENGLISH" value="685" />
+        <entry key="FRENCH" value="4" />
       </map>
     </option>
   </component>
