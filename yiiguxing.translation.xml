@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked list concurrently, and at least * one of the threads modifies the list structurally, it &lt;i&gt;must&lt;/i&gt; be * synchronized externally. (A structural modification is any operation * that adds or deletes one or more elements; merely setting the value of * an element is not a structural modification.) This is typically * accomplished by synchronizing on some object that naturally * encapsulates the list." />
+      <item value="&lt;p&gt;All of the operations perform as could be expected for a doubly-linked * list. Operations that index into the list will traverse the list from * the beginning or the end, whichever is closer to the specified index." />
+      <item value="Doubly-linked list implementation of the {@code List} and {@code Deque} * interfaces. Implements all optional list operations, and permits all * elements (including {@code null}). *" />
+      <item value="A collection designed for holding elements prior to processing. * Besides basic {@link java.util.Collection Collection} operations, * queues provide additional insertion, extraction, and inspection * operations. Each of these methods exists in two forms: one throws * an exception if the operation fails, the other returns a special * value (either {@code null} or {@code false}, depending on the * operation). The latter form of the insert operation is designed * specifically for use with capacity-restricted {@code Queue} * implementations; in most implementations, insert operations cannot * fail." />
       <item value="A linear collection that supports element insertion and removal at * both ends. The name &lt;i&gt;deque&lt;/i&gt; is short for &quot;double ended queue&quot; * and is usually pronounced &quot;deck&quot;. Most {@code Deque} * implementations place no fixed limits on the number of elements * they may contain, but this interface supports capacity-restricted * deques as well as those with no fixed size limit." />
       <item value="linear" />
       <item value=" bracket" />
@@ -47,15 +51,11 @@
       <item value="Flips" />
       <item value="An invocation of this method of the form &lt;tt&gt;k.isAcceptable()&lt;/tt&gt; * behaves in exactly the same way as the expression" />
       <item value="Tests whether this key's channel is ready to accept a new socket * connection." />
-      <item value="p&gt; A key is valid upon creation and remains so until it is cancelled, * its channel is closed, or its selector is closed. &lt;/p&gt;" />
-      <item value="valid" />
-      <item value="Returns the approximate total number of tasks that have ever been * scheduled for execution. Because the states of tasks and * threads may change dynamically during computation, the returned * value is only an approximation." />
-      <item value="Ecosystem" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="635" />
-        <entry key="ENGLISH" value="689" />
+        <entry key="CHINESE" value="639" />
+        <entry key="ENGLISH" value="693" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
