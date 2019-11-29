@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An informative annotation type used to indicate that an interface * type declaration is intended to be a &lt;i&gt;functional interface&lt;/i&gt; as * defined by the Java Language Specification." />
       <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked list concurrently, and at least * one of the threads modifies the list structurally, it &lt;i&gt;must&lt;/i&gt; be * synchronized externally. (A structural modification is any operation * that adds or deletes one or more elements; merely setting the value of * an element is not a structural modification.) This is typically * accomplished by synchronizing on some object that naturally * encapsulates the list." />
       <item value="&lt;p&gt;All of the operations perform as could be expected for a doubly-linked * list. Operations that index into the list will traverse the list from * the beginning or the end, whichever is closer to the specified index." />
       <item value="Doubly-linked list implementation of the {@code List} and {@code Deque} * interfaces. Implements all optional list operations, and permits all * elements (including {@code null}). *" />
@@ -50,12 +51,11 @@
       <item value="Flips this buffer. The limit is set to the current position and then * the position is set to zero. If the mark is defined then it is * discarded." />
       <item value="Flips" />
       <item value="An invocation of this method of the form &lt;tt&gt;k.isAcceptable()&lt;/tt&gt; * behaves in exactly the same way as the expression" />
-      <item value="Tests whether this key's channel is ready to accept a new socket * connection." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="639" />
-        <entry key="ENGLISH" value="693" />
+        <entry key="CHINESE" value="640" />
+        <entry key="ENGLISH" value="694" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
