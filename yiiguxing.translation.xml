@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The type is an interface type and not an annotation type, enum, or class. * &lt;li&gt; The annotated type satisfies the requirements of a functional interface. * &lt;/ul&gt; * * &lt;p&gt;However, the compiler will treat any interface meeting the * definition of a functional interface as a functional interface * regardless of whether or not a {@code FunctionalInterface} * annotation is present on the interface declaration." />
+      <item value="&gt;If a type is annotated with this annotation type, compilers are * required to generate an error message unless:" />
+      <item value="p&gt;Note that instances of functional interfaces can be created with * lambda expressions, method references, or constructor references." />
+      <item value="Since {@linkplain java.lang.reflect.Method#isDefault() * default methods} have an implementation, they are not abstract. If * an interface declares an abstract method overriding one of the * public methods of {@code java.lang.Object}, that also does * &lt;em&gt;not&lt;/em&gt; count toward the interface's abstract method count * since any implementation of the interface will have an * implementation from {@code java.lang.Object} or elsewhere." />
+      <item value="Conceptually, a functional interface has exactly one abstract * method." />
       <item value="An informative annotation type used to indicate that an interface * type declaration is intended to be a &lt;i&gt;functional interface&lt;/i&gt; as * defined by the Java Language Specification." />
       <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked list concurrently, and at least * one of the threads modifies the list structurally, it &lt;i&gt;must&lt;/i&gt; be * synchronized externally. (A structural modification is any operation * that adds or deletes one or more elements; merely setting the value of * an element is not a structural modification.) This is typically * accomplished by synchronizing on some object that naturally * encapsulates the list." />
       <item value="&lt;p&gt;All of the operations perform as could be expected for a doubly-linked * list. Operations that index into the list will traverse the list from * the beginning or the end, whichever is closer to the specified index." />
@@ -46,16 +51,11 @@
       <item value="devops" />
       <item value="destination" />
       <item value="This method transfers bytes from this buffer into the given * destination array. An invocation of this method of the form * &lt;tt&gt;src.get(a)&lt;/tt&gt; behaves in exactly the same way as the invocation" />
-      <item value="Relative bulk &lt;i&gt;get&lt;/i&gt; method." />
-      <item value="After a sequence of channel-read or &lt;i&gt;put&lt;/i&gt; operations, invoke * this method to prepare for a sequence of channel-write or relative" />
-      <item value="Flips this buffer. The limit is set to the current position and then * the position is set to zero. If the mark is defined then it is * discarded." />
-      <item value="Flips" />
-      <item value="An invocation of this method of the form &lt;tt&gt;k.isAcceptable()&lt;/tt&gt; * behaves in exactly the same way as the expression" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="640" />
-        <entry key="ENGLISH" value="694" />
+        <entry key="CHINESE" value="645" />
+        <entry key="ENGLISH" value="699" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
