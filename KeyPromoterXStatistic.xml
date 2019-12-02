@@ -169,6 +169,14 @@
           <Count>24</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Disconnect">
+        <Item>
+          <IdeaActionID>DatabaseView.CloseConnectionAction</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Disconnect</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Edit Configuration...">
         <Item>
           <IdeaActionID>RunDashboard.EditConfiguration</IdeaActionID>
@@ -342,7 +350,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'Shift+Enter'</ShortCut>
           <Description>Properties</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Push...">
