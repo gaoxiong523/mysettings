@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* &lt;p&gt;A min-max priority queue can be configured with a maximum size. If so, * each time the size of the queue exceeds that value, the queue automatically * removes its greatest element according to its comparator (which might be the * element that was just added). This is different from conventional bounded * queues, which either block or reject new elements when full. *" />
+      <item value="* &lt;p&gt;As a {@link Queue} it functions exactly as a {@link PriorityQueue}: its * head element -- the implicit target of the methods {@link #peek()}, {@link * #poll()} and {@link #remove()} -- is defined as the &lt;i&gt;least&lt;/i&gt; element in * the queue according to the queue's comparator. But unlike a regular priority * queue, the methods {@link #peekLast}, {@link #pollLast} and * {@link #removeLast} are also provided, to act on the &lt;i&gt;greatest&lt;/i&gt; element * in the queue instead." />
+      <item value="A double-ended priority queue, which provides constant-time access to both * its least element and its greatest element, as determined by the queue's * specified comparator. If no comparator is given at construction time, the * natural order of elements is used." />
+      <item value="* An unbounded priority {@linkplain Queue queue} based on a priority heap. * The elements of the priority queue are ordered according to their * {@linkplain Comparable natural ordering}, or by a {@link Comparator} * provided at queue construction time, depending on which constructor is * used. A priority queue does not permit {@code null} elements. * A priority queue relying on natural ordering also does not permit * insertion of non-comparable objects (doing so may result in * {@code ClassCastException}). *" />
+      <item value="* &lt;p&gt;The &lt;em&gt;head&lt;/em&gt; of this queue is the &lt;em&gt;least&lt;/em&gt; element * with respect to the specified ordering. If multiple elements are * tied for least value, the head is one of those elements -- ties are * broken arbitrarily. The queue retrieval operations {@code poll}, * {@code remove}, {@code peek}, and {@code element} access the * element at the head of the queue." />
+      <item value="&lt;p&gt;A priority queue is unbounded, but has an internal * &lt;i&gt;capacity&lt;/i&gt; governing the size of an array used to store the * elements on the queue. It is always at least as large as the queue * size. As elements are added to a priority queue, its capacity * grows automatically. The details of the growth policy are not * specified." />
+      <item value="&lt;p&gt;This class and its iterator implement all of the * &lt;em&gt;optional&lt;/em&gt; methods of the {@link Collection} and {@link * Iterator} interfaces. The Iterator provided in method {@link * #iterator()} is &lt;em&gt;not&lt;/em&gt; guaranteed to traverse the elements of * the priority queue in any particular order. If you need ordered * traversal, consider using {@code Arrays.sort(pq.toArray())}. *" />
+      <item value="A priority queue relying on natural ordering also does not permit * insertion of non-comparable objects (doing so may result in * {@code ClassCastException})." />
+      <item value="An unbounded priority {@linkplain Queue queue} based on a priority heap." />
+      <item value="priority" />
+      <item value="unbounded" />
       <item value="The type is an interface type and not an annotation type, enum, or class. * &lt;li&gt; The annotated type satisfies the requirements of a functional interface. * &lt;/ul&gt; * * &lt;p&gt;However, the compiler will treat any interface meeting the * definition of a functional interface as a functional interface * regardless of whether or not a {@code FunctionalInterface} * annotation is present on the interface declaration." />
       <item value="&gt;If a type is annotated with this annotation type, compilers are * required to generate an error message unless:" />
       <item value="p&gt;Note that instances of functional interfaces can be created with * lambda expressions, method references, or constructor references." />
@@ -40,22 +51,11 @@
       <item value="The value returned represents nanoseconds since some fixed but * arbitrary &lt;i&gt;origin&lt;/i&gt; time (perhaps in the future, so values * may be negative). The same origin is used by all invocations of * this method in an instance of a Java virtual machine; other * virtual machine instances are likely to use a different origin." />
       <item value="&lt;p&gt;This method can only be used to measure elapsed time and is * not related to any other notion of system or wall-clock time." />
       <item value="Returns the current value of the running Java Virtual Machine's * high-resolution time source, in nanoseconds." />
-      <item value="A variant of the &quot;two lock queue&quot; algorithm. The putLock gates * entry to put (and offer), and has an associated condition for * waiting puts. Similarly for the takeLock. The &quot;count&quot; field * that they both rely on is maintained as an atomic to avoid * needing to get both locks in most cases. Also, to minimize need * for puts to get takeLock and vice-versa, cascading notifies are * used. When a put notices that it has enabled at least one take, * it signals taker. That taker in turn signals others if more * items have been entered since the signal. And symmetrically for * takes signalling puts. Operations such as remove(Object) and * iterators acquire both locks." />
-      <item value="&lt;p&gt;The optional capacity bound constructor argument serves as a * way to prevent excessive queue expansion. The capacity, if unspecified, * is equal to {@link Integer#MAX_VALUE}. Linked nodes are * dynamically created upon each insertion unless this would bring the * queue above capacity." />
-      <item value="This queue orders elements FIFO (first-in-first-out). * The &lt;em&gt;head&lt;/em&gt; of the queue is that element that has been on the * queue the longest time. * The &lt;em&gt;tail&lt;/em&gt; of the queue is that element that has been on the * queue the shortest time. New elements * are inserted at the tail of the queue, and the queue retrieval * operations obtain elements at the head of the queue. * Linked queues typically have higher throughput than array-based queues but * less predictable performance in most concurrent applications." />
-      <item value="An optionally-bounded {@linkplain BlockingQueue blocking queue} based on * linked nodes." />
-      <item value="Transfers the specified source array's data to this buffer starting at * the current {@code writerIndex} and increases the {@code writerIndex} * by the number of the transferred bytes (= {@code src.length})." />
-      <item value="Returns a deep clone of this bootstrap which has the identical configuration. This method is useful when making * multiple {@link Channel}s with similar settings. Please note that this method does not clone the * {@link EventLoopGroup} deeply but shallowly, making the group a shared resource." />
-      <item value="Channels of this type are safe for use by multiple concurrent threads * though at most one accept operation can be outstanding at any time. * If a thread initiates an accept operation before a previous accept operation * has completed then an {@link AcceptPendingException} will be thrown." />
-      <item value="An asynchronous channel for stream-oriented listening sockets." />
-      <item value="devops" />
-      <item value="destination" />
-      <item value="This method transfers bytes from this buffer into the given * destination array. An invocation of this method of the form * &lt;tt&gt;src.get(a)&lt;/tt&gt; behaves in exactly the same way as the invocation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="645" />
-        <entry key="ENGLISH" value="699" />
+        <entry key="CHINESE" value="657" />
+        <entry key="ENGLISH" value="711" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
