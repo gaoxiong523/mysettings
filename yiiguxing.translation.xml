@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ass" />
       <item value="* &lt;p&gt;A min-max priority queue can be configured with a maximum size. If so, * each time the size of the queue exceeds that value, the queue automatically * removes its greatest element according to its comparator (which might be the * element that was just added). This is different from conventional bounded * queues, which either block or reject new elements when full. *" />
       <item value="* &lt;p&gt;As a {@link Queue} it functions exactly as a {@link PriorityQueue}: its * head element -- the implicit target of the methods {@link #peek()}, {@link * #poll()} and {@link #remove()} -- is defined as the &lt;i&gt;least&lt;/i&gt; element in * the queue according to the queue's comparator. But unlike a regular priority * queue, the methods {@link #peekLast}, {@link #pollLast} and * {@link #removeLast} are also provided, to act on the &lt;i&gt;greatest&lt;/i&gt; element * in the queue instead." />
       <item value="A double-ended priority queue, which provides constant-time access to both * its least element and its greatest element, as determined by the queue's * specified comparator. If no comparator is given at construction time, the * natural order of elements is used." />
@@ -50,7 +51,6 @@
       <item value="p&gt;This method provides nanosecond precision, but not necessarily * nanosecond resolution (that is, how frequently the value changes) * - no guarantees are made except that the resolution is at least as * good as that of {@link #currentTimeMillis()}." />
       <item value="The value returned represents nanoseconds since some fixed but * arbitrary &lt;i&gt;origin&lt;/i&gt; time (perhaps in the future, so values * may be negative). The same origin is used by all invocations of * this method in an instance of a Java virtual machine; other * virtual machine instances are likely to use a different origin." />
       <item value="&lt;p&gt;This method can only be used to measure elapsed time and is * not related to any other notion of system or wall-clock time." />
-      <item value="Returns the current value of the running Java Virtual Machine's * high-resolution time source, in nanoseconds." />
     </histories>
     <option name="languageScores">
       <map>
