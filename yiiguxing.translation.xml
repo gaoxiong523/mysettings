@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Central interface to provide configuration for an application. * This is read-only while the application is running, but may be * reloaded if the implementation supports this." />
+      <item value="This interface represents a naming context, which * consists of a set of name-to-object bindings. * It contains methods for examining and updating these bindings." />
+      <item value="Contains methods for registering/deregistering listeners to be notified of * events fired when objects named in a context changes." />
       <item value="ass" />
       <item value="* &lt;p&gt;A min-max priority queue can be configured with a maximum size. If so, * each time the size of the queue exceeds that value, the queue automatically * removes its greatest element according to its comparator (which might be the * element that was just added). This is different from conventional bounded * queues, which either block or reject new elements when full. *" />
       <item value="* &lt;p&gt;As a {@link Queue} it functions exactly as a {@link PriorityQueue}: its * head element -- the implicit target of the methods {@link #peek()}, {@link * #poll()} and {@link #remove()} -- is defined as the &lt;i&gt;least&lt;/i&gt; element in * the queue according to the queue's comparator. But unlike a regular priority * queue, the methods {@link #peekLast}, {@link #pollLast} and * {@link #removeLast} are also provided, to act on the &lt;i&gt;greatest&lt;/i&gt; element * in the queue instead." />
@@ -48,14 +51,11 @@
       <item value="one should use {@code t1 - t0 &lt; 0}, not {@code t1 &lt; t0}, * because of the possibility of numerical overflow. *" />
       <item value="&lt;p&gt;The values returned by this method become meaningful only when * the difference between two such values, obtained within the same * instance of a Java virtual machine, is computed." />
       <item value="* &lt;p&gt;Differences in successive calls that span greater than * approximately 292 years (2&lt;sup&gt;63&lt;/sup&gt; nanoseconds) will not * correctly compute elapsed time due to numerical overflow." />
-      <item value="p&gt;This method provides nanosecond precision, but not necessarily * nanosecond resolution (that is, how frequently the value changes) * - no guarantees are made except that the resolution is at least as * good as that of {@link #currentTimeMillis()}." />
-      <item value="The value returned represents nanoseconds since some fixed but * arbitrary &lt;i&gt;origin&lt;/i&gt; time (perhaps in the future, so values * may be negative). The same origin is used by all invocations of * this method in an instance of a Java virtual machine; other * virtual machine instances are likely to use a different origin." />
-      <item value="&lt;p&gt;This method can only be used to measure elapsed time and is * not related to any other notion of system or wall-clock time." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="657" />
-        <entry key="ENGLISH" value="711" />
+        <entry key="CHINESE" value="660" />
+        <entry key="ENGLISH" value="714" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
