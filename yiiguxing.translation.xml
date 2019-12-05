@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="归并排序" />
+      <item value="快速排序" />
+      <item value="插入排序" />
+      <item value="插入" />
+      <item value="冒泡" />
       <item value="Central interface to provide configuration for an application. * This is read-only while the application is running, but may be * reloaded if the implementation supports this." />
       <item value="This interface represents a naming context, which * consists of a set of name-to-object bindings. * It contains methods for examining and updating these bindings." />
       <item value="Contains methods for registering/deregistering listeners to be notified of * events fired when objects named in a context changes." />
@@ -46,16 +51,11 @@
       <item value="A decoder that splits the received {@link ByteBuf}s dynamically by the * value of the Google Protocol Buffers * &lt;a href=&quot;https://developers.google.com/protocol-buffers/docs/encoding#varints&quot;&gt;Base * 128 Varints&lt;/a&gt; integer length field in the message. For example:" />
       <item value="&lt;code&gt;DocumentFilter&lt;/code&gt;, as the name implies, is a filter for the * &lt;code&gt;Document&lt;/code&gt; mutation methods. When a &lt;code&gt;Document&lt;/code&gt; * containing a &lt;code&gt;DocumentFilter&lt;/code&gt; is modified (either through * &lt;code&gt;insert&lt;/code&gt; or &lt;code&gt;remove&lt;/code&gt;), it forwards the appropriate * method invocation to the &lt;code&gt;DocumentFilter&lt;/code&gt;. The * default implementation allows the modification to * occur. Subclasses can filter the modifications by conditionally invoking * methods on the superclass, or invoking the necessary methods on * the passed in &lt;code&gt;FilterBypass&lt;/code&gt;. Subclasses should NOT call back * into the Document for the modification * instead call into the superclass or the &lt;code&gt;FilterBypass&lt;/code&gt;. * &lt;p&gt; * When &lt;code&gt;remove&lt;/code&gt; or &lt;code&gt;insertString&lt;/code&gt; is invoked * on the &lt;code&gt;DocumentFilter&lt;/code&gt;, the &lt;code&gt;DocumentFilter&lt;/code&gt; * may callback into the * &lt;code&gt;FilterBypass&lt;/code&gt; multiple times, or for different regions, but * it should not callback into the &lt;code&gt;FilterBypass&lt;/code&gt; after returning * from the &lt;code&gt;remove&lt;/code&gt; or &lt;code&gt;insertString&lt;/code&gt; method. * &lt;p&gt; * By default, text related document mutation methods such as * &lt;code&gt;insertString&lt;/code&gt;, &lt;code&gt;replace&lt;/code&gt; and &lt;code&gt;remove&lt;/code&gt; * in &lt;code&gt;AbstractDocument&lt;/code&gt; use &lt;code&gt;DocumentFilter&lt;/code&gt; when * available, and &lt;code&gt;Element&lt;/code&gt; related mutation methods such as * &lt;code&gt;create&lt;/code&gt;, &lt;code&gt;insert&lt;/code&gt; and &lt;code&gt;removeElement&lt;/code&gt; in * &lt;code&gt;DefaultStyledDocument&lt;/code&gt; do not use &lt;code&gt;DocumentFilter&lt;/code&gt;. * If a method doesn't follow these defaults, this must be explicitly stated * in the method documentation." />
       <item value="NavigationFilter implementation that calls back to methods with * same name in DefaultFormatter." />
-      <item value="Invoked prior to the Caret setting the dot. The default implementation * calls directly into the &lt;code&gt;FilterBypass&lt;/code&gt; with the passed * in arguments. Subclasses may wish to conditionally * call super with a different location, or invoke the necessary method * on the &lt;code&gt;FilterBypass&lt;/code&gt;" />
-      <item value="&lt;code&gt;NavigationFilter&lt;/code&gt; can be used to restrict where the cursor can * be positioned. When the default cursor positioning actions attempt to * reposition the cursor they will call into the * &lt;code&gt;NavigationFilter&lt;/code&gt;, assuming * the &lt;code&gt;JTextComponent&lt;/code&gt; has a non-null * &lt;code&gt;NavigationFilter&lt;/code&gt; set. In this manner * the &lt;code&gt;NavigationFilter&lt;/code&gt; can effectively restrict where the * cursor can be positioned. Similarly &lt;code&gt;DefaultCaret&lt;/code&gt; will call * into the &lt;code&gt;NavigationFilter&lt;/code&gt; when the user is changing the * selection to further restrict where the cursor can be positioned." />
-      <item value="one should use {@code t1 - t0 &lt; 0}, not {@code t1 &lt; t0}, * because of the possibility of numerical overflow. *" />
-      <item value="&lt;p&gt;The values returned by this method become meaningful only when * the difference between two such values, obtained within the same * instance of a Java virtual machine, is computed." />
-      <item value="* &lt;p&gt;Differences in successive calls that span greater than * approximately 292 years (2&lt;sup&gt;63&lt;/sup&gt; nanoseconds) will not * correctly compute elapsed time due to numerical overflow." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="660" />
-        <entry key="ENGLISH" value="714" />
+        <entry key="ENGLISH" value="715" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
