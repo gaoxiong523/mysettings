@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="azkaban" />
+      <item value="azkanban" />
+      <item value="hive" />
+      <item value="oozie" />
       <item value="This class implements the Dual-Pivot Quicksort algorithm by * Vladimir Yaroslavskiy, Jon Bentley, and Josh Bloch. The algorithm * offers O(n log(n)) performance on many data sets that cause other * quicksorts to degrade to quadratic performance, and is typically * faster than traditional (one-pivot) Quicksort implementations. * * All exposed methods are package-private, designed to be invoked * from public methods (in class Arrays) after performing any * necessary array bounds checks and expanding parameters into the * required forms." />
       <item value="Searches the specified array of longs for the specified value using the * binary search algorithm. The array must be sorted (as * by the {@link #sort(long[])} method) prior to making this call. If it * is not sorted, the results are undefined. If the array contains * multiple elements with the specified value, there is no guarantee which * one will be found." />
       <item value="归并排序" />
@@ -47,10 +51,6 @@
       <item value="If the target text component is specified as the * source of the ActionEvent and there is a command string, * the command string will be interpreted as the foreground * color." />
       <item value="algorithm" />
       <item value="realization" />
-      <item value="specification" />
-      <item value="association" />
-      <item value="stereotype" />
-      <item value="A decoder that splits the received {@link ByteBuf}s dynamically by the * value of the Google Protocol Buffers * &lt;a href=&quot;https://developers.google.com/protocol-buffers/docs/encoding#varints&quot;&gt;Base * 128 Varints&lt;/a&gt; integer length field in the message. For example:" />
     </histories>
     <option name="languageScores">
       <map>
