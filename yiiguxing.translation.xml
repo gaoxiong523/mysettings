@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="倒序" />
+      <item value="顺序" />
       <item value="azkaban" />
       <item value="azkanban" />
       <item value="hive" />
@@ -49,13 +51,11 @@
       <item value="Returns whether this Component can be focused." />
       <item value="Returns whether the cursor has been explicitly set for this Component. * If this method returns &lt;code&gt;false&lt;/code&gt;, this Component is inheriting * its cursor from an ancestor." />
       <item value="If the target text component is specified as the * source of the ActionEvent and there is a command string, * the command string will be interpreted as the foreground * color." />
-      <item value="algorithm" />
-      <item value="realization" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="662" />
-        <entry key="ENGLISH" value="717" />
+        <entry key="ENGLISH" value="718" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
