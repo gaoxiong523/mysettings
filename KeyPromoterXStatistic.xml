@@ -166,7 +166,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>789</Count>
+          <Count>792</Count>
         </Item>
       </Statistic>
       <Statistic Action="Desktop Directory">
@@ -599,6 +599,14 @@
           <ShortCut>'Ctrl+F11'</ShortCut>
           <Description>Rerun 'GaoxiongSpringSecurityJwtApplicationTests.contextLoads'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'IconUtil'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F11'</ShortCut>
+          <Description>Rerun 'IconUtil'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'ImClientApp'">
