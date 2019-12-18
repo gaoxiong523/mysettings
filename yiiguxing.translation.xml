@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="General delegate for around-advice-based subclasses, delegating to several other template * methods on this class. Able to handle {@link CallbackPreferringPlatformTransactionManager} * as well as regular {@link PlatformTransactionManager} implementations." />
+      <item value="AOP Alliance MethodInterceptor for declarative transaction * management using the common Spring transaction infrastructure * ({@link org.springframework.transaction.PlatformTransactionManager}). * * &lt;p&gt;Derives from the {@link TransactionAspectSupport} class which * contains the integration with Spring's underlying transaction API. * TransactionInterceptor simply calls the relevant superclass methods * such as {@link #invokeWithinTransaction} in the correct order." />
       <item value="enroll" />
       <item value="倒序" />
       <item value="顺序" />
@@ -49,13 +51,11 @@
       <item value="Copies into the specified array every active thread in this * thread group. If {@code recurse} is {@code true}, * this method recursively enumerates all subgroups of this * thread group and references to every active thread in these * subgroups are also included. If the array is too short to * hold all the threads, the extra threads are silently ignored. * * &lt;p&gt; An application might use the {@linkplain #activeCount activeCount} * method to get an estimate of how big the array should be, however * &lt;i&gt;if the array is too short to hold all the threads, the extra threads * are silently ignored.&lt;/i&gt; If it is critical to obtain every active * thread in this thread group, the caller should verify that the returned * int value is strictly less than the length of {@code list}. * * &lt;p&gt; Due to the inherent race condition in this method, it is recommended * that the method only be used for debugging and monitoring purposes. *" />
       <item value="enumerate" />
       <item value="estimate" />
-      <item value="Returns whether this Component can be focused." />
-      <item value="Returns whether the cursor has been explicitly set for this Component. * If this method returns &lt;code&gt;false&lt;/code&gt;, this Component is inheriting * its cursor from an ancestor." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="662" />
-        <entry key="ENGLISH" value="720" />
+        <entry key="CHINESE" value="664" />
+        <entry key="ENGLISH" value="722" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
