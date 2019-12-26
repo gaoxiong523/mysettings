@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="deprecated" />
+      <item value="deprected" />
       <item value="accessor" />
       <item value="General delegate for around-advice-based subclasses, delegating to several other template * methods on this class. Able to handle {@link CallbackPreferringPlatformTransactionManager} * as well as regular {@link PlatformTransactionManager} implementations." />
       <item value="AOP Alliance MethodInterceptor for declarative transaction * management using the common Spring transaction infrastructure * ({@link org.springframework.transaction.PlatformTransactionManager}). * * &lt;p&gt;Derives from the {@link TransactionAspectSupport} class which * contains the integration with Spring's underlying transaction API. * TransactionInterceptor simply calls the relevant superclass methods * such as {@link #invokeWithinTransaction} in the correct order." />
@@ -49,8 +51,6 @@
       <item value="括号" />
       <item value="The &lt;code&gt;Stack&lt;/code&gt; class represents a last-in-first-out * (LIFO) stack of objects. It extends class &lt;tt&gt;Vector&lt;/tt&gt; with five * operations that allow a vector to be treated as a stack. The usual * &lt;tt&gt;push&lt;/tt&gt; and &lt;tt&gt;pop&lt;/tt&gt; operations are provided, as well as a * method to &lt;tt&gt;peek&lt;/tt&gt; at the top item on the stack, a method to test * for whether the stack is &lt;tt&gt;empty&lt;/tt&gt;, and a method to &lt;tt&gt;search&lt;/tt&gt; * the stack for an item and discover how far it is from the top. * &lt;p&gt; * When a stack is first created, it contains no items. * * &lt;p&gt;A more complete and consistent set of LIFO stack operations is * provided by the {@link Deque} interface and its implementations, which * should be used in preference to this class. For example:" />
       <item value="stack" />
-      <item value="Copies into the specified array every active thread in this * thread group. If {@code recurse} is {@code true}, * this method recursively enumerates all subgroups of this * thread group and references to every active thread in these * subgroups are also included. If the array is too short to * hold all the threads, the extra threads are silently ignored. * * &lt;p&gt; An application might use the {@linkplain #activeCount activeCount} * method to get an estimate of how big the array should be, however * &lt;i&gt;if the array is too short to hold all the threads, the extra threads * are silently ignored.&lt;/i&gt; If it is critical to obtain every active * thread in this thread group, the caller should verify that the returned * int value is strictly less than the length of {@code list}. * * &lt;p&gt; Due to the inherent race condition in this method, it is recommended * that the method only be used for debugging and monitoring purposes. *" />
-      <item value="enumerate" />
     </histories>
     <option name="languageScores">
       <map>
