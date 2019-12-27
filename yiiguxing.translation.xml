@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="material" />
+      <item value="Releases a permit, returning it to the semaphore." />
       <item value="deprecated" />
       <item value="deprected" />
       <item value="accessor" />
@@ -49,13 +51,11 @@
       <item value="linear" />
       <item value=" bracket" />
       <item value="括号" />
-      <item value="The &lt;code&gt;Stack&lt;/code&gt; class represents a last-in-first-out * (LIFO) stack of objects. It extends class &lt;tt&gt;Vector&lt;/tt&gt; with five * operations that allow a vector to be treated as a stack. The usual * &lt;tt&gt;push&lt;/tt&gt; and &lt;tt&gt;pop&lt;/tt&gt; operations are provided, as well as a * method to &lt;tt&gt;peek&lt;/tt&gt; at the top item on the stack, a method to test * for whether the stack is &lt;tt&gt;empty&lt;/tt&gt;, and a method to &lt;tt&gt;search&lt;/tt&gt; * the stack for an item and discover how far it is from the top. * &lt;p&gt; * When a stack is first created, it contains no items. * * &lt;p&gt;A more complete and consistent set of LIFO stack operations is * provided by the {@link Deque} interface and its implementations, which * should be used in preference to this class. For example:" />
-      <item value="stack" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="664" />
-        <entry key="ENGLISH" value="722" />
+        <entry key="CHINESE" value="665" />
+        <entry key="ENGLISH" value="723" />
         <entry key="FRENCH" value="4" />
       </map>
     </option>
