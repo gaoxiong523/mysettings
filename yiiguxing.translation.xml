@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Insertion into a CLH queue requires only a single atomic * operation on &quot;tail&quot;, so there is a simple atomic point of * demarcation from unqueued to queued. Similarly, dequeuing * involves only updating the &quot;head&quot;. However, it takes a bit * more work for nodes to determine who their successors are, * in part to deal with possible cancellation due to timeouts * and interrupts." />
+      <item value="tactic" />
+      <item value="A thread may try to acquire if it is * first in the queue. But being first does not guarantee success; * it only gives the right to contend. So the currently released * contender thread may need to rewait." />
+      <item value="CLH locks are normally used for * spinlocks." />
+      <item value="Craig" />
+      <item value="The wait queue is a variant of a &quot;CLH&quot; (Craig, Landin, and * Hagersten) lock queue." />
+      <item value="Abstract Queued Synchronizer" />
       <item value="Instead it defines methods such as * {@link #acquireInterruptibly} that can be invoked as * appropriate by concrete locks and related synchronizers to * implement their public methods." />
       <item value="Class * {@code AbstractQueuedSynchronizer} does not implement any * synchronization interface." />
       <item value="&gt;Subclasses should be defined as non-public internal helper * classes that are used to implement the synchronization properties * of their enclosing class." />
@@ -44,18 +51,11 @@
       <item value="priority" />
       <item value="unbounded" />
       <item value="The type is an interface type and not an annotation type, enum, or class. * &lt;li&gt; The annotated type satisfies the requirements of a functional interface. * &lt;/ul&gt; * * &lt;p&gt;However, the compiler will treat any interface meeting the * definition of a functional interface as a functional interface * regardless of whether or not a {@code FunctionalInterface} * annotation is present on the interface declaration." />
-      <item value="&gt;If a type is annotated with this annotation type, compilers are * required to generate an error message unless:" />
-      <item value="p&gt;Note that instances of functional interfaces can be created with * lambda expressions, method references, or constructor references." />
-      <item value="Since {@linkplain java.lang.reflect.Method#isDefault() * default methods} have an implementation, they are not abstract. If * an interface declares an abstract method overriding one of the * public methods of {@code java.lang.Object}, that also does * &lt;em&gt;not&lt;/em&gt; count toward the interface's abstract method count * since any implementation of the interface will have an * implementation from {@code java.lang.Object} or elsewhere." />
-      <item value="Conceptually, a functional interface has exactly one abstract * method." />
-      <item value="An informative annotation type used to indicate that an interface * type declaration is intended to be a &lt;i&gt;functional interface&lt;/i&gt; as * defined by the Java Language Specification." />
-      <item value="&lt;p&gt;&lt;strong&gt;Note that this implementation is not synchronized.&lt;/strong&gt; * If multiple threads access a linked list concurrently, and at least * one of the threads modifies the list structurally, it &lt;i&gt;must&lt;/i&gt; be * synchronized externally. (A structural modification is any operation * that adds or deletes one or more elements; merely setting the value of * an element is not a structural modification.) This is typically * accomplished by synchronizing on some object that naturally * encapsulates the list." />
-      <item value="&lt;p&gt;All of the operations perform as could be expected for a doubly-linked * list. Operations that index into the list will traverse the list from * the beginning or the end, whichever is closer to the specified index." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="671" />
-        <entry key="ENGLISH" value="728" />
+        <entry key="CHINESE" value="678" />
+        <entry key="ENGLISH" value="735" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
