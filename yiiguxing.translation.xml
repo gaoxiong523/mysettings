@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Parallel recursive decomposition." />
+      <item value="Unless initialized otherwise, the {@linkplain #getPendingCount pending * count} starts at zero, but may be (atomically) changed using * methods {@link #setPendingCount}, {@link #addToPendingCount}, and * {@link #compareAndSetPendingCount}. Upon invocation of {@link * #tryComplete}, if the pending action count is nonzero, it is * decremented; otherwise, the completion action is performed, and if * this completer itself has a completer, the process is continued * with its completer. As is the case with related synchronization * components such as {@link java.util.concurrent.Phaser Phaser} and * {@link java.util.concurrent.Semaphore Semaphore}, these methods * affect only internal counts; they do not establish any further * internal bookkeeping. In particular, the identities of pending * tasks are not maintained. As illustrated below, you can create * subclasses that do record some or all pending tasks or their * results when needed. As illustrated below, utility methods * supporting customization of completion traversals are also * provided. However, because CountedCompleters provide only basic * synchronization mechanisms, it may be useful to create further * abstract subclasses that maintain linkages, fields, and additional * support methods appropriate for a set of related usages." />
+      <item value="Uses of * CountedCompleter are similar to those of other completion based * components (such as {@link java.nio.channels.CompletionHandler}) * except that multiple &lt;em&gt;pending&lt;/em&gt; completions may be necessary * to trigger the completion action {@link #onCompletion(CountedCompleter)}, * not just one." />
+      <item value="A {@link ForkJoinTask} with a completion action performed when * triggered and there are no remaining pending actions. * CountedCompleters are in general more robust in the * presence of subtask stalls and blockage than are other forms of * ForkJoinTasks, but are less intuitive to program" />
+      <item value="robust" />
       <item value="Insertion into a CLH queue requires only a single atomic * operation on &quot;tail&quot;, so there is a simple atomic point of * demarcation from unqueued to queued. Similarly, dequeuing * involves only updating the &quot;head&quot;. However, it takes a bit * more work for nodes to determine who their successors are, * in part to deal with possible cancellation due to timeouts * and interrupts." />
       <item value="tactic" />
       <item value="A thread may try to acquire if it is * first in the queue. But being first does not guarantee success; * it only gives the right to contend. So the currently released * contender thread may need to rewait." />
@@ -46,16 +51,11 @@
       <item value="* &lt;p&gt;The &lt;em&gt;head&lt;/em&gt; of this queue is the &lt;em&gt;least&lt;/em&gt; element * with respect to the specified ordering. If multiple elements are * tied for least value, the head is one of those elements -- ties are * broken arbitrarily. The queue retrieval operations {@code poll}, * {@code remove}, {@code peek}, and {@code element} access the * element at the head of the queue." />
       <item value="&lt;p&gt;A priority queue is unbounded, but has an internal * &lt;i&gt;capacity&lt;/i&gt; governing the size of an array used to store the * elements on the queue. It is always at least as large as the queue * size. As elements are added to a priority queue, its capacity * grows automatically. The details of the growth policy are not * specified." />
       <item value="&lt;p&gt;This class and its iterator implement all of the * &lt;em&gt;optional&lt;/em&gt; methods of the {@link Collection} and {@link * Iterator} interfaces. The Iterator provided in method {@link * #iterator()} is &lt;em&gt;not&lt;/em&gt; guaranteed to traverse the elements of * the priority queue in any particular order. If you need ordered * traversal, consider using {@code Arrays.sort(pq.toArray())}. *" />
-      <item value="A priority queue relying on natural ordering also does not permit * insertion of non-comparable objects (doing so may result in * {@code ClassCastException})." />
-      <item value="An unbounded priority {@linkplain Queue queue} based on a priority heap." />
-      <item value="priority" />
-      <item value="unbounded" />
-      <item value="The type is an interface type and not an annotation type, enum, or class. * &lt;li&gt; The annotated type satisfies the requirements of a functional interface. * &lt;/ul&gt; * * &lt;p&gt;However, the compiler will treat any interface meeting the * definition of a functional interface as a functional interface * regardless of whether or not a {@code FunctionalInterface} * annotation is present on the interface declaration." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="678" />
-        <entry key="ENGLISH" value="735" />
+        <entry key="CHINESE" value="683" />
+        <entry key="ENGLISH" value="740" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
