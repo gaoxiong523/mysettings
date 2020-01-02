@@ -193,6 +193,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Execute">
+        <Item>
+          <IdeaActionID>Console.Jdbc.Execute</IdeaActionID>
+          <ShortCut>'Ctrl+Enter'</ShortCut>
+          <Description>Execute</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Execute GraphQL">
         <Item>
           <IdeaActionID>com.intellij.lang.jsgraphql.ide.actions.JSGraphQLExecuteEditorAction</IdeaActionID>
@@ -1694,6 +1702,14 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'install'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'master.sql'... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'master.sql'...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
