@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="排行榜" />
       <item value="As a further improvement, notice that the left task need not even exist. * Instead of creating a new one, we can iterate using the original task, * and add a pending count for each fork. Additionally, because no task * in this tree implements an {@link #onCompletion(CountedCompleter)} method, * {@code tryComplete()} can be replaced with {@link #propagateCompletion}." />
       <item value="This design can be improved by noticing that in the recursive case, * the task has nothing to do after forking its right task, so can * directly invoke its left task before returning. (This is an analog * of tail recursion removal.) Also, because the task returns upon * executing its left task (rather than falling through to invoke * {@code tryComplete}) the pending count is set to one:" />
       <item value="* &lt;p&gt;For example, here is an initial version of a class that uses * divide-by-two recursive decomposition to divide work into single * pieces (leaf tasks). Even when work is split into individual calls, * tree-based techniques are usually preferable to directly forking * leaf tasks, because they reduce inter-thread communication and * improve load balancing. In the recursive case, the second of each * pair of subtasks to finish triggers completion of its parent * (because no result combination is performed, the default no-op * implementation of method {@code onCompletion} is not overridden). * A static utility method sets up the base task and invokes it * (here, implicitly using the {@link ForkJoinPool#commonPool()})." />
@@ -50,12 +51,11 @@
       <item value="* &lt;p&gt;A min-max priority queue can be configured with a maximum size. If so, * each time the size of the queue exceeds that value, the queue automatically * removes its greatest element according to its comparator (which might be the * element that was just added). This is different from conventional bounded * queues, which either block or reject new elements when full. *" />
       <item value="* &lt;p&gt;As a {@link Queue} it functions exactly as a {@link PriorityQueue}: its * head element -- the implicit target of the methods {@link #peek()}, {@link * #poll()} and {@link #remove()} -- is defined as the &lt;i&gt;least&lt;/i&gt; element in * the queue according to the queue's comparator. But unlike a regular priority * queue, the methods {@link #peekLast}, {@link #pollLast} and * {@link #removeLast} are also provided, to act on the &lt;i&gt;greatest&lt;/i&gt; element * in the queue instead." />
       <item value="A double-ended priority queue, which provides constant-time access to both * its least element and its greatest element, as determined by the queue's * specified comparator. If no comparator is given at construction time, the * natural order of elements is used." />
-      <item value="* An unbounded priority {@linkplain Queue queue} based on a priority heap. * The elements of the priority queue are ordered according to their * {@linkplain Comparable natural ordering}, or by a {@link Comparator} * provided at queue construction time, depending on which constructor is * used. A priority queue does not permit {@code null} elements. * A priority queue relying on natural ordering also does not permit * insertion of non-comparable objects (doing so may result in * {@code ClassCastException}). *" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="686" />
-        <entry key="ENGLISH" value="743" />
+        <entry key="ENGLISH" value="744" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
