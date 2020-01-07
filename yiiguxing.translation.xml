@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="federation" />
+      <item value="fedaration" />
       <item value="vital" />
       <item value="regarding " />
       <item value="过滤器Bit Map在64位机器上.这个类能发生更好的效果.一般机器不建议使用" />
@@ -49,8 +51,6 @@
       <item value="插入" />
       <item value="冒泡" />
       <item value="Central interface to provide configuration for an application. * This is read-only while the application is running, but may be * reloaded if the implementation supports this." />
-      <item value="This interface represents a naming context, which * consists of a set of name-to-object bindings. * It contains methods for examining and updating these bindings." />
-      <item value="Contains methods for registering/deregistering listeners to be notified of * events fired when objects named in a context changes." />
     </histories>
     <option name="languageScores">
       <map>
