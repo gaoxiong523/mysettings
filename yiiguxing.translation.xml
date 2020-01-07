@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="durably" />
       <item value="排行榜" />
       <item value="As a further improvement, notice that the left task need not even exist. * Instead of creating a new one, we can iterate using the original task, * and add a pending count for each fork. Additionally, because no task * in this tree implements an {@link #onCompletion(CountedCompleter)} method, * {@code tryComplete()} can be replaced with {@link #propagateCompletion}." />
       <item value="This design can be improved by noticing that in the recursive case, * the task has nothing to do after forking its right task, so can * directly invoke its left task before returning. (This is an analog * of tail recursion removal.) Also, because the task returns upon * executing its left task (rather than falling through to invoke * {@code tryComplete}) the pending count is set to one:" />
@@ -50,12 +51,11 @@
       <item value="ass" />
       <item value="* &lt;p&gt;A min-max priority queue can be configured with a maximum size. If so, * each time the size of the queue exceeds that value, the queue automatically * removes its greatest element according to its comparator (which might be the * element that was just added). This is different from conventional bounded * queues, which either block or reject new elements when full. *" />
       <item value="* &lt;p&gt;As a {@link Queue} it functions exactly as a {@link PriorityQueue}: its * head element -- the implicit target of the methods {@link #peek()}, {@link * #poll()} and {@link #remove()} -- is defined as the &lt;i&gt;least&lt;/i&gt; element in * the queue according to the queue's comparator. But unlike a regular priority * queue, the methods {@link #peekLast}, {@link #pollLast} and * {@link #removeLast} are also provided, to act on the &lt;i&gt;greatest&lt;/i&gt; element * in the queue instead." />
-      <item value="A double-ended priority queue, which provides constant-time access to both * its least element and its greatest element, as determined by the queue's * specified comparator. If no comparator is given at construction time, the * natural order of elements is used." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="686" />
-        <entry key="ENGLISH" value="744" />
+        <entry key="ENGLISH" value="745" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
