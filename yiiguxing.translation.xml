@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="数据结构" />
       <item value="Thrashing might happen." />
       <item value="federation" />
       <item value="fedaration" />
@@ -50,12 +51,11 @@
       <item value="快速排序" />
       <item value="插入排序" />
       <item value="插入" />
-      <item value="冒泡" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="690" />
-        <entry key="ENGLISH" value="750" />
+        <entry key="ENGLISH" value="751" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
