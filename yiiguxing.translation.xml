@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="predicate" />
+      <item value="composed" />
       <item value="数据结构" />
       <item value="Thrashing might happen." />
       <item value="federation" />
@@ -49,13 +51,11 @@
       <item value="Searches the specified array of longs for the specified value using the * binary search algorithm. The array must be sorted (as * by the {@link #sort(long[])} method) prior to making this call. If it * is not sorted, the results are undefined. If the array contains * multiple elements with the specified value, there is no guarantee which * one will be found." />
       <item value="归并排序" />
       <item value="快速排序" />
-      <item value="插入排序" />
-      <item value="插入" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="690" />
-        <entry key="ENGLISH" value="751" />
+        <entry key="ENGLISH" value="752" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
