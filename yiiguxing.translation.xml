@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="迷宫" />
       <item value="Pessimistic" />
       <item value="Synonymous" />
       <item value="Optimistic" />
@@ -50,12 +51,11 @@
       <item value="azkanban" />
       <item value="hive" />
       <item value="oozie" />
-      <item value="This class implements the Dual-Pivot Quicksort algorithm by * Vladimir Yaroslavskiy, Jon Bentley, and Josh Bloch. The algorithm * offers O(n log(n)) performance on many data sets that cause other * quicksorts to degrade to quadratic performance, and is typically * faster than traditional (one-pivot) Quicksort implementations. * * All exposed methods are package-private, designed to be invoked * from public methods (in class Arrays) after performing any * necessary array bounds checks and expanding parameters into the * required forms." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="693" />
-        <entry key="ENGLISH" value="755" />
+        <entry key="CHINESE" value="694" />
+        <entry key="ENGLISH" value="756" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
