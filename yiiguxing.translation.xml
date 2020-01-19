@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="terminate" />
       <item value="迷宫" />
       <item value="Pessimistic" />
       <item value="Synonymous" />
@@ -50,12 +51,11 @@
       <item value="azkaban" />
       <item value="azkanban" />
       <item value="hive" />
-      <item value="oozie" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="694" />
-        <entry key="ENGLISH" value="756" />
+        <entry key="ENGLISH" value="757" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
