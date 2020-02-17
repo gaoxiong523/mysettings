@@ -302,7 +302,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F3' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>GoTo</Description>
-          <Count>23</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -446,7 +446,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Alt+Shift+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>12</Count>
+          <Count>33</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
@@ -1910,7 +1910,7 @@
           <IdeaActionID>$ShowTranslationDialogAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Show Translation Dialog...</Description>
-          <Count>45</Count>
+          <Count>46</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Visualisation...">
@@ -2398,7 +2398,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>202</Count>
+          <Count>204</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Camel Case">
@@ -2454,7 +2454,7 @@
           <IdeaActionID>$EditorTranslateAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+Y'</ShortCut>
           <Description>Translate</Description>
-          <Count>442</Count>
+          <Count>443</Count>
         </Item>
       </Statistic>
       <Statistic Action="Translate and Replace...">
