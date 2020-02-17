@@ -1849,6 +1849,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run selected files... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run selected files...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run...">
         <Item>
           <IdeaActionID>ChooseRunConfiguration</IdeaActionID>
