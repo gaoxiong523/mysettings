@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="maintain" />
+      <item value="软件介绍" />
       <item value="terminate" />
       <item value="迷宫" />
       <item value="Pessimistic" />
@@ -49,13 +51,11 @@
       <item value="倒序" />
       <item value="顺序" />
       <item value="azkaban" />
-      <item value="azkanban" />
-      <item value="hive" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="694" />
-        <entry key="ENGLISH" value="757" />
+        <entry key="ENGLISH" value="759" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
