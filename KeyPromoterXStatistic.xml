@@ -2406,7 +2406,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>228</Count>
+          <Count>231</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Camel Case">
