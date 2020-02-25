@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Set-up a fetch request for any node that we have assigned partitions for which doesn't already have * an in-flight fetch or pending fetch data." />
       <item value="硅片" />
       <item value="view wafer properties" />
       <item value="restore" />
@@ -50,12 +51,11 @@
       <item value="deprected" />
       <item value="accessor" />
       <item value="General delegate for around-advice-based subclasses, delegating to several other template * methods on this class. Able to handle {@link CallbackPreferringPlatformTransactionManager} * as well as regular {@link PlatformTransactionManager} implementations." />
-      <item value="AOP Alliance MethodInterceptor for declarative transaction * management using the common Spring transaction infrastructure * ({@link org.springframework.transaction.PlatformTransactionManager}). * * &lt;p&gt;Derives from the {@link TransactionAspectSupport} class which * contains the integration with Spring's underlying transaction API. * TransactionInterceptor simply calls the relevant superclass methods * such as {@link #invokeWithinTransaction} in the correct order." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="695" />
-        <entry key="ENGLISH" value="763" />
+        <entry key="CHINESE" value="696" />
+        <entry key="ENGLISH" value="764" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
