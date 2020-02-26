@@ -3,5 +3,6 @@
     <option name="COMPILE_SERVER_ID" value="e4e9c8ae-8a9e-45e9-ad1a-ca6752605a8e" />
     <option name="USE_DEFAULT_SDK" value="false" />
     <option name="COMPILE_SERVER_SDK" value="1.8" />
+    <option name="USE_PROJECT_HOME_AS_WORKING_DIR" value="true" />
   </component>
 </application>
