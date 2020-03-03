@@ -286,7 +286,7 @@
           <IdeaActionID>GotoNextElementUnderCaretUsage</IdeaActionID>
           <ShortCut>'Alt+Wheel down'</ShortCut>
           <Description>Go to next highlighted element usage</Description>
-          <Count>6</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -318,7 +318,7 @@
           <IdeaActionID>FileChooser.GotoHome</IdeaActionID>
           <ShortCut>'Ctrl+1'</ShortCut>
           <Description>Home Directory</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Increase List Level">
@@ -390,7 +390,7 @@
           <IdeaActionID>FindBugs.PreviewSelectBugInstance</IdeaActionID>
           <ShortCut>'Alt+Q' or 'Alt+Button1 Click'</ShortCut>
           <Description>Preview the current selected bug.</Description>
-          <Count>114</Count>
+          <Count>161</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
