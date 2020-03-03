@@ -398,7 +398,7 @@
           <IdeaActionID>ShowProjectStructureSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+S'</ShortCut>
           <Description>Project Structure...</Description>
-          <Count>143</Count>
+          <Count>144</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
