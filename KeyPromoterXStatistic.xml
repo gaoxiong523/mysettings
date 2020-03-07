@@ -78,7 +78,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>115</Count>
+          <Count>117</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -302,7 +302,7 @@
           <IdeaActionID>GotoNextElementUnderCaretUsage</IdeaActionID>
           <ShortCut>'Alt+Wheel down'</ShortCut>
           <Description>Go to next highlighted element usage</Description>
-          <Count>28</Count>
+          <Count>30</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -406,7 +406,7 @@
           <IdeaActionID>FindBugs.PreviewSelectBugInstance</IdeaActionID>
           <ShortCut>'Alt+Q' or 'Alt+Button1 Click'</ShortCut>
           <Description>Preview the current selected bug.</Description>
-          <Count>182</Count>
+          <Count>188</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project Structure...">
