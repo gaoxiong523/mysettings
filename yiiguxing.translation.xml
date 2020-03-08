@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="section" />
       <item value="warning: GOPATH set to GOROOT (C:\Go) has no effect package github.com/astaxie/beego/...: cannot download, $GOPATH must not be set to $GOROOT. For more details see: 'go help gopath'" />
       <item value="frequency" />
       <item value="axure" />
@@ -50,7 +51,6 @@
       <item value="Uses AQS state * to represent permits. Subclassed into fair and nonfair * versions." />
       <item value="Synchronization implementation for semaphore." />
       <item value="material" />
-      <item value="Releases a permit, returning it to the semaphore." />
     </histories>
     <option name="languageScores">
       <map>
