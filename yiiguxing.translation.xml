@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="please provide an explicit mapping using Jackson annotations or by providing a Mixin." />
       <item value="A container for settings for the generation of getters and setters." />
       <item value="argument type mismatch" />
       <item value="Cannot determine value type from string" />
@@ -50,12 +51,11 @@
       <item value="Abstract Queued Synchronizer" />
       <item value="Instead it defines methods such as * {@link #acquireInterruptibly} that can be invoked as * appropriate by concrete locks and related synchronizers to * implement their public methods." />
       <item value="Class * {@code AbstractQueuedSynchronizer} does not implement any * synchronization interface." />
-      <item value="&gt;Subclasses should be defined as non-public internal helper * classes that are used to implement the synchronization properties * of their enclosing class." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="701" />
-        <entry key="ENGLISH" value="771" />
+        <entry key="CHINESE" value="702" />
+        <entry key="ENGLISH" value="772" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
