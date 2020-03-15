@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Demarcates an identifier." />
       <item value="The request was rejected because the HTTP method &quot;JSON&quot; was not included within the whitelis" />
       <item value="whitelisted" />
       <item value="please provide an explicit mapping using Jackson annotations or by providing a Mixin." />
@@ -50,12 +51,11 @@
       <item value="CLH locks are normally used for * spinlocks." />
       <item value="Craig" />
       <item value="The wait queue is a variant of a &quot;CLH&quot; (Craig, Landin, and * Hagersten) lock queue." />
-      <item value="Abstract Queued Synchronizer" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="704" />
-        <entry key="ENGLISH" value="774" />
+        <entry key="CHINESE" value="705" />
+        <entry key="ENGLISH" value="775" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
