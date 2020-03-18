@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="终止" />
+      <item value="组件" />
+      <item value="自定义" />
       <item value="Demarcates an identifier." />
       <item value="The request was rejected because the HTTP method &quot;JSON&quot; was not included within the whitelis" />
       <item value="whitelisted" />
@@ -48,14 +51,11 @@
       <item value="Insertion into a CLH queue requires only a single atomic * operation on &quot;tail&quot;, so there is a simple atomic point of * demarcation from unqueued to queued. Similarly, dequeuing * involves only updating the &quot;head&quot;. However, it takes a bit * more work for nodes to determine who their successors are, * in part to deal with possible cancellation due to timeouts * and interrupts." />
       <item value="tactic" />
       <item value="A thread may try to acquire if it is * first in the queue. But being first does not guarantee success; * it only gives the right to contend. So the currently released * contender thread may need to rewait." />
-      <item value="CLH locks are normally used for * spinlocks." />
-      <item value="Craig" />
-      <item value="The wait queue is a variant of a &quot;CLH&quot; (Craig, Landin, and * Hagersten) lock queue." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="705" />
-        <entry key="ENGLISH" value="775" />
+        <entry key="ENGLISH" value="778" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
