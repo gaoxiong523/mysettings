@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="测校" />
       <item value="终止" />
       <item value="组件" />
       <item value="自定义" />
@@ -50,12 +51,11 @@
       <item value="robust" />
       <item value="Insertion into a CLH queue requires only a single atomic * operation on &quot;tail&quot;, so there is a simple atomic point of * demarcation from unqueued to queued. Similarly, dequeuing * involves only updating the &quot;head&quot;. However, it takes a bit * more work for nodes to determine who their successors are, * in part to deal with possible cancellation due to timeouts * and interrupts." />
       <item value="tactic" />
-      <item value="A thread may try to acquire if it is * first in the queue. But being first does not guarantee success; * it only gives the right to contend. So the currently released * contender thread may need to rewait." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="705" />
-        <entry key="ENGLISH" value="778" />
+        <entry key="ENGLISH" value="779" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
