@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="capabilities " />
       <item value="adjust" />
       <item value="affix" />
       <item value="测校" />
@@ -50,7 +51,6 @@
       <item value="Unless initialized otherwise, the {@linkplain #getPendingCount pending * count} starts at zero, but may be (atomically) changed using * methods {@link #setPendingCount}, {@link #addToPendingCount}, and * {@link #compareAndSetPendingCount}. Upon invocation of {@link * #tryComplete}, if the pending action count is nonzero, it is * decremented; otherwise, the completion action is performed, and if * this completer itself has a completer, the process is continued * with its completer. As is the case with related synchronization * components such as {@link java.util.concurrent.Phaser Phaser} and * {@link java.util.concurrent.Semaphore Semaphore}, these methods * affect only internal counts; they do not establish any further * internal bookkeeping. In particular, the identities of pending * tasks are not maintained. As illustrated below, you can create * subclasses that do record some or all pending tasks or their * results when needed. As illustrated below, utility methods * supporting customization of completion traversals are also * provided. However, because CountedCompleters provide only basic * synchronization mechanisms, it may be useful to create further * abstract subclasses that maintain linkages, fields, and additional * support methods appropriate for a set of related usages." />
       <item value="Uses of * CountedCompleter are similar to those of other completion based * components (such as {@link java.nio.channels.CompletionHandler}) * except that multiple &lt;em&gt;pending&lt;/em&gt; completions may be necessary * to trigger the completion action {@link #onCompletion(CountedCompleter)}, * not just one." />
       <item value="A {@link ForkJoinTask} with a completion action performed when * triggered and there are no remaining pending actions. * CountedCompleters are in general more robust in the * presence of subtask stalls and blockage than are other forms of * ForkJoinTasks, but are less intuitive to program" />
-      <item value="robust" />
     </histories>
     <option name="languageScores">
       <map>
