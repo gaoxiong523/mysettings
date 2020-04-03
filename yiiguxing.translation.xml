@@ -54,8 +54,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="705" />
-        <entry key="ENGLISH" value="780" />
+        <entry key="CHINESE" value="710" />
+        <entry key="ENGLISH" value="781" />
+        <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
     </option>
