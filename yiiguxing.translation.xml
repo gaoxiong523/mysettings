@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="sense" />
       <item value="priority" />
       <item value="considering" />
       <item value="capabilities " />
@@ -50,7 +51,6 @@
       <item value="This design can be improved by noticing that in the recursive case, * the task has nothing to do after forking its right task, so can * directly invoke its left task before returning. (This is an analog * of tail recursion removal.) Also, because the task returns upon * executing its left task (rather than falling through to invoke * {@code tryComplete}) the pending count is set to one:" />
       <item value="* &lt;p&gt;For example, here is an initial version of a class that uses * divide-by-two recursive decomposition to divide work into single * pieces (leaf tasks). Even when work is split into individual calls, * tree-based techniques are usually preferable to directly forking * leaf tasks, because they reduce inter-thread communication and * improve load balancing. In the recursive case, the second of each * pair of subtasks to finish triggers completion of its parent * (because no result combination is performed, the default no-op * implementation of method {@code onCompletion} is not overridden). * A static utility method sets up the base task and invokes it * (here, implicitly using the {@link ForkJoinPool#commonPool()})." />
       <item value="Parallel recursive decomposition." />
-      <item value="Unless initialized otherwise, the {@linkplain #getPendingCount pending * count} starts at zero, but may be (atomically) changed using * methods {@link #setPendingCount}, {@link #addToPendingCount}, and * {@link #compareAndSetPendingCount}. Upon invocation of {@link * #tryComplete}, if the pending action count is nonzero, it is * decremented; otherwise, the completion action is performed, and if * this completer itself has a completer, the process is continued * with its completer. As is the case with related synchronization * components such as {@link java.util.concurrent.Phaser Phaser} and * {@link java.util.concurrent.Semaphore Semaphore}, these methods * affect only internal counts; they do not establish any further * internal bookkeeping. In particular, the identities of pending * tasks are not maintained. As illustrated below, you can create * subclasses that do record some or all pending tasks or their * results when needed. As illustrated below, utility methods * supporting customization of completion traversals are also * provided. However, because CountedCompleters provide only basic * synchronization mechanisms, it may be useful to create further * abstract subclasses that maintain linkages, fields, and additional * support methods appropriate for a set of related usages." />
     </histories>
     <option name="languageScores">
       <map>
