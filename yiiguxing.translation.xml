@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="phase" />
       <item value="sense" />
       <item value="priority" />
       <item value="considering" />
@@ -50,7 +51,6 @@
       <item value="As a further improvement, notice that the left task need not even exist. * Instead of creating a new one, we can iterate using the original task, * and add a pending count for each fork. Additionally, because no task * in this tree implements an {@link #onCompletion(CountedCompleter)} method, * {@code tryComplete()} can be replaced with {@link #propagateCompletion}." />
       <item value="This design can be improved by noticing that in the recursive case, * the task has nothing to do after forking its right task, so can * directly invoke its left task before returning. (This is an analog * of tail recursion removal.) Also, because the task returns upon * executing its left task (rather than falling through to invoke * {@code tryComplete}) the pending count is set to one:" />
       <item value="* &lt;p&gt;For example, here is an initial version of a class that uses * divide-by-two recursive decomposition to divide work into single * pieces (leaf tasks). Even when work is split into individual calls, * tree-based techniques are usually preferable to directly forking * leaf tasks, because they reduce inter-thread communication and * improve load balancing. In the recursive case, the second of each * pair of subtasks to finish triggers completion of its parent * (because no result combination is performed, the default no-op * implementation of method {@code onCompletion} is not overridden). * A static utility method sets up the base task and invokes it * (here, implicitly using the {@link ForkJoinPool#commonPool()})." />
-      <item value="Parallel recursive decomposition." />
     </histories>
     <option name="languageScores">
       <map>
