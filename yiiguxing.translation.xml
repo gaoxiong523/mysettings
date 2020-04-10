@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Constructor s MenuItem and sets the display text with the specified text * and sets the graphic {@link Node} to the given node." />
       <item value="insets" />
       <item value="phase" />
       <item value="sense" />
@@ -50,12 +51,11 @@
       <item value="durably" />
       <item value="排行榜" />
       <item value="As a further improvement, notice that the left task need not even exist. * Instead of creating a new one, we can iterate using the original task, * and add a pending count for each fork. Additionally, because no task * in this tree implements an {@link #onCompletion(CountedCompleter)} method, * {@code tryComplete()} can be replaced with {@link #propagateCompletion}." />
-      <item value="This design can be improved by noticing that in the recursive case, * the task has nothing to do after forking its right task, so can * directly invoke its left task before returning. (This is an analog * of tail recursion removal.) Also, because the task returns upon * executing its left task (rather than falling through to invoke * {@code tryComplete}) the pending count is set to one:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="710" />
-        <entry key="ENGLISH" value="781" />
+        <entry key="CHINESE" value="711" />
+        <entry key="ENGLISH" value="782" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
