@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="底部参考" />
       <item value="Constructor s MenuItem and sets the display text with the specified text * and sets the graphic {@link Node} to the given node." />
       <item value="insets" />
       <item value="phase" />
@@ -50,12 +51,11 @@
       <item value="过滤器Bit Map在64位机器上.这个类能发生更好的效果.一般机器不建议使用" />
       <item value="durably" />
       <item value="排行榜" />
-      <item value="As a further improvement, notice that the left task need not even exist. * Instead of creating a new one, we can iterate using the original task, * and add a pending count for each fork. Additionally, because no task * in this tree implements an {@link #onCompletion(CountedCompleter)} method, * {@code tryComplete()} can be replaced with {@link #propagateCompletion}." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="712" />
-        <entry key="ENGLISH" value="782" />
+        <entry key="ENGLISH" value="783" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
