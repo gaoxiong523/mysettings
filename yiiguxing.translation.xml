@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="// Don't want the button to participate in focus traversable." />
+      <item value="t" />
       <item value="paint Focus Indicator" />
       <item value="jfoenix" />
       <item value="底部参考" />
@@ -49,13 +51,11 @@
       <item value="federation" />
       <item value="fedaration" />
       <item value="vital" />
-      <item value="regarding " />
-      <item value="过滤器Bit Map在64位机器上.这个类能发生更好的效果.一般机器不建议使用" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="713" />
-        <entry key="ENGLISH" value="786" />
+        <entry key="CHINESE" value="715" />
+        <entry key="ENGLISH" value="788" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
