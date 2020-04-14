@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="// Look and feel doesn't want to support one touch buttons, bail." />
       <item value="// Don't want the button to participate in focus traversable." />
       <item value="t" />
       <item value="paint Focus Indicator" />
@@ -50,12 +51,11 @@
       <item value="Thrashing might happen." />
       <item value="federation" />
       <item value="fedaration" />
-      <item value="vital" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="715" />
-        <entry key="ENGLISH" value="788" />
+        <entry key="CHINESE" value="716" />
+        <entry key="ENGLISH" value="789" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
