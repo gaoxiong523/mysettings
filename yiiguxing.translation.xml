@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="dividerdraggingcolor" />
       <item value="opaque" />
       <item value="tab Area Insets" />
       <item value="tabs Overlap Border" />
@@ -50,7 +51,6 @@
       <item value="迷宫" />
       <item value="Pessimistic" />
       <item value="Synonymous" />
-      <item value="Optimistic" />
     </histories>
     <option name="languageScores">
       <map>
