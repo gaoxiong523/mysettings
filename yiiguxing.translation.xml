@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="原型" />
       <item value="dividerdraggingcolor" />
       <item value="opaque" />
       <item value="tab Area Insets" />
@@ -50,12 +51,11 @@
       <item value="terminate" />
       <item value="迷宫" />
       <item value="Pessimistic" />
-      <item value="Synonymous" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="721" />
-        <entry key="ENGLISH" value="794" />
+        <entry key="ENGLISH" value="795" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
