@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Cannot access com.smee.jfoenix.controls.JFXTooltip" />
       <item value="Value refers to a relative path from where to load a certain fxml file. * * @return the relative file path of a views fxml file." />
       <item value="原型" />
       <item value="dividerdraggingcolor" />
@@ -50,7 +51,6 @@
       <item value="maintain" />
       <item value="软件介绍" />
       <item value="terminate" />
-      <item value="迷宫" />
     </histories>
     <option name="languageScores">
       <map>
