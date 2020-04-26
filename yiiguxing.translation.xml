@@ -1,8 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="track Color" />
       <item value="thumb Color" />
+      <item value="track Color" />
       <item value="thumb Highlight Color" />
       <item value="minimum Thumb Size" />
       <item value="vertical" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="727" />
-        <entry key="ENGLISH" value="801" />
+        <entry key="CHINESE" value="728" />
+        <entry key="ENGLISH" value="802" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
