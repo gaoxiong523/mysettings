@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="triangle" />
       <item value="track Color" />
       <item value="thumb Color" />
       <item value="thumb Highlight Color" />
@@ -50,12 +51,11 @@
       <item value="axure" />
       <item value="观察" />
       <item value="Set-up a fetch request for any node that we have assigned partitions for which doesn't already have * an in-flight fetch or pending fetch data." />
-      <item value="硅片" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="729" />
-        <entry key="ENGLISH" value="803" />
+        <entry key="CHINESE" value="730" />
+        <entry key="ENGLISH" value="804" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
