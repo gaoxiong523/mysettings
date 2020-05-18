@@ -1,6 +1,6 @@
 <application>
   <component name="JFormDesigner">
-    <entry key="lookandfeel.idea" value="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
+    <entry key="lookandfeel.idea" value="com.chrisrm.idea.lafs.MTDarkLaf" />
     <entry key="license.filechooser.lastdirpath" value="C:\Users\Administrator\.IntelliJIdea2019.3\config\plugins\JFormDesigner" />
     <entry key="license.filechooser.size" value="639, 326" />
     <node name="designer">
