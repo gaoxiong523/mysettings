@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="tuple" />
+      <item value="turple" />
+      <item value="ultimate" />
       <item value="* Divider that is used for noncontinuous layout mode." />
       <item value="dragging" />
       <item value="HORIZONTAL SPLIT" />
@@ -48,9 +51,6 @@
       <item value="A container for settings for the generation of getters and setters." />
       <item value="argument type mismatch" />
       <item value="Cannot determine value type from string" />
-      <item value="declare" />
-      <item value="section" />
-      <item value="warning: GOPATH set to GOROOT (C:\Go) has no effect package github.com/astaxie/beego/...: cannot download, $GOPATH must not be set to $GOROOT. For more details see: 'go help gopath'" />
     </histories>
     <option name="languageScores">
       <map>
