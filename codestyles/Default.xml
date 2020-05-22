@@ -3,6 +3,11 @@
     <option name="WRAP_ON_TYPING" value="0" />
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
+  <ScalaCodeStyleSettings>
+    <option name="addImportMostCloseToReference" value="true" />
+    <option name="FORMATTER" value="1" />
+    <option name="REPLACE_LAMBDA_WITH_GREEK_LETTER" value="true" />
+  </ScalaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
