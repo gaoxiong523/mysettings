@@ -606,6 +606,10 @@
           <option name="url" value="https://gitee.com/jackjiang/beautyeye.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/supercrsky/swing-datepicker.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
