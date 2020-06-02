@@ -614,6 +614,10 @@
           <option name="url" value="https://gitee.com/drivers_school/jiaxiao.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/caprica/vlcj-swt-swing.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
