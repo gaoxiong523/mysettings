@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The &lt;code&gt;Vector&lt;/code&gt; of &lt;code&gt;Vectors&lt;/code&gt; of * &lt;code&gt;Object&lt;/code&gt; values." />
+      <item value="The &lt;code&gt;Vector&lt;/code&gt; of column identifiers" />
+      <item value="The standard column-handler for a &lt;code&gt;JTable&lt;/code&gt;. * &lt;p&gt; * &lt;strong&gt;Warning:&lt;/strong&gt; * Serialized objects of this class will not be compatible with * future Swing releases. The current serialization support is * appropriate for short term storage or RMI between applications running * the same version of Swing. As of 1.4, support for long term storage * of all JavaBeans&amp;trade; * has been added to the &lt;code&gt;java.beans&lt;/code&gt; package. * Please see {@link java.beans.XMLEncoder}." />
+      <item value="table" />
       <item value="削峰实战" />
       <item value="明文" />
       <item value="待验证" />
@@ -47,15 +51,11 @@
       <item value="tabs Opaque" />
       <item value="tab Run Overlay" />
       <item value="rollover" />
-      <item value="// Look and feel doesn't want to support one touch buttons, bail." />
-      <item value="// Don't want the button to participate in focus traversable." />
-      <item value="t" />
-      <item value="paint Focus Indicator" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="740" />
-        <entry key="ENGLISH" value="825" />
+        <entry key="CHINESE" value="743" />
+        <entry key="ENGLISH" value="829" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
