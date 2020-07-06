@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="映射" />
       <item value="权限" />
       <item value="联系方式" />
       <item value="职位" />
@@ -50,12 +51,11 @@
       <item value="vertical" />
       <item value="chuck" />
       <item value="Cannot access com.smee.jfoenix.controls.JFXTooltip" />
-      <item value="Value refers to a relative path from where to load a certain fxml file. * * @return the relative file path of a views fxml file." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="744" />
-        <entry key="ENGLISH" value="834" />
+        <entry key="ENGLISH" value="835" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
