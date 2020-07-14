@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="mechanism" />
       <item value="映射" />
       <item value="权限" />
       <item value="联系方式" />
@@ -50,12 +51,11 @@
       <item value="minimum Thumb Size" />
       <item value="vertical" />
       <item value="chuck" />
-      <item value="Cannot access com.smee.jfoenix.controls.JFXTooltip" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="744" />
-        <entry key="ENGLISH" value="836" />
+        <entry key="ENGLISH" value="837" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
