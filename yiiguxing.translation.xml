@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Retains" />
       <item value="resources" />
       <item value="* Flow rule config in cluster mode." />
       <item value="* The readable data source is responsible for retrieving configs (read-only)." />
@@ -50,12 +51,11 @@
       <item value="triangle" />
       <item value="track Color" />
       <item value="thumb Color" />
-      <item value="thumb Highlight Color" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="747" />
-        <entry key="ENGLISH" value="840" />
+        <entry key="CHINESE" value="748" />
+        <entry key="ENGLISH" value="841" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
