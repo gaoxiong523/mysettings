@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="// Paint the dragged column if we are dragging." />
       <item value="Retains" />
       <item value="resources" />
       <item value="* Flow rule config in cluster mode." />
@@ -50,12 +51,11 @@
       <item value="* Handles mouse dragging message to do the actual dragging." />
       <item value="triangle" />
       <item value="track Color" />
-      <item value="thumb Color" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="748" />
-        <entry key="ENGLISH" value="841" />
+        <entry key="CHINESE" value="749" />
+        <entry key="ENGLISH" value="842" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
