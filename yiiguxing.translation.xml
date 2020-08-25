@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="refer" />
       <item value="This will consume additional transient disk usage: on Windows, * attempts to delete or overwrite the files will result in an * exception; on other platforms, which typically have a &amp;quot;delete on * last close&amp;quot; semantics, while such operations will succeed, the bytes * are still consuming space on disk. For many applications this * limitation is not a problem (e.g. if you have plenty of disk space, * and you don't rely on overwriting files on Windows) but it's still * an important limitation to be aware of." />
       <item value="is unable to close the underlying OS file handle. Only when GC" />
       <item value="// Paint the dragged column if we are dragging." />
@@ -50,7 +51,6 @@
       <item value="* Divider that is used for noncontinuous layout mode." />
       <item value="dragging" />
       <item value="HORIZONTAL SPLIT" />
-      <item value="* Handles mouse dragging message to do the actual dragging." />
     </histories>
     <option name="languageScores">
       <map>
