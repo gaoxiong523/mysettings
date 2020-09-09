@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="lost initialization race; just spin" />
       <item value="associated" />
       <item value="refer" />
       <item value="This will consume additional transient disk usage: on Windows, * attempts to delete or overwrite the files will result in an * exception; on other platforms, which typically have a &amp;quot;delete on * last close&amp;quot; semantics, while such operations will succeed, the bytes * are still consuming space on disk. For many applications this * limitation is not a problem (e.g. if you have plenty of disk space, * and you don't rely on overwriting files on Windows) but it's still * an important limitation to be aware of." />
@@ -50,12 +51,11 @@
       <item value="turple" />
       <item value="ultimate" />
       <item value="* Divider that is used for noncontinuous layout mode." />
-      <item value="dragging" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="753" />
-        <entry key="ENGLISH" value="846" />
+        <entry key="CHINESE" value="754" />
+        <entry key="ENGLISH" value="847" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
