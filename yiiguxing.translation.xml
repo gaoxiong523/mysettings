@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="to ensure sweep before committing nextTab" />
       <item value="A node inserted at head of bins during transfer operations." />
       <item value="transfer" />
       <item value="TREEIFY THRESHOLD" />
@@ -50,12 +51,11 @@
       <item value="accumulator" />
       <item value="嵌套函数" />
       <item value="高阶函数" />
-      <item value="tuple" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="756" />
-        <entry key="ENGLISH" value="849" />
+        <entry key="CHINESE" value="757" />
+        <entry key="ENGLISH" value="850" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
