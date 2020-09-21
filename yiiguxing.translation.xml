@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="inconvenience" />
       <item value="ApplicationConfig correlative methods" />
       <item value="Instances of this class are immutable and are safe for use by multiple * concurrent threads. Instances of the {@link Matcher} class are not safe for * such use." />
       <item value="&lt;blockquote&gt;&lt;pre&gt; * boolean b = Pattern.matches(&quot;a*b&quot;, &quot;aaaaab&quot;);&lt;/pre&gt;&lt;/blockquote&gt; * * is equivalent to the three statements above, though for repeated matches it * is less efficient since it does not allow the compiled pattern to be reused. *" />
@@ -50,7 +51,6 @@
       <item value="drag" />
       <item value="African Swallow" />
       <item value="prepend" />
-      <item value="atlassian" />
     </histories>
     <option name="languageScores">
       <map>
