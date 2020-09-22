@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="opaque" />
       <item value="inconvenience" />
       <item value="ApplicationConfig correlative methods" />
       <item value="Instances of this class are immutable and are safe for use by multiple * concurrent threads. Instances of the {@link Matcher} class are not safe for * such use." />
@@ -50,7 +51,6 @@
       <item value="The arrow button that invokes the popup." />
       <item value="drag" />
       <item value="African Swallow" />
-      <item value="prepend" />
     </histories>
     <option name="languageScores">
       <map>
