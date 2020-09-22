@@ -678,6 +678,10 @@
           <option name="url" value="https://gitee.com/farsunset/cim.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/TarsCloud/TarsJava.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
