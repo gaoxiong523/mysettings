@@ -714,6 +714,10 @@
           <option name="url" value="https://gitee.com/alenfive/rocket-api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/akash-peri/commons-cli.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\github" />
