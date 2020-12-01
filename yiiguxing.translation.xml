@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Outputs this date-time as a {@code String}, such as {@code 2007-12-03T10:15:30}. * &lt;p&gt; * The output will be one of the following ISO-8601 formats: * &lt;ul&gt; * &lt;li&gt;{@code uuuu-MM-dd'T'HH:mm}&lt;/li&gt; * &lt;li&gt;{@code uuuu-MM-dd'T'HH:mm:ss}&lt;/li&gt; * &lt;li&gt;{@code uuuu-MM-dd'T'HH:mm:ss.SSS}&lt;/li&gt; * &lt;li&gt;{@code uuuu-MM-dd'T'HH:mm:ss.SSSSSS}&lt;/li&gt; * &lt;li&gt;{@code uuuu-MM-dd'T'HH:mm:ss.SSSSSSSSS}&lt;/li&gt; * &lt;/ul&gt; * The format used will be the shortest that outputs the full value of * the time where the omitted parts are implied to be zero. * * @return a string representation of this date-time, not null" />
       <item value="Indicate" />
       <item value="Returns whether this Component can be focused." />
       <item value="Adjustment Listener" />
@@ -50,12 +51,11 @@
       <item value="无人值守" />
       <item value="处理" />
       <item value="布局" />
-      <item value="摄像头监控" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="769" />
-        <entry key="ENGLISH" value="861" />
+        <entry key="CHINESE" value="770" />
+        <entry key="ENGLISH" value="862" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="5" />
       </map>
@@ -65,7 +65,6 @@
     <option name="ignoreRegExp" value="" />
     <option name="phoneticFontFamily" value="Meiryo UI" />
     <option name="primaryFontFamily" value="Consolas" />
-    <option name="translator" value="ai.youdao" />
     <option name="ttsSource" value="TRANSLATION" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
